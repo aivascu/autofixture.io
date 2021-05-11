@@ -1,3 +1,6 @@
 [submodule "src/AutoFixture"]
 	path = src/AutoFixture
 	url = git@github.com:AutoFixture/AutoFixture.git
+[submodule "src/SemanticComparison"]
+	path = src/SemanticComparison
+	url = git@github.com:AutoFixture/SemanticComparison.git
