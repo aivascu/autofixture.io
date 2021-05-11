@@ -5,6 +5,11 @@
         {
           "files": [
             "src/**.csproj"
+          ],
+          "exclude": [
+            "src/**UnitTest.csproj",
+            "src/**/TestTypeFoundation.csproj",
+            "src/**/AutoFixtureDocumentationTest.csproj"
           ]
         }
       ],
