@@ -1,0 +1,160 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Namespace AutoFixture.AutoNSubstitute
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Namespace AutoFixture.AutoNSubstitute
+   ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AutoFixture.AutoNSubstitute">
+  
+  <h1 id="AutoFixture_AutoNSubstitute" data-uid="AutoFixture.AutoNSubstitute" class="text-break">Namespace AutoFixture.AutoNSubstitute
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+    <h3 id="classes">Classes
+  </h3>
+      <h4><a class="xref" href="AutoFixture.AutoNSubstitute.AutoConfiguredNSubstituteCustomization.html">AutoConfiguredNSubstituteCustomization</a></h4>
+      <section><p>Enables auto-mocking and auto-setup with NSubstitute.
+Members of a substitute will be automatically setup to retrieve the return values from a fixture.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.AutoNSubstitute.AutoNSubstituteCustomization.html">AutoNSubstituteCustomization</a></h4>
+      <section><p>Enables auto-mocking with NSubstitute.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.AutoNSubstitute.NSubstituteBuilder.html">NSubstituteBuilder</a></h4>
+      <section><p>Provides pre- and post-condition checks for requests for substituted instances.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.AutoNSubstitute.NSubstituteMethodQuery.html">NSubstituteMethodQuery</a></h4>
+      <section><p>Selects appropriate methods to create substitutes.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.AutoNSubstitute.NSubstituteRegisterCallHandlerCommand.html">NSubstituteRegisterCallHandlerCommand</a></h4>
+      <section><p>Sets up a substitute object's methods so that the return values will be retrieved from a fixture,
+instead of being created directly by NSubstitute.</p>
+<p>This will setup any void/non-void virtual methods (including property getters and generics).</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.AutoNSubstitute.NSubstituteSealedPropertiesCommand.html">NSubstituteSealedPropertiesCommand</a></h4>
+      <section><p>If the type of the object being substituted contains any fields and/or non-virtual/sealed
+settable properties, this initializer will resolve them from a given context.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.AutoNSubstitute.NSubstituteVirtualMethodsCommand.html">NSubstituteVirtualMethodsCommand</a></h4>
+      <section><p>Sets up a substitute object's methods so that the return values will be retrieved from a fixture,
+instead of being created directly by NSubstitute.</p>
+<p>This will setup any non-void virtual methods.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.AutoNSubstitute.SubstituteAttribute.html">SubstituteAttribute</a></h4>
+      <section><p>An attribute that can be applied to code elements to indicate they should be auto-generated by creating a
+substitute.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.AutoNSubstitute.SubstituteAttributeRelay.html">SubstituteAttributeRelay</a></h4>
+      <section><p>Relays a request for a code element marked with the <a class="xref" href="AutoFixture.AutoNSubstitute.SubstituteAttribute.html">SubstituteAttribute</a> to a
+<a class="xref" href="AutoFixture.AutoNSubstitute.SubstituteRequest.html">SubstituteRequest</a> of element's type.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.AutoNSubstitute.SubstituteRelay.html">SubstituteRelay</a></h4>
+      <section><p>Relays a request for an interface or an abstract class to a request for a substitute of that type.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.AutoNSubstitute.SubstituteRequest.html">SubstituteRequest</a></h4>
+      <section><p>Defines a request for a substitute.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.AutoNSubstitute.SubstituteRequestHandler.html">SubstituteRequestHandler</a></h4>
+      <section><p>Creates a substitute in response to the <a class="xref" href="AutoFixture.AutoNSubstitute.SubstituteRequest.html">SubstituteRequest</a>.</p>
+</section>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

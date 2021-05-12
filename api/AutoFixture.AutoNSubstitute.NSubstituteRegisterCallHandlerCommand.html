@@ -1,0 +1,400 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class NSubstituteRegisterCallHandlerCommand
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class NSubstituteRegisterCallHandlerCommand
+   ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AutoFixture.AutoNSubstitute.NSubstituteRegisterCallHandlerCommand">
+  
+  
+  <h1 id="AutoFixture_AutoNSubstitute_NSubstituteRegisterCallHandlerCommand" data-uid="AutoFixture.AutoNSubstitute.NSubstituteRegisterCallHandlerCommand" class="text-break">Class NSubstituteRegisterCallHandlerCommand
+  </h1>
+  <div class="markdown level0 summary"><p>Sets up a substitute object's methods so that the return values will be retrieved from a fixture,
+instead of being created directly by NSubstitute.</p>
+<p>This will setup any void/non-void virtual methods (including property getters and generics).</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">NSubstituteRegisterCallHandlerCommand</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="AutoFixture.Kernel.ISpecimenCommand.html">ISpecimenCommand</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AutoFixture.AutoNSubstitute.html">AutoFixture.AutoNSubstitute</a></h6>
+  <h6><strong>Assembly</strong>: AutoFixture.AutoNSubstitute.dll</h6>
+  <h5 id="AutoFixture_AutoNSubstitute_NSubstituteRegisterCallHandlerCommand_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class NSubstituteRegisterCallHandlerCommand : ISpecimenCommand</code></pre>
+  </div>
+  <h5 id="AutoFixture_AutoNSubstitute_NSubstituteRegisterCallHandlerCommand_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>This will setup any void, non-void virtual methods.
+This includes:</p>
+<ul>
+<li>interface's methods/property getters;</li>
+<li>class's abstract/virtual/overridden/non-sealed methods/property getters;</li>
+</ul>
+<p>Notes:</p>
+<ul>
+<li>Calling a method more than once with the same parameters will return the same value by default.
+To override that behavior pass a custom <a class="xref" href="AutoFixture.AutoNSubstitute.CustomCallHandler.ICallResultCacheFactory.html">ICallResultCacheFactory</a> instance.</li>
+<li>Methods inherited from <span class="xref">System.Object</span> are not set up due to a limitation in NSubstitute
+(<a href="http://stackoverflow.com/a/21787891">http://stackoverflow.com/a/21787891</a>).</li>
+</ul>
+</div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_AutoNSubstitute_NSubstituteRegisterCallHandlerCommand__ctor_ISubstitutionContext_.md&amp;value=---%0Auid%3A%20AutoFixture.AutoNSubstitute.NSubstituteRegisterCallHandlerCommand.%23ctor(ISubstitutionContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/AutoNSubstitute/NSubstituteRegisterCallHandlerCommand.cs/#L48">View Source</a>
+  </span>
+  <a id="AutoFixture_AutoNSubstitute_NSubstituteRegisterCallHandlerCommand__ctor_" data-uid="AutoFixture.AutoNSubstitute.NSubstituteRegisterCallHandlerCommand.#ctor*"></a>
+  <h4 id="AutoFixture_AutoNSubstitute_NSubstituteRegisterCallHandlerCommand__ctor_ISubstitutionContext_" data-uid="AutoFixture.AutoNSubstitute.NSubstituteRegisterCallHandlerCommand.#ctor(ISubstitutionContext)">NSubstituteRegisterCallHandlerCommand(ISubstitutionContext)</h4>
+  <div class="markdown level1 summary"><p>Creates a new <a class="xref" href="AutoFixture.AutoNSubstitute.NSubstituteRegisterCallHandlerCommand.html">NSubstituteRegisterCallHandlerCommand</a> instance
+with default <a class="xref" href="AutoFixture.AutoNSubstitute.CustomCallHandler.ICallResultCacheFactory.html">ICallResultCacheFactory</a> and <a class="xref" href="AutoFixture.AutoNSubstitute.CustomCallHandler.ICallResultResolverFactory.html">ICallResultResolverFactory</a> instances.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NSubstituteRegisterCallHandlerCommand(ISubstitutionContext substitutionContext)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ISubstitutionContext</span></td>
+        <td><span class="parametername">substitutionContext</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_AutoNSubstitute_NSubstituteRegisterCallHandlerCommand__ctor_ISubstitutionContext_AutoFixture_AutoNSubstitute_CustomCallHandler_ICallResultCacheFactory_AutoFixture_AutoNSubstitute_CustomCallHandler_ICallResultResolverFactory_.md&amp;value=---%0Auid%3A%20AutoFixture.AutoNSubstitute.NSubstituteRegisterCallHandlerCommand.%23ctor(ISubstitutionContext%2CAutoFixture.AutoNSubstitute.CustomCallHandler.ICallResultCacheFactory%2CAutoFixture.AutoNSubstitute.CustomCallHandler.ICallResultResolverFactory)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/AutoNSubstitute/NSubstituteRegisterCallHandlerCommand.cs/#L56">View Source</a>
+  </span>
+  <a id="AutoFixture_AutoNSubstitute_NSubstituteRegisterCallHandlerCommand__ctor_" data-uid="AutoFixture.AutoNSubstitute.NSubstituteRegisterCallHandlerCommand.#ctor*"></a>
+  <h4 id="AutoFixture_AutoNSubstitute_NSubstituteRegisterCallHandlerCommand__ctor_ISubstitutionContext_AutoFixture_AutoNSubstitute_CustomCallHandler_ICallResultCacheFactory_AutoFixture_AutoNSubstitute_CustomCallHandler_ICallResultResolverFactory_" data-uid="AutoFixture.AutoNSubstitute.NSubstituteRegisterCallHandlerCommand.#ctor(ISubstitutionContext,AutoFixture.AutoNSubstitute.CustomCallHandler.ICallResultCacheFactory,AutoFixture.AutoNSubstitute.CustomCallHandler.ICallResultResolverFactory)">NSubstituteRegisterCallHandlerCommand(ISubstitutionContext, ICallResultCacheFactory, ICallResultResolverFactory)</h4>
+  <div class="markdown level1 summary"><p>Creates an new <a class="xref" href="AutoFixture.AutoNSubstitute.NSubstituteRegisterCallHandlerCommand.html">NSubstituteRegisterCallHandlerCommand</a> instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NSubstituteRegisterCallHandlerCommand(ISubstitutionContext substitutionContext, ICallResultCacheFactory callResultCacheFactory, ICallResultResolverFactory callResultResolverFactory)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ISubstitutionContext</span></td>
+        <td><span class="parametername">substitutionContext</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AutoFixture.AutoNSubstitute.CustomCallHandler.ICallResultCacheFactory.html">ICallResultCacheFactory</a></td>
+        <td><span class="parametername">callResultCacheFactory</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AutoFixture.AutoNSubstitute.CustomCallHandler.ICallResultResolverFactory.html">ICallResultResolverFactory</a></td>
+        <td><span class="parametername">callResultResolverFactory</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_AutoNSubstitute_NSubstituteRegisterCallHandlerCommand_CallResultCacheFactory.md&amp;value=---%0Auid%3A%20AutoFixture.AutoNSubstitute.NSubstituteRegisterCallHandlerCommand.CallResultCacheFactory%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/AutoNSubstitute/NSubstituteRegisterCallHandlerCommand.cs/#L37">View Source</a>
+  </span>
+  <a id="AutoFixture_AutoNSubstitute_NSubstituteRegisterCallHandlerCommand_CallResultCacheFactory_" data-uid="AutoFixture.AutoNSubstitute.NSubstituteRegisterCallHandlerCommand.CallResultCacheFactory*"></a>
+  <h4 id="AutoFixture_AutoNSubstitute_NSubstituteRegisterCallHandlerCommand_CallResultCacheFactory" data-uid="AutoFixture.AutoNSubstitute.NSubstituteRegisterCallHandlerCommand.CallResultCacheFactory">CallResultCacheFactory</h4>
+  <div class="markdown level1 summary"><p>Factory used to create <a class="xref" href="AutoFixture.AutoNSubstitute.CustomCallHandler.ICallResultCache.html">ICallResultCache</a> instances.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ICallResultCacheFactory CallResultCacheFactory { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AutoFixture.AutoNSubstitute.CustomCallHandler.ICallResultCacheFactory.html">ICallResultCacheFactory</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_AutoNSubstitute_NSubstituteRegisterCallHandlerCommand_CallResultResolverFactory.md&amp;value=---%0Auid%3A%20AutoFixture.AutoNSubstitute.NSubstituteRegisterCallHandlerCommand.CallResultResolverFactory%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/AutoNSubstitute/NSubstituteRegisterCallHandlerCommand.cs/#L42">View Source</a>
+  </span>
+  <a id="AutoFixture_AutoNSubstitute_NSubstituteRegisterCallHandlerCommand_CallResultResolverFactory_" data-uid="AutoFixture.AutoNSubstitute.NSubstituteRegisterCallHandlerCommand.CallResultResolverFactory*"></a>
+  <h4 id="AutoFixture_AutoNSubstitute_NSubstituteRegisterCallHandlerCommand_CallResultResolverFactory" data-uid="AutoFixture.AutoNSubstitute.NSubstituteRegisterCallHandlerCommand.CallResultResolverFactory">CallResultResolverFactory</h4>
+  <div class="markdown level1 summary"><p>Factory used to create <a class="xref" href="AutoFixture.AutoNSubstitute.CustomCallHandler.ICallResultResolver.html">ICallResultResolver</a> instances.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ICallResultResolverFactory CallResultResolverFactory { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AutoFixture.AutoNSubstitute.CustomCallHandler.ICallResultResolverFactory.html">ICallResultResolverFactory</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_AutoNSubstitute_NSubstituteRegisterCallHandlerCommand_SubstitutionContext.md&amp;value=---%0Auid%3A%20AutoFixture.AutoNSubstitute.NSubstituteRegisterCallHandlerCommand.SubstitutionContext%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/AutoNSubstitute/NSubstituteRegisterCallHandlerCommand.cs/#L32">View Source</a>
+  </span>
+  <a id="AutoFixture_AutoNSubstitute_NSubstituteRegisterCallHandlerCommand_SubstitutionContext_" data-uid="AutoFixture.AutoNSubstitute.NSubstituteRegisterCallHandlerCommand.SubstitutionContext*"></a>
+  <h4 id="AutoFixture_AutoNSubstitute_NSubstituteRegisterCallHandlerCommand_SubstitutionContext" data-uid="AutoFixture.AutoNSubstitute.NSubstituteRegisterCallHandlerCommand.SubstitutionContext">SubstitutionContext</h4>
+  <div class="markdown level1 summary"><p>The NSubstitute context.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ISubstitutionContext SubstitutionContext { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ISubstitutionContext</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_AutoNSubstitute_NSubstituteRegisterCallHandlerCommand_Execute_System_Object_AutoFixture_Kernel_ISpecimenContext_.md&amp;value=---%0Auid%3A%20AutoFixture.AutoNSubstitute.NSubstituteRegisterCallHandlerCommand.Execute(System.Object%2CAutoFixture.Kernel.ISpecimenContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/AutoNSubstitute/NSubstituteRegisterCallHandlerCommand.cs/#L70">View Source</a>
+  </span>
+  <a id="AutoFixture_AutoNSubstitute_NSubstituteRegisterCallHandlerCommand_Execute_" data-uid="AutoFixture.AutoNSubstitute.NSubstituteRegisterCallHandlerCommand.Execute*"></a>
+  <h4 id="AutoFixture_AutoNSubstitute_NSubstituteRegisterCallHandlerCommand_Execute_System_Object_AutoFixture_Kernel_ISpecimenContext_" data-uid="AutoFixture.AutoNSubstitute.NSubstituteRegisterCallHandlerCommand.Execute(System.Object,AutoFixture.Kernel.ISpecimenContext)">Execute(Object, ISpecimenContext)</h4>
+  <div class="markdown level1 summary"><p>Registers a custom handler for the specified specimen if that is a substitute.
+Custom handler resolves call result and ref/out arguments using the passed <code data-dev-comment-type="paramref" class="paramref">context</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Execute(object specimen, ISpecimenContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">specimen</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AutoFixture.Kernel.ISpecimenContext.html">ISpecimenContext</a></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="AutoFixture.Kernel.ISpecimenCommand.html">ISpecimenCommand</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="SemanticComparison.Fluent.LikenessSourceFactory.html#SemanticComparison_Fluent_LikenessSourceFactory_AsSource__1___0_">LikenessSourceFactory.AsSource&lt;TSource&gt;(TSource)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_AutoNSubstitute_NSubstituteRegisterCallHandlerCommand.md&amp;value=---%0Auid%3A%20AutoFixture.AutoNSubstitute.NSubstituteRegisterCallHandlerCommand%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/AutoNSubstitute/NSubstituteRegisterCallHandlerCommand.cs/#L27" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

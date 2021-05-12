@@ -1,0 +1,580 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class MemberComparer
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class MemberComparer
+   ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SemanticComparison.MemberComparer">
+  
+  
+  <h1 id="SemanticComparison_MemberComparer" data-uid="SemanticComparison.MemberComparer" class="text-break">Class MemberComparer
+  </h1>
+  <div class="markdown level0 summary"><p>Provides custom equality comparison for requests of a property and field.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">MemberComparer</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="SemanticComparison.IMemberComparer.html">IMemberComparer</a></div>
+    <div><span class="xref">System.Collections.IEqualityComparer</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SemanticComparison.html">SemanticComparison</a></h6>
+  <h6><strong>Assembly</strong>: SemanticComparison.dll</h6>
+  <h5 id="SemanticComparison_MemberComparer_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class MemberComparer : IMemberComparer, IEqualityComparer</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/SemanticComparison/new/57453c74d79b7119b44991e19a8713dd410347aa/apiSpec/new?filename=SemanticComparison_MemberComparer__ctor_System_Collections_IEqualityComparer_.md&amp;value=---%0Auid%3A%20SemanticComparison.MemberComparer.%23ctor(System.Collections.IEqualityComparer)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/SemanticComparison/blob/57453c74d79b7119b44991e19a8713dd410347aa/Src/SemanticComparison/MemberComparer.cs/#L20">View Source</a>
+  </span>
+  <a id="SemanticComparison_MemberComparer__ctor_" data-uid="SemanticComparison.MemberComparer.#ctor*"></a>
+  <h4 id="SemanticComparison_MemberComparer__ctor_System_Collections_IEqualityComparer_" data-uid="SemanticComparison.MemberComparer.#ctor(System.Collections.IEqualityComparer)">MemberComparer(IEqualityComparer)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="SemanticComparison.MemberComparer.html">MemberComparer</a>
+class with the supplied <span class="xref">System.Collections.IEqualityComparer</span> to support
+the comparison of properties and fields.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MemberComparer(IEqualityComparer comparer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.IEqualityComparer</span></td>
+        <td><span class="parametername">comparer</span></td>
+        <td><p>The supplied <span class="xref">System.Collections.IEqualityComparer</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/SemanticComparison/new/57453c74d79b7119b44991e19a8713dd410347aa/apiSpec/new?filename=SemanticComparison_MemberComparer__ctor_System_Collections_IEqualityComparer_SemanticComparison_ISpecification_System_Reflection_PropertyInfo__SemanticComparison_ISpecification_System_Reflection_FieldInfo__.md&amp;value=---%0Auid%3A%20SemanticComparison.MemberComparer.%23ctor(System.Collections.IEqualityComparer%2CSemanticComparison.ISpecification%7BSystem.Reflection.PropertyInfo%7D%2CSemanticComparison.ISpecification%7BSystem.Reflection.FieldInfo%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/SemanticComparison/blob/57453c74d79b7119b44991e19a8713dd410347aa/Src/SemanticComparison/MemberComparer.cs/#L46">View Source</a>
+  </span>
+  <a id="SemanticComparison_MemberComparer__ctor_" data-uid="SemanticComparison.MemberComparer.#ctor*"></a>
+  <h4 id="SemanticComparison_MemberComparer__ctor_System_Collections_IEqualityComparer_SemanticComparison_ISpecification_System_Reflection_PropertyInfo__SemanticComparison_ISpecification_System_Reflection_FieldInfo__" data-uid="SemanticComparison.MemberComparer.#ctor(System.Collections.IEqualityComparer,SemanticComparison.ISpecification{System.Reflection.PropertyInfo},SemanticComparison.ISpecification{System.Reflection.FieldInfo})">MemberComparer(IEqualityComparer, ISpecification&lt;PropertyInfo&gt;, ISpecification&lt;FieldInfo&gt;)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="SemanticComparison.MemberComparer.html">MemberComparer</a>
+class with the supplied <span class="xref">System.Collections.IEqualityComparer</span>,
+<a class="xref" href="SemanticComparison.ISpecification-1.html">ISpecification&lt;T&gt;</a>, and
+<a class="xref" href="SemanticComparison.ISpecification-1.html">ISpecification&lt;T&gt;</a> to support the
+comparison of properties and fields.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MemberComparer(IEqualityComparer comparer, ISpecification&lt;PropertyInfo&gt; propertySpecification, ISpecification&lt;FieldInfo&gt; fieldSpecification)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.IEqualityComparer</span></td>
+        <td><span class="parametername">comparer</span></td>
+        <td><p>The supplied <span class="xref">System.Collections.IEqualityComparer</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SemanticComparison.ISpecification-1.html">ISpecification</a>&lt;<span class="xref">System.Reflection.PropertyInfo</span>&gt;</td>
+        <td><span class="parametername">propertySpecification</span></td>
+        <td><p>The supplied Specification used to control whether or not a property
+should be compared.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SemanticComparison.ISpecification-1.html">ISpecification</a>&lt;<span class="xref">System.Reflection.FieldInfo</span>&gt;</td>
+        <td><span class="parametername">fieldSpecification</span></td>
+        <td><p>The supplied Specification used to control whether or not a field
+should be compared.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/SemanticComparison/new/57453c74d79b7119b44991e19a8713dd410347aa/apiSpec/new?filename=SemanticComparison_MemberComparer_Comparer.md&amp;value=---%0Auid%3A%20SemanticComparison.MemberComparer.Comparer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/SemanticComparison/blob/57453c74d79b7119b44991e19a8713dd410347aa/Src/SemanticComparison/MemberComparer.cs/#L71">View Source</a>
+  </span>
+  <a id="SemanticComparison_MemberComparer_Comparer_" data-uid="SemanticComparison.MemberComparer.Comparer*"></a>
+  <h4 id="SemanticComparison_MemberComparer_Comparer" data-uid="SemanticComparison.MemberComparer.Comparer">Comparer</h4>
+  <div class="markdown level1 summary"><p>Gets the supplied <span class="xref">System.Collections.IEqualityComparer</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEqualityComparer Comparer { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.IEqualityComparer</span></td>
+        <td><p>The supplied <span class="xref">System.Collections.IEqualityComparer</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/SemanticComparison/new/57453c74d79b7119b44991e19a8713dd410347aa/apiSpec/new?filename=SemanticComparison_MemberComparer_FieldSpecification.md&amp;value=---%0Auid%3A%20SemanticComparison.MemberComparer.FieldSpecification%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/SemanticComparison/blob/57453c74d79b7119b44991e19a8713dd410347aa/Src/SemanticComparison/MemberComparer.cs/#L91">View Source</a>
+  </span>
+  <a id="SemanticComparison_MemberComparer_FieldSpecification_" data-uid="SemanticComparison.MemberComparer.FieldSpecification*"></a>
+  <h4 id="SemanticComparison_MemberComparer_FieldSpecification" data-uid="SemanticComparison.MemberComparer.FieldSpecification">FieldSpecification</h4>
+  <div class="markdown level1 summary"><p>Gets the supplied Specification used to control whether or not a field
+should be compared.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ISpecification&lt;FieldInfo&gt; FieldSpecification { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SemanticComparison.ISpecification-1.html">ISpecification</a>&lt;<span class="xref">System.Reflection.FieldInfo</span>&gt;</td>
+        <td><p>The supplied Specification used to control whether or not a field should
+be compared.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/SemanticComparison/new/57453c74d79b7119b44991e19a8713dd410347aa/apiSpec/new?filename=SemanticComparison_MemberComparer_PropertySpecification.md&amp;value=---%0Auid%3A%20SemanticComparison.MemberComparer.PropertySpecification%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/SemanticComparison/blob/57453c74d79b7119b44991e19a8713dd410347aa/Src/SemanticComparison/MemberComparer.cs/#L81">View Source</a>
+  </span>
+  <a id="SemanticComparison_MemberComparer_PropertySpecification_" data-uid="SemanticComparison.MemberComparer.PropertySpecification*"></a>
+  <h4 id="SemanticComparison_MemberComparer_PropertySpecification" data-uid="SemanticComparison.MemberComparer.PropertySpecification">PropertySpecification</h4>
+  <div class="markdown level1 summary"><p>Gets the supplied Specification used to control whether or not a property
+should be compared.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ISpecification&lt;PropertyInfo&gt; PropertySpecification { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SemanticComparison.ISpecification-1.html">ISpecification</a>&lt;<span class="xref">System.Reflection.PropertyInfo</span>&gt;</td>
+        <td><p>The supplied Specification used to control whether or not a property should
+be compared.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/SemanticComparison/new/57453c74d79b7119b44991e19a8713dd410347aa/apiSpec/new?filename=SemanticComparison_MemberComparer_Equals_System_Object_System_Object_.md&amp;value=---%0Auid%3A%20SemanticComparison.MemberComparer.Equals(System.Object%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/SemanticComparison/blob/57453c74d79b7119b44991e19a8713dd410347aa/Src/SemanticComparison/MemberComparer.cs/#L131">View Source</a>
+  </span>
+  <a id="SemanticComparison_MemberComparer_Equals_" data-uid="SemanticComparison.MemberComparer.Equals*"></a>
+  <h4 id="SemanticComparison_MemberComparer_Equals_System_Object_System_Object_" data-uid="SemanticComparison.MemberComparer.Equals(System.Object,System.Object)">Equals(Object, Object)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the specified <span class="xref">System.Object</span> is
+equal to this instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(object x, object y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The <span class="xref">System.Object</span> to compare with
+this instance.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The y.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if the specified <span class="xref">System.Object</span>
+is equal to this instance; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="SemanticComparison_MemberComparer_Equals_System_Object_System_Object__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+<code data-dev-comment-type="paramref" class="paramref">x</code> and <code data-dev-comment-type="paramref" class="paramref">y</code> are considered
+equal if the supplied <span class="xref">System.Collections.IEqualityComparer</span>&apos;s Equals 
+method returns <span class="xref">true</span>.
+</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/SemanticComparison/new/57453c74d79b7119b44991e19a8713dd410347aa/apiSpec/new?filename=SemanticComparison_MemberComparer_GetHashCode_System_Object_.md&amp;value=---%0Auid%3A%20SemanticComparison.MemberComparer.GetHashCode(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/SemanticComparison/blob/57453c74d79b7119b44991e19a8713dd410347aa/Src/SemanticComparison/MemberComparer.cs/#L144">View Source</a>
+  </span>
+  <a id="SemanticComparison_MemberComparer_GetHashCode_" data-uid="SemanticComparison.MemberComparer.GetHashCode*"></a>
+  <h4 id="SemanticComparison_MemberComparer_GetHashCode_System_Object_" data-uid="SemanticComparison.MemberComparer.GetHashCode(System.Object)">GetHashCode(Object)</h4>
+  <div class="markdown level1 summary"><p>Returns a hash code for this instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetHashCode(object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td><p>The obj.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>A hash code for this instance, suitable for use in hashing
+algorithms and data structures like a hash table.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/SemanticComparison/new/57453c74d79b7119b44991e19a8713dd410347aa/apiSpec/new?filename=SemanticComparison_MemberComparer_IsSatisfiedBy_System_Reflection_FieldInfo_.md&amp;value=---%0Auid%3A%20SemanticComparison.MemberComparer.IsSatisfiedBy(System.Reflection.FieldInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/SemanticComparison/blob/57453c74d79b7119b44991e19a8713dd410347aa/Src/SemanticComparison/MemberComparer.cs/#L108">View Source</a>
+  </span>
+  <a id="SemanticComparison_MemberComparer_IsSatisfiedBy_" data-uid="SemanticComparison.MemberComparer.IsSatisfiedBy*"></a>
+  <h4 id="SemanticComparison_MemberComparer_IsSatisfiedBy_System_Reflection_FieldInfo_" data-uid="SemanticComparison.MemberComparer.IsSatisfiedBy(System.Reflection.FieldInfo)">IsSatisfiedBy(FieldInfo)</h4>
+  <div class="markdown level1 summary"><p>Evaluates a request for comparison of a field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsSatisfiedBy(FieldInfo request)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.FieldInfo</span></td>
+        <td><span class="parametername">request</span></td>
+        <td><p>The request for comparison of a field.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/SemanticComparison/new/57453c74d79b7119b44991e19a8713dd410347aa/apiSpec/new?filename=SemanticComparison_MemberComparer_IsSatisfiedBy_System_Reflection_PropertyInfo_.md&amp;value=---%0Auid%3A%20SemanticComparison.MemberComparer.IsSatisfiedBy(System.Reflection.PropertyInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/SemanticComparison/blob/57453c74d79b7119b44991e19a8713dd410347aa/Src/SemanticComparison/MemberComparer.cs/#L98">View Source</a>
+  </span>
+  <a id="SemanticComparison_MemberComparer_IsSatisfiedBy_" data-uid="SemanticComparison.MemberComparer.IsSatisfiedBy*"></a>
+  <h4 id="SemanticComparison_MemberComparer_IsSatisfiedBy_System_Reflection_PropertyInfo_" data-uid="SemanticComparison.MemberComparer.IsSatisfiedBy(System.Reflection.PropertyInfo)">IsSatisfiedBy(PropertyInfo)</h4>
+  <div class="markdown level1 summary"><p>Evaluates a request for comparison of a property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsSatisfiedBy(PropertyInfo request)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.PropertyInfo</span></td>
+        <td><span class="parametername">request</span></td>
+        <td><p>The request for comparison of a property.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="SemanticComparison.IMemberComparer.html">IMemberComparer</a>
+  </div>
+  <div>
+      <span class="xref">System.Collections.IEqualityComparer</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="SemanticComparison.Fluent.LikenessSourceFactory.html#SemanticComparison_Fluent_LikenessSourceFactory_AsSource__1___0_">LikenessSourceFactory.AsSource&lt;TSource&gt;(TSource)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/AutoFixture/SemanticComparison/new/57453c74d79b7119b44991e19a8713dd410347aa/apiSpec/new?filename=SemanticComparison_MemberComparer.md&amp;value=---%0Auid%3A%20SemanticComparison.MemberComparer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/AutoFixture/SemanticComparison/blob/57453c74d79b7119b44991e19a8713dd410347aa/Src/SemanticComparison/MemberComparer.cs/#L10" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

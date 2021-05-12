@@ -1,0 +1,588 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IFixture
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IFixture
+   ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AutoFixture.IFixture">
+  
+  
+  <h1 id="AutoFixture_IFixture" data-uid="AutoFixture.IFixture" class="text-break">Interface IFixture
+  </h1>
+  <div class="markdown level0 summary"><p>Provides object creation services.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="AutoFixture.Kernel.ISpecimenBuilder.html#AutoFixture_Kernel_ISpecimenBuilder_Create_System_Object_AutoFixture_Kernel_ISpecimenContext_">ISpecimenBuilder.Create(Object, ISpecimenContext)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AutoFixture.html">AutoFixture</a></h6>
+  <h6><strong>Assembly</strong>: AutoFixture.dll</h6>
+  <h5 id="AutoFixture_IFixture_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IFixture : ISpecimenBuilder</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_IFixture_Behaviors.md&amp;value=---%0Auid%3A%20AutoFixture.IFixture.Behaviors%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/AutoFixture/IFixture.cs/#L18">View Source</a>
+  </span>
+  <a id="AutoFixture_IFixture_Behaviors_" data-uid="AutoFixture.IFixture.Behaviors*"></a>
+  <h4 id="AutoFixture_IFixture_Behaviors" data-uid="AutoFixture.IFixture.Behaviors">Behaviors</h4>
+  <div class="markdown level1 summary"><p>Gets the behaviors that are applied as Decorators around other
+parts of a Fixture.
+is invoked.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IList&lt;ISpecimenBuilderTransformation&gt; Behaviors { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<a class="xref" href="AutoFixture.Kernel.ISpecimenBuilderTransformation.html">ISpecimenBuilderTransformation</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_IFixture_Customizations.md&amp;value=---%0Auid%3A%20AutoFixture.IFixture.Customizations%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/AutoFixture/IFixture.cs/#L34">View Source</a>
+  </span>
+  <a id="AutoFixture_IFixture_Customizations_" data-uid="AutoFixture.IFixture.Customizations*"></a>
+  <h4 id="AutoFixture_IFixture_Customizations" data-uid="AutoFixture.IFixture.Customizations">Customizations</h4>
+  <div class="markdown level1 summary"><p>Gets the customizations that intercept the request handling by the core.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IList&lt;ISpecimenBuilder&gt; Customizations { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<a class="xref" href="AutoFixture.Kernel.ISpecimenBuilder.html">ISpecimenBuilder</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="AutoFixture_IFixture_Customizations_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+Any <a class="xref" href="AutoFixture.Kernel.ISpecimenBuilder.html">ISpecimenBuilder</a> in this list are invoked before predefined builders
+giving them a chance to intercept a request and resolve it.
+</p>
+<p>
+<a class="xref" href="AutoFixture.IFixture.html#AutoFixture_IFixture_Customize__1_System_Func_AutoFixture_Dsl_ICustomizationComposer___0__AutoFixture_Kernel_ISpecimenBuilder__">Customize&lt;T&gt;(Func&lt;ICustomizationComposer&lt;T&gt;, ISpecimenBuilder&gt;)</a> places resulting customizations in this list.
+</p>
+</div>
+  <h5 id="AutoFixture_IFixture_Customizations_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="AutoFixture.IFixture.html#AutoFixture_IFixture_Behaviors">Behaviors</a></div>
+      <div><a class="xref" href="AutoFixture.IFixture.html#AutoFixture_IFixture_ResidueCollectors">ResidueCollectors</a></div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_IFixture_OmitAutoProperties.md&amp;value=---%0Auid%3A%20AutoFixture.IFixture.OmitAutoProperties%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/AutoFixture/IFixture.cs/#L40">View Source</a>
+  </span>
+  <a id="AutoFixture_IFixture_OmitAutoProperties_" data-uid="AutoFixture.IFixture.OmitAutoProperties*"></a>
+  <h4 id="AutoFixture_IFixture_OmitAutoProperties" data-uid="AutoFixture.IFixture.OmitAutoProperties">OmitAutoProperties</h4>
+  <div class="markdown level1 summary"><p>Gets or sets if writable properties should generally be assigned a value when
+generating an anonymous object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool OmitAutoProperties { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_IFixture_RepeatCount.md&amp;value=---%0Auid%3A%20AutoFixture.IFixture.RepeatCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/AutoFixture/IFixture.cs/#L49">View Source</a>
+  </span>
+  <a id="AutoFixture_IFixture_RepeatCount_" data-uid="AutoFixture.IFixture.RepeatCount*"></a>
+  <h4 id="AutoFixture_IFixture_RepeatCount" data-uid="AutoFixture.IFixture.RepeatCount">RepeatCount</h4>
+  <div class="markdown level1 summary"><p>Gets or sets a number that controls how many objects are created when a
+<a class="xref" href="AutoFixture.Fixture.html">Fixture</a> creates more than one anonymous objects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int RepeatCount { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="AutoFixture_IFixture_RepeatCount_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="AutoFixture.CollectionFiller.html#AutoFixture_CollectionFiller_AddManyTo__1_AutoFixture_IFixture_System_Collections_Generic_ICollection___0__">AddManyTo&lt;T&gt;</a>(<a class="xref" href="AutoFixture.IFixture.html">IFixture</a>, <span class="xref">System.Collections.Generic.ICollection</span>&lt;T&gt;)</div>
+      <div><a class="xref" href="AutoFixture.CollectionFiller.html#AutoFixture_CollectionFiller_AddManyTo__1_AutoFixture_IFixture_System_Collections_Generic_ICollection___0__System_Func___0__">AddManyTo&lt;T&gt;</a>(<a class="xref" href="AutoFixture.IFixture.html">IFixture</a>, <span class="xref">System.Collections.Generic.ICollection</span>&lt;T&gt;, <span class="xref">System.Func</span>&lt;T&gt;)</div>
+      <div><a class="xref" href="AutoFixture.FixtureRepeater.html#AutoFixture_FixtureRepeater_Repeat__1_AutoFixture_IFixture_System_Func___0__">Repeat&lt;T&gt;</a>(<a class="xref" href="AutoFixture.IFixture.html">IFixture</a>, <span class="xref">System.Func</span>&lt;T&gt;)</div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_IFixture_ResidueCollectors.md&amp;value=---%0Auid%3A%20AutoFixture.IFixture.ResidueCollectors%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/AutoFixture/IFixture.cs/#L62">View Source</a>
+  </span>
+  <a id="AutoFixture_IFixture_ResidueCollectors_" data-uid="AutoFixture.IFixture.ResidueCollectors*"></a>
+  <h4 id="AutoFixture_IFixture_ResidueCollectors" data-uid="AutoFixture.IFixture.ResidueCollectors">ResidueCollectors</h4>
+  <div class="markdown level1 summary"><p>Gets the residue collectors that can be used to handle requests that neither the
+<a class="xref" href="AutoFixture.IFixture.html#AutoFixture_IFixture_Customizations">Customizations</a> nor the predefined builders could handle.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IList&lt;ISpecimenBuilder&gt; ResidueCollectors { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<a class="xref" href="AutoFixture.Kernel.ISpecimenBuilder.html">ISpecimenBuilder</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="AutoFixture_IFixture_ResidueCollectors_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+These <a class="xref" href="AutoFixture.Kernel.ISpecimenBuilder.html">ISpecimenBuilder</a> instances will be invoked if no previous builder
+could resolve a request. This gives you the opportunity to define fallback strategies
+to deal with unresolved requests.
+</p>
+</div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_IFixture_Build__1.md&amp;value=---%0Auid%3A%20AutoFixture.IFixture.Build%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/AutoFixture/IFixture.cs/#L88">View Source</a>
+  </span>
+  <a id="AutoFixture_IFixture_Build_" data-uid="AutoFixture.IFixture.Build*"></a>
+  <h4 id="AutoFixture_IFixture_Build__1" data-uid="AutoFixture.IFixture.Build``1">Build&lt;T&gt;()</h4>
+  <div class="markdown level1 summary"><p>Customizes the creation algorithm for a single object, effectively turning off all
+Customizations on the <a class="xref" href="AutoFixture.IFixture.html">IFixture</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ICustomizationComposer&lt;T&gt; Build&lt;T&gt;()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AutoFixture.Dsl.ICustomizationComposer-1.html">ICustomizationComposer</a>&lt;T&gt;</td>
+        <td><p>A <a class="xref" href="AutoFixture.Dsl.ICustomizationComposer-1.html">ICustomizationComposer&lt;T&gt;</a> that can be used to customize the creation
+algorithm before creating the object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of object for which the algorithm should be customized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="AutoFixture_IFixture_Build__1_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+The Build method kicks off a Fluent API which is usually completed by invoking
+<a class="xref" href="AutoFixture.SpecimenFactory.html#AutoFixture_SpecimenFactory_Create__1_AutoFixture_Dsl_IPostprocessComposer___0__">Create&lt;T&gt;(IPostprocessComposer&lt;T&gt;)</a> on the method
+chain.
+</p>
+<p>
+Note that the Build method chain is best understood as a one-off Customization. It
+bypasses all Customizations on the <a class="xref" href="AutoFixture.Fixture.html">Fixture</a> instance. Instead, it allows
+fine-grained control when building a specific specimen. However, in most cases, adding
+a convention-based <a class="xref" href="AutoFixture.ICustomization.html">ICustomization</a> is a better, more flexible option.
+</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_IFixture_Customize_AutoFixture_ICustomization_.md&amp;value=---%0Auid%3A%20AutoFixture.IFixture.Customize(AutoFixture.ICustomization)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/AutoFixture/IFixture.cs/#L102">View Source</a>
+  </span>
+  <a id="AutoFixture_IFixture_Customize_" data-uid="AutoFixture.IFixture.Customize*"></a>
+  <h4 id="AutoFixture_IFixture_Customize_AutoFixture_ICustomization_" data-uid="AutoFixture.IFixture.Customize(AutoFixture.ICustomization)">Customize(ICustomization)</h4>
+  <div class="markdown level1 summary"><p>Applies a customization.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IFixture Customize(ICustomization customization)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AutoFixture.ICustomization.html">ICustomization</a></td>
+        <td><span class="parametername">customization</span></td>
+        <td><p>The customization to apply.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AutoFixture.IFixture.html">IFixture</a></td>
+        <td><p>An <a class="xref" href="AutoFixture.IFixture.html">IFixture</a> where the customization is applied.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="AutoFixture_IFixture_Customize_AutoFixture_ICustomization__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+Note to implementers: the returned <a class="xref" href="AutoFixture.IFixture.html">IFixture</a> is expected to have
+<code data-dev-comment-type="paramref" class="paramref">customization</code> applied. Whether the return value is the same instance
+as the current instance, or a copy is unspecified.
+</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_IFixture_Customize__1_System_Func_AutoFixture_Dsl_ICustomizationComposer___0__AutoFixture_Kernel_ISpecimenBuilder__.md&amp;value=---%0Auid%3A%20AutoFixture.IFixture.Customize%60%601(System.Func%7BAutoFixture.Dsl.ICustomizationComposer%7B%60%600%7D%2CAutoFixture.Kernel.ISpecimenBuilder%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/AutoFixture/IFixture.cs/#L117">View Source</a>
+  </span>
+  <a id="AutoFixture_IFixture_Customize_" data-uid="AutoFixture.IFixture.Customize*"></a>
+  <h4 id="AutoFixture_IFixture_Customize__1_System_Func_AutoFixture_Dsl_ICustomizationComposer___0__AutoFixture_Kernel_ISpecimenBuilder__" data-uid="AutoFixture.IFixture.Customize``1(System.Func{AutoFixture.Dsl.ICustomizationComposer{``0},AutoFixture.Kernel.ISpecimenBuilder})">Customize&lt;T&gt;(Func&lt;ICustomizationComposer&lt;T&gt;, ISpecimenBuilder&gt;)</h4>
+  <div class="markdown level1 summary"><p>Customizes the creation algorithm for all objects of a given type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Customize&lt;T&gt;(Func&lt;ICustomizationComposer&lt;T&gt;, ISpecimenBuilder&gt; composerTransformation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<a class="xref" href="AutoFixture.Dsl.ICustomizationComposer-1.html">ICustomizationComposer</a>&lt;T&gt;, <a class="xref" href="AutoFixture.Kernel.ISpecimenBuilder.html">ISpecimenBuilder</a>&gt;</td>
+        <td><span class="parametername">composerTransformation</span></td>
+        <td><p>A function that customizes a given <a class="xref" href="AutoFixture.Dsl.ICustomizationComposer-1.html">ICustomizationComposer&lt;T&gt;</a> and returns
+the modified composer.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of object to customize.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="AutoFixture_IFixture_Customize__1_System_Func_AutoFixture_Dsl_ICustomizationComposer___0__AutoFixture_Kernel_ISpecimenBuilder___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+The resulting <a class="xref" href="AutoFixture.Kernel.ISpecimenBuilder.html">ISpecimenBuilder</a> is added to <a class="xref" href="AutoFixture.IFixture.html#AutoFixture_IFixture_Customizations">Customizations</a>.
+</p>
+</div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="AutoFixture.CreateSeedExtensions.html#AutoFixture_CreateSeedExtensions_CreateMany__1_AutoFixture_Kernel_ISpecimenBuilder___0_">CreateSeedExtensions.CreateMany&lt;T&gt;(ISpecimenBuilder, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.CreateSeedExtensions.html#AutoFixture_CreateSeedExtensions_CreateMany__1_AutoFixture_Kernel_ISpecimenBuilder___0_System_Int32_">CreateSeedExtensions.CreateMany&lt;T&gt;(ISpecimenBuilder, T, Int32)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.CreateSeedExtensions.html#AutoFixture_CreateSeedExtensions_Create__1_AutoFixture_Kernel_ISpecimenBuilder___0_">CreateSeedExtensions.Create&lt;T&gt;(ISpecimenBuilder, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.CollectionFiller.html#AutoFixture_CollectionFiller_AddManyTo__1_AutoFixture_IFixture_System_Collections_Generic_ICollection___0__">CollectionFiller.AddManyTo&lt;T&gt;(IFixture, ICollection&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.CollectionFiller.html#AutoFixture_CollectionFiller_AddManyTo__1_AutoFixture_IFixture_System_Collections_Generic_ICollection___0__System_Int32_">CollectionFiller.AddManyTo&lt;T&gt;(IFixture, ICollection&lt;T&gt;, Int32)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.CollectionFiller.html#AutoFixture_CollectionFiller_AddManyTo__1_AutoFixture_IFixture_System_Collections_Generic_ICollection___0__System_Func___0__">CollectionFiller.AddManyTo&lt;T&gt;(IFixture, ICollection&lt;T&gt;, Func&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.CustomizationExtensions.html#AutoFixture_CustomizationExtensions_ToCustomization_AutoFixture_Kernel_ISpecimenBuilder_">CustomizationExtensions.ToCustomization(ISpecimenBuilder)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.FixtureFreezer.html#AutoFixture_FixtureFreezer_Freeze__1_AutoFixture_IFixture_">FixtureFreezer.Freeze&lt;T&gt;(IFixture)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.FixtureFreezer.html#AutoFixture_FixtureFreezer_Freeze__1_AutoFixture_IFixture_System_Func_AutoFixture_Dsl_ICustomizationComposer___0__AutoFixture_Kernel_ISpecimenBuilder__">FixtureFreezer.Freeze&lt;T&gt;(IFixture, Func&lt;ICustomizationComposer&lt;T&gt;, ISpecimenBuilder&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.FixtureRegistrar.html#AutoFixture_FixtureRegistrar_Inject__1_AutoFixture_IFixture___0_">FixtureRegistrar.Inject&lt;T&gt;(IFixture, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.FixtureRegistrar.html#AutoFixture_FixtureRegistrar_Register__1_AutoFixture_IFixture_System_Func___0__">FixtureRegistrar.Register&lt;T&gt;(IFixture, Func&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.FixtureRegistrar.html#AutoFixture_FixtureRegistrar_Register__2_AutoFixture_IFixture_System_Func___0___1__">FixtureRegistrar.Register&lt;TInput, T&gt;(IFixture, Func&lt;TInput, T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.FixtureRegistrar.html#AutoFixture_FixtureRegistrar_Register__3_AutoFixture_IFixture_System_Func___0___1___2__">FixtureRegistrar.Register&lt;TInput1, TInput2, T&gt;(IFixture, Func&lt;TInput1, TInput2, T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.FixtureRegistrar.html#AutoFixture_FixtureRegistrar_Register__4_AutoFixture_IFixture_System_Func___0___1___2___3__">FixtureRegistrar.Register&lt;TInput1, TInput2, TInput3, T&gt;(IFixture, Func&lt;TInput1, TInput2, TInput3, T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.FixtureRegistrar.html#AutoFixture_FixtureRegistrar_Register__5_AutoFixture_IFixture_System_Func___0___1___2___3___4__">FixtureRegistrar.Register&lt;TInput1, TInput2, TInput3, TInput4, T&gt;(IFixture, Func&lt;TInput1, TInput2, TInput3, TInput4, T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.FixtureRepeater.html#AutoFixture_FixtureRepeater_Repeat__1_AutoFixture_IFixture_System_Func___0__">FixtureRepeater.Repeat&lt;T&gt;(IFixture, Func&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.SpecimenCommand.html#AutoFixture_SpecimenCommand_Do__1_AutoFixture_Kernel_ISpecimenBuilder_System_Action___0__">SpecimenCommand.Do&lt;T&gt;(ISpecimenBuilder, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.SpecimenCommand.html#AutoFixture_SpecimenCommand_Do__2_AutoFixture_Kernel_ISpecimenBuilder_System_Action___0___1__">SpecimenCommand.Do&lt;T1, T2&gt;(ISpecimenBuilder, Action&lt;T1, T2&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.SpecimenCommand.html#AutoFixture_SpecimenCommand_Do__3_AutoFixture_Kernel_ISpecimenBuilder_System_Action___0___1___2__">SpecimenCommand.Do&lt;T1, T2, T3&gt;(ISpecimenBuilder, Action&lt;T1, T2, T3&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.SpecimenCommand.html#AutoFixture_SpecimenCommand_Do__4_AutoFixture_Kernel_ISpecimenBuilder_System_Action___0___1___2___3__">SpecimenCommand.Do&lt;T1, T2, T3, T4&gt;(ISpecimenBuilder, Action&lt;T1, T2, T3, T4&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.SpecimenFactory.html#AutoFixture_SpecimenFactory_CreateAnonymous__1_AutoFixture_IFixture_">SpecimenFactory.CreateAnonymous&lt;T&gt;(IFixture)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.SpecimenFactory.html#AutoFixture_SpecimenFactory_Create__1_AutoFixture_Kernel_ISpecimenBuilder_">SpecimenFactory.Create&lt;T&gt;(ISpecimenBuilder)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.SpecimenFactory.html#AutoFixture_SpecimenFactory_CreateMany__1_AutoFixture_Kernel_ISpecimenBuilder_">SpecimenFactory.CreateMany&lt;T&gt;(ISpecimenBuilder)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.SpecimenFactory.html#AutoFixture_SpecimenFactory_CreateMany__1_AutoFixture_Kernel_ISpecimenBuilder_System_Int32_">SpecimenFactory.CreateMany&lt;T&gt;(ISpecimenBuilder, Int32)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.SpecimenQuery.html#AutoFixture_SpecimenQuery_Get__2_AutoFixture_Kernel_ISpecimenBuilder_System_Func___0___1__">SpecimenQuery.Get&lt;T, TResult&gt;(ISpecimenBuilder, Func&lt;T, TResult&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.SpecimenQuery.html#AutoFixture_SpecimenQuery_Get__3_AutoFixture_Kernel_ISpecimenBuilder_System_Func___0___1___2__">SpecimenQuery.Get&lt;T1, T2, TResult&gt;(ISpecimenBuilder, Func&lt;T1, T2, TResult&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.SpecimenQuery.html#AutoFixture_SpecimenQuery_Get__4_AutoFixture_Kernel_ISpecimenBuilder_System_Func___0___1___2___3__">SpecimenQuery.Get&lt;T1, T2, T3, TResult&gt;(ISpecimenBuilder, Func&lt;T1, T2, T3, TResult&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.SpecimenQuery.html#AutoFixture_SpecimenQuery_Get__5_AutoFixture_Kernel_ISpecimenBuilder_System_Func___0___1___2___3___4__">SpecimenQuery.Get&lt;T1, T2, T3, T4, TResult&gt;(ISpecimenBuilder, Func&lt;T1, T2, T3, T4, TResult&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="SemanticComparison.Fluent.LikenessSourceFactory.html#SemanticComparison_Fluent_LikenessSourceFactory_AsSource__1___0_">LikenessSourceFactory.AsSource&lt;TSource&gt;(TSource)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_IFixture.md&amp;value=---%0Auid%3A%20AutoFixture.IFixture%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/AutoFixture/IFixture.cs/#L11" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

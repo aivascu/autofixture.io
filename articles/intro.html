@@ -1,0 +1,236 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Introduction </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Introduction ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="introduction">Introduction</h1>
+
+<h2 id="installing-autofixture">Installing AutoFixture</h2>
+<p>To add AutoFixture to your project you'll need to install the package from NuGet, using either the command line or the package manager in your IDE.</p>
+<p>Here are some examples on how you can install the AutoFixture NuGet package.</p>
+<h3 id="net-cli">.NET CLI</h3>
+<pre><code class="lang-sh">&gt; dotnet add package AutoFixture --version 4.17.0
+</code></pre>
+<h3 id="package-manager">Package Manager</h3>
+<pre><code class="lang-ps">PM&gt; Install-Package AutoFixture -Version 4.17.0
+</code></pre>
+<h3 id="project-file">Project File</h3>
+<pre><code class="lang-xml">&lt;ItemGroup&gt;
+  &lt;!--Other package references--&gt;
+  &lt;PackageReference Include=&quot;AutoFixture&quot; Version=&quot;4.17.0&quot; /&gt;
+&lt;/ItemGroup&gt;
+</code></pre>
+<h2 id="using-autofixture">Using AutoFixture</h2>
+<p>Now that the package is installed in your project, let's see how AutoFixture can help you write easier to understand and maintain unit-tests.</p>
+<p>We will start from a <em>typical example</em> of a unit-test and refactor it to showcase most of the AutoFixture features.</p>
+<pre><code class="lang-csharp">[Fact]
+public void IntroductoryTest()
+{
+    // Arrange
+    var someDto = new ClientDto
+    {
+      Id = 291293,
+      Name = &quot;John Doe&quot;,
+      Age = 42
+    };
+    var mailComposerMock = new Mock&lt;MailComposer&gt;();
+    mailComposerMock
+      .Setup(c =&gt; c.Compose(It.IsAny&lt;ClientDto&gt;()))
+      .Returns(new EmptyMail());
+    var repositoryMock = new Mock&lt;IRepository&gt;();
+    var loggerMock = new Mock&lt;ILogger&gt;();
+    var sut = new MyService(
+      mailComposer.Object,
+      repositoryMock.Object,
+      loggerMock.Object
+    );
+
+    // Act
+    var result = sut.SendEmail(ClientDto);
+
+    // Assert
+    Assert.Equal(expectedNumber, result);
+}
+</code></pre>
+<p>Right from the start we can notice that there is a lot going on in the <code>// Arrange</code> phase of the test. This will likely create a lot of work for anyone maintaining the code-base. Let's see how we can improve the test.</p>
+<h3 id="generating-test-data">Generating test data</h3>
+<p>First, we will introduce the <code>Fixture</code> class, that represents the entry point into AutoFixture, at the <code>// Arrange</code> phase:</p>
+<pre><code class="lang-csharp">var fixture = new Fixture();
+</code></pre>
+<p>Next, we will use the fixture instance, to create our test data. To do this, we will replace the instantiation of the <code>ClientDto</code> class, with the following statement:</p>
+<pre><code class="lang-csharp">var someDto = fixture.Create&lt;ClientDto&gt;();
+</code></pre>
+<p>As you can see we do not set explicitly any inline values on the <code>someDto</code> instance. That is because AutoFixture will by default, take care of providing data to the constructor and will fill in the data, all the public properties.</p>
+<h3 id="generating-mocks">Generating mocks</h3>
+<p>So far we have saved a few lines of code by generating our test data. Let's optimize the test further by getting rid of the mock instantiations.</p>
+<p>To do this we will have to customize our fixture instance. Since we use <code>Moq</code> as our mocking framework we will use the <code>AutoFixture.AutoMoq</code> package to provide us with the necessary customization.</p>
+<pre><code class="lang-csharp">var fixture = new Fixture().Customize(new AutoMoqCustomization());
+</code></pre>
+<p>Now AutoFixture will be able to create mocks as well as instances of Abstract types and interfaces.</p>
+<p>Since our mocks will now be auto-generated we can go straight on and generate our SUT instance.</p>
+<pre><code class="lang-csharp">var sut = fixture.Create&lt;MyService&gt;();
+</code></pre>
+<h3 id="freezing-values">Freezing values</h3>
+<p>The <code>sut</code> instance generates fine, but there is an issue now. We still have to provide the behavior to our <code>mailComposerMock</code> to maintain feature parity for our tests.</p>
+<p>Luckily we can tell our fixture to &quot;freeze&quot; a particular type. This means that every time we request an instance of a frozen type, we will get the same instance. You can think of it as registering a singleton instance in an IoC container.</p>
+<pre><code class="lang-csharp">var mailComposerMock = fixture.Freeze&lt;Mock&lt;MailComposer&gt;&gt;();
+</code></pre>
+<p>So far our code looks like this:</p>
+<pre><code class="lang-csharp">[Fact]
+public void IntroductoryTest()
+{
+    // Arrange
+  var fixture = new Fixture()
+    .Customize(new AutoMoqCustomization());
+  var someDto = fixture.Create&lt;ClientDto&gt;();
+  var mailComposerMock = fixture.Freeze&lt;Mock&lt;MailComposer&gt;&gt;();
+  mailComposerMock
+    .Setup(c =&gt; c.Compose(It.IsAny&lt;ClientDto&gt;()))
+    .Returns(new EmptyMail());
+  var sut = fixture.Create&lt;MyService&gt;();
+
+  // Act
+  var result = sut.SendEmail(ClientDto);
+
+  // Assert
+  Assert.Equal(expectedNumber, result);
+}
+</code></pre>
+<p>This is a significant improvement over the code we had initially. Let's go on and improve it further.</p>
+<h3 id="injecting-test-data">Injecting test data</h3>
+<p>Wouldn't it be nice if we could get rid of the boilerplate code for customizing our feature and explicitly requesting instances?</p>
+<p>We can actually do this, by injecting our test data, directly into our test.
+To do this, we'll have to first update our test, from a <code>[Fact]</code> to a <code>[Theory]</code>.</p>
+<p>Next we'll make use of AutoFixture's <code>[AutoData]</code> attribute and extend it contain our customizations.</p>
+<pre><code class="lang-csharp">public class AutoDomainDataAttribute : AutoDataAttribute
+{
+  public AutoDomainDataAttribute()
+    :base(() =&gt; new Fixture().Customize(new AutoMoqCustomization()))
+  {
+  }
+}
+</code></pre>
+<p>Now we're ready to use the attribute in order to inject the test data into our test.</p>
+<pre><code class="lang-csharp">[Theory]
+[AutoDomainData]
+public void IntroductoryTest(
+  [Frozen] Mock&lt;MailComposer&gt; mailComposerMock,
+  MyService sut, ClientDto someDto, EmptyMail mail)
+{
+    // Arrange
+  mailComposerMock
+    .Setup(c =&gt; c.Compose(It.IsAny&lt;ClientDto&gt;()))
+    .Returns(mail);
+
+  // Act
+  var result = sut.SendEmail(ClientDto);
+
+  // Assert
+  Assert.Equal(expectedNumber, result);
+}
+</code></pre>
+<p>There we are, this is much more maintainable and easier to read.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/aivascu/autofixture.io/blob/master/articles/intro.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

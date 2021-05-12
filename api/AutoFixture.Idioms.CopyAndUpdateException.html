@@ -1,0 +1,603 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class CopyAndUpdateException
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class CopyAndUpdateException
+   ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AutoFixture.Idioms.CopyAndUpdateException">
+  
+  
+  <h1 id="AutoFixture_Idioms_CopyAndUpdateException" data-uid="AutoFixture.Idioms.CopyAndUpdateException" class="text-break">Class CopyAndUpdateException
+  </h1>
+  <div class="markdown level0 summary"><p>Represents an error about a method that incorrectly implements the idiom tested
+by the <a class="xref" href="AutoFixture.Idioms.CopyAndUpdateAssertion.html">CopyAndUpdateAssertion</a>.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">System.Exception</span></div>
+    <div class="level2"><span class="xref">CopyAndUpdateException</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.Runtime.InteropServices._Exception</span></div>
+    <div><span class="xref">System.Runtime.Serialization.ISerializable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Exception.GetBaseException()</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.Data</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.HelpLink</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.HResult</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.InnerException</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.Message</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.Source</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.StackTrace</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.TargetSite</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.SerializeObjectState</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AutoFixture.Idioms.html">AutoFixture.Idioms</a></h6>
+  <h6><strong>Assembly</strong>: AutoFixture.Idioms.dll</h6>
+  <h5 id="AutoFixture_Idioms_CopyAndUpdateException_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class CopyAndUpdateException : Exception, _Exception, ISerializable</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Idioms_CopyAndUpdateException__ctor.md&amp;value=---%0Auid%3A%20AutoFixture.Idioms.CopyAndUpdateException.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/Idioms/CopyAndUpdateException.cs/#L28">View Source</a>
+  </span>
+  <a id="AutoFixture_Idioms_CopyAndUpdateException__ctor_" data-uid="AutoFixture.Idioms.CopyAndUpdateException.#ctor*"></a>
+  <h4 id="AutoFixture_Idioms_CopyAndUpdateException__ctor" data-uid="AutoFixture.Idioms.CopyAndUpdateException.#ctor">CopyAndUpdateException()</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="AutoFixture.Idioms.CopyAndUpdateException.html">CopyAndUpdateException</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CopyAndUpdateException()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Idioms_CopyAndUpdateException__ctor_System_Reflection_MethodInfo_System_Reflection_MemberInfo_.md&amp;value=---%0Auid%3A%20AutoFixture.Idioms.CopyAndUpdateException.%23ctor(System.Reflection.MethodInfo%2CSystem.Reflection.MemberInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/Idioms/CopyAndUpdateException.cs/#L49">View Source</a>
+  </span>
+  <a id="AutoFixture_Idioms_CopyAndUpdateException__ctor_" data-uid="AutoFixture.Idioms.CopyAndUpdateException.#ctor*"></a>
+  <h4 id="AutoFixture_Idioms_CopyAndUpdateException__ctor_System_Reflection_MethodInfo_System_Reflection_MemberInfo_" data-uid="AutoFixture.Idioms.CopyAndUpdateException.#ctor(System.Reflection.MethodInfo,System.Reflection.MemberInfo)">CopyAndUpdateException(MethodInfo, MemberInfo)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="AutoFixture.Idioms.CopyAndUpdateException.html">CopyAndUpdateException</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CopyAndUpdateException(MethodInfo methodInfo, MemberInfo memberWithInvalidValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.MethodInfo</span></td>
+        <td><span class="parametername">methodInfo</span></td>
+        <td><p>The 'copy and update' method which was ill-behaved.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Reflection.MemberInfo</span></td>
+        <td><span class="parametername">memberWithInvalidValue</span></td>
+        <td><p>The member which has the invalid value after copy and update.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Idioms_CopyAndUpdateException__ctor_System_Reflection_MethodInfo_System_Reflection_ParameterInfo_.md&amp;value=---%0Auid%3A%20AutoFixture.Idioms.CopyAndUpdateException.%23ctor(System.Reflection.MethodInfo%2CSystem.Reflection.ParameterInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/Idioms/CopyAndUpdateException.cs/#L60">View Source</a>
+  </span>
+  <a id="AutoFixture_Idioms_CopyAndUpdateException__ctor_" data-uid="AutoFixture.Idioms.CopyAndUpdateException.#ctor*"></a>
+  <h4 id="AutoFixture_Idioms_CopyAndUpdateException__ctor_System_Reflection_MethodInfo_System_Reflection_ParameterInfo_" data-uid="AutoFixture.Idioms.CopyAndUpdateException.#ctor(System.Reflection.MethodInfo,System.Reflection.ParameterInfo)">CopyAndUpdateException(MethodInfo, ParameterInfo)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="AutoFixture.Idioms.CopyAndUpdateException.html">CopyAndUpdateException</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CopyAndUpdateException(MethodInfo methodInfo, ParameterInfo argumentWithNoMatchingPublicMember)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.MethodInfo</span></td>
+        <td><span class="parametername">methodInfo</span></td>
+        <td><p>The 'copy and update' method which was ill-behaved.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Reflection.ParameterInfo</span></td>
+        <td><span class="parametername">argumentWithNoMatchingPublicMember</span></td>
+        <td><p>The parameter which has no matching public member.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Idioms_CopyAndUpdateException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_.md&amp;value=---%0Auid%3A%20AutoFixture.Idioms.CopyAndUpdateException.%23ctor(System.Runtime.Serialization.SerializationInfo%2CSystem.Runtime.Serialization.StreamingContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/Idioms/CopyAndUpdateException.cs/#L102">View Source</a>
+  </span>
+  <a id="AutoFixture_Idioms_CopyAndUpdateException__ctor_" data-uid="AutoFixture.Idioms.CopyAndUpdateException.#ctor*"></a>
+  <h4 id="AutoFixture_Idioms_CopyAndUpdateException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_" data-uid="AutoFixture.Idioms.CopyAndUpdateException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">CopyAndUpdateException(SerializationInfo, StreamingContext)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="AutoFixture.Idioms.CopyAndUpdateException.html">CopyAndUpdateException</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected CopyAndUpdateException(SerializationInfo info, StreamingContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Runtime.Serialization.SerializationInfo</span></td>
+        <td><span class="parametername">info</span></td>
+        <td><p>The <span class="xref">System.Runtime.Serialization.SerializationInfo</span> that holds the
+serialized object data about the exception being thrown.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Runtime.Serialization.StreamingContext</span></td>
+        <td><span class="parametername">context</span></td>
+        <td><p>The <span class="xref">System.Runtime.Serialization.StreamingContext</span> that contains
+contextual information about the source or destination.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Idioms_CopyAndUpdateException__ctor_System_String_.md&amp;value=---%0Auid%3A%20AutoFixture.Idioms.CopyAndUpdateException.%23ctor(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/Idioms/CopyAndUpdateException.cs/#L72">View Source</a>
+  </span>
+  <a id="AutoFixture_Idioms_CopyAndUpdateException__ctor_" data-uid="AutoFixture.Idioms.CopyAndUpdateException.#ctor*"></a>
+  <h4 id="AutoFixture_Idioms_CopyAndUpdateException__ctor_System_String_" data-uid="AutoFixture.Idioms.CopyAndUpdateException.#ctor(System.String)">CopyAndUpdateException(String)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="AutoFixture.Idioms.CopyAndUpdateException.html">CopyAndUpdateException</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CopyAndUpdateException(string message)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The error message that explains the reason for the exception.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Idioms_CopyAndUpdateException__ctor_System_String_System_Exception_.md&amp;value=---%0Auid%3A%20AutoFixture.Idioms.CopyAndUpdateException.%23ctor(System.String%2CSystem.Exception)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/Idioms/CopyAndUpdateException.cs/#L86">View Source</a>
+  </span>
+  <a id="AutoFixture_Idioms_CopyAndUpdateException__ctor_" data-uid="AutoFixture.Idioms.CopyAndUpdateException.#ctor*"></a>
+  <h4 id="AutoFixture_Idioms_CopyAndUpdateException__ctor_System_String_System_Exception_" data-uid="AutoFixture.Idioms.CopyAndUpdateException.#ctor(System.String,System.Exception)">CopyAndUpdateException(String, Exception)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="AutoFixture.Idioms.CopyAndUpdateException.html">CopyAndUpdateException</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CopyAndUpdateException(string message, Exception innerException)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The error message that explains the reason for the exception.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">innerException</span></td>
+        <td><p>The exception that is the cause of the current exception.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Idioms_CopyAndUpdateException__ctor_System_String_System_Reflection_MethodInfo_.md&amp;value=---%0Auid%3A%20AutoFixture.Idioms.CopyAndUpdateException.%23ctor(System.String%2CSystem.Reflection.MethodInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/Idioms/CopyAndUpdateException.cs/#L38">View Source</a>
+  </span>
+  <a id="AutoFixture_Idioms_CopyAndUpdateException__ctor_" data-uid="AutoFixture.Idioms.CopyAndUpdateException.#ctor*"></a>
+  <h4 id="AutoFixture_Idioms_CopyAndUpdateException__ctor_System_String_System_Reflection_MethodInfo_" data-uid="AutoFixture.Idioms.CopyAndUpdateException.#ctor(System.String,System.Reflection.MethodInfo)">CopyAndUpdateException(String, MethodInfo)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="AutoFixture.Idioms.CopyAndUpdateException.html">CopyAndUpdateException</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CopyAndUpdateException(string message, MethodInfo methodInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The error message that explains the reason for the exception.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Reflection.MethodInfo</span></td>
+        <td><span class="parametername">methodInfo</span></td>
+        <td><p>The 'copy and update' method which was ill-behaved.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Idioms_CopyAndUpdateException_ArgumentWithNoMatchingPublicMember.md&amp;value=---%0Auid%3A%20AutoFixture.Idioms.CopyAndUpdateException.ArgumentWithNoMatchingPublicMember%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/Idioms/CopyAndUpdateException.cs/#L121">View Source</a>
+  </span>
+  <a id="AutoFixture_Idioms_CopyAndUpdateException_ArgumentWithNoMatchingPublicMember_" data-uid="AutoFixture.Idioms.CopyAndUpdateException.ArgumentWithNoMatchingPublicMember*"></a>
+  <h4 id="AutoFixture_Idioms_CopyAndUpdateException_ArgumentWithNoMatchingPublicMember" data-uid="AutoFixture.Idioms.CopyAndUpdateException.ArgumentWithNoMatchingPublicMember">ArgumentWithNoMatchingPublicMember</h4>
+  <div class="markdown level1 summary"><p>Gets the argument of the 'copy and update' method for which no matching public
+member could be found.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParameterInfo ArgumentWithNoMatchingPublicMember { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.ParameterInfo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Idioms_CopyAndUpdateException_MemberWithInvalidValue.md&amp;value=---%0Auid%3A%20AutoFixture.Idioms.CopyAndUpdateException.MemberWithInvalidValue%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/Idioms/CopyAndUpdateException.cs/#L115">View Source</a>
+  </span>
+  <a id="AutoFixture_Idioms_CopyAndUpdateException_MemberWithInvalidValue_" data-uid="AutoFixture.Idioms.CopyAndUpdateException.MemberWithInvalidValue*"></a>
+  <h4 id="AutoFixture_Idioms_CopyAndUpdateException_MemberWithInvalidValue" data-uid="AutoFixture.Idioms.CopyAndUpdateException.MemberWithInvalidValue">MemberWithInvalidValue</h4>
+  <div class="markdown level1 summary"><p>Gets the member which was found to have an incorrect value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MemberInfo MemberWithInvalidValue { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.MemberInfo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Idioms_CopyAndUpdateException_MethodInfo.md&amp;value=---%0Auid%3A%20AutoFixture.Idioms.CopyAndUpdateException.MethodInfo%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/Idioms/CopyAndUpdateException.cs/#L110">View Source</a>
+  </span>
+  <a id="AutoFixture_Idioms_CopyAndUpdateException_MethodInfo_" data-uid="AutoFixture.Idioms.CopyAndUpdateException.MethodInfo*"></a>
+  <h4 id="AutoFixture_Idioms_CopyAndUpdateException_MethodInfo" data-uid="AutoFixture.Idioms.CopyAndUpdateException.MethodInfo">MethodInfo</h4>
+  <div class="markdown level1 summary"><p>Gets the 'copy and update' method which is ill-behaved.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MethodInfo MethodInfo { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.MethodInfo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Idioms_CopyAndUpdateException_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_.md&amp;value=---%0Auid%3A%20AutoFixture.Idioms.CopyAndUpdateException.GetObjectData(System.Runtime.Serialization.SerializationInfo%2CSystem.Runtime.Serialization.StreamingContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/Idioms/CopyAndUpdateException.cs/#L139">View Source</a>
+  </span>
+  <a id="AutoFixture_Idioms_CopyAndUpdateException_GetObjectData_" data-uid="AutoFixture.Idioms.CopyAndUpdateException.GetObjectData*"></a>
+  <h4 id="AutoFixture_Idioms_CopyAndUpdateException_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_" data-uid="AutoFixture.Idioms.CopyAndUpdateException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">GetObjectData(SerializationInfo, StreamingContext)</h4>
+  <div class="markdown level1 summary"><p>Adds <span class="xref">System.Reflection.PropertyInfo</span> to a
+<span class="xref">System.Runtime.Serialization.SerializationInfo</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SecurityCritical]
+public override void GetObjectData(SerializationInfo info, StreamingContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Runtime.Serialization.SerializationInfo</span></td>
+        <td><span class="parametername">info</span></td>
+        <td><p>The <span class="xref">System.Runtime.Serialization.SerializationInfo</span> that holds the
+serialized object data about the exception being thrown.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Runtime.Serialization.StreamingContext</span></td>
+        <td><span class="parametername">context</span></td>
+        <td><p>The <span class="xref">System.Runtime.Serialization.StreamingContext</span> that contains
+contextual information about the source or destination.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)</span></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.Runtime.InteropServices._Exception</span>
+  </div>
+  <div>
+      <span class="xref">System.Runtime.Serialization.ISerializable</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="SemanticComparison.Fluent.LikenessSourceFactory.html#SemanticComparison_Fluent_LikenessSourceFactory_AsSource__1___0_">LikenessSourceFactory.AsSource&lt;TSource&gt;(TSource)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Idioms_CopyAndUpdateException.md&amp;value=---%0Auid%3A%20AutoFixture.Idioms.CopyAndUpdateException%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/Idioms/CopyAndUpdateException.cs/#L13" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

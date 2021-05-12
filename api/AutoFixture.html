@@ -1,0 +1,446 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Namespace AutoFixture
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Namespace AutoFixture
+   ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AutoFixture">
+  
+  <h1 id="AutoFixture" data-uid="AutoFixture" class="text-break">Namespace AutoFixture
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+    <h3 id="classes">Classes
+  </h3>
+      <h4><a class="xref" href="AutoFixture.AutoPropertiesTarget.html">AutoPropertiesTarget</a></h4>
+      <section><p>A marker class, used to explicitly identify the target for
+<em>Auto-properties</em> in an <a class="xref" href="AutoFixture.Kernel.ISpecimenBuilderNode.html">ISpecimenBuilderNode</a> graph.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.BehaviorRoot.html">BehaviorRoot</a></h4>
+      <section><p>A marker class, used to explicitly identify the root of the
+<em>behaviors</em> role in an <a class="xref" href="AutoFixture.Kernel.ISpecimenBuilderNode.html">ISpecimenBuilderNode</a> graph.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.BooleanSwitch.html">BooleanSwitch</a></h4>
+      <section><p>Creates an alternating sequence of <span class="xref">true</span> and <span class="xref">false</span>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.ByteSequenceGenerator.html">ByteSequenceGenerator</a></h4>
+      <section><p>Creates a sequence of consecutive numbers, starting at 1.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.CharSequenceGenerator.html">CharSequenceGenerator</a></h4>
+      <section><p>Creates a sequence of printable ASCII characters (Dec 33-126), starting at '!' (Dec 33).</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.CollectionFiller.html">CollectionFiller</a></h4>
+      <section><p>Contains extension methods for populating collections with specimens.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.CompositeCustomization.html">CompositeCustomization</a></h4>
+      <section><p>Customizes an <a class="xref" href="AutoFixture.IFixture.html">IFixture</a> by using all contained <a class="xref" href="AutoFixture.CompositeCustomization.html#AutoFixture_CompositeCustomization_Customizations">Customizations</a>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.ConstrainedStringGenerator.html">ConstrainedStringGenerator</a></h4>
+      <section><p>Creates a constrained string.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.ConstructorCustomization.html">ConstructorCustomization</a></h4>
+      <section><p>A customization that uses a particular constructor selection mechanism to pick and invoke
+a constructor to create specimens of the targeted type.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.CreateSeedExtensions.html">CreateSeedExtensions</a></h4>
+      <section><p>Creates anonymous variables from <a class="xref" href="AutoFixture.Kernel.ISpecimenContext.html">ISpecimenContext</a> or <a class="xref" href="AutoFixture.Kernel.ISpecimenBuilder.html">ISpecimenBuilder</a> instances
+using the passed seed instance.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.CurrentDateTimeCustomization.html">CurrentDateTimeCustomization</a></h4>
+      <section><p>A customization that enables DateTime specimens to be based on the current <span class="xref">System.DateTime.Now</span> value.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.CurrentDateTimeGenerator.html">CurrentDateTimeGenerator</a></h4>
+      <section><p>Creates new <span class="xref">System.DateTime</span> specimens based on the current <span class="xref">System.DateTime.Now</span> value.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.CustomizationExtensions.html">CustomizationExtensions</a></h4>
+      <section><p>A set of useful helpers to simplify work with fixture customizations.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.CustomizationNode.html">CustomizationNode</a></h4>
+      <section><p>A marker class, used to explicitly identify the <em>customizations</em>
+role in an <a class="xref" href="AutoFixture.Kernel.ISpecimenBuilderNode.html">ISpecimenBuilderNode</a> graph.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.DecimalSequenceGenerator.html">DecimalSequenceGenerator</a></h4>
+      <section><p>Creates a sequence of consecutive numbers, starting at 1.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.DefaultEngineParts.html">DefaultEngineParts</a></h4>
+      <section><p>Supplies <a class="xref" href="AutoFixture.Kernel.ISpecimenBuilder.html">ISpecimenBuilder</a> instances that can be used to implement the default
+engine of AutoFixture.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.DefaultPrimitiveBuilders.html">DefaultPrimitiveBuilders</a></h4>
+      <section><p>Supplies <a class="xref" href="AutoFixture.Kernel.ISpecimenBuilder.html">ISpecimenBuilder</a> instances that can resolve requests for many common
+primitives, such as <span class="xref">System.String</span> and <span class="xref">System.Int32</span>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.DefaultRelays.html">DefaultRelays</a></h4>
+      <section><p>Supplies <a class="xref" href="AutoFixture.Kernel.ISpecimenBuilder.html">ISpecimenBuilder</a> instances that works as AutoFixture's
+'transmission'. Without those builders, very little is likely to work.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.DictionaryFiller.html">DictionaryFiller</a></h4>
+      <section><p>Contains methods for populating dictionaries with specimens.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.DisposableTrackingCustomization.html">DisposableTrackingCustomization</a></h4>
+      <section><p>Encapsulates a customization that adds tracking of disposable specimens to an
+<a class="xref" href="AutoFixture.IFixture.html">IFixture</a>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.DomainName.html">DomainName</a></h4>
+      <section><p>Represents a domain name.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.DomainNameGenerator.html">DomainNameGenerator</a></h4>
+      <section><p>Creates new <a class="xref" href="AutoFixture.DomainName.html">DomainName</a> instances.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.DoubleSequenceGenerator.html">DoubleSequenceGenerator</a></h4>
+      <section><p>Creates a sequence of consecutive numbers, starting at 1.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.ElementsBuilder-1.html">ElementsBuilder&lt;T&gt;</a></h4>
+      <section><p>Draws a random element from the given collection.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.EmailAddressLocalPart.html">EmailAddressLocalPart</a></h4>
+      <section><p>Represents the local part of the email address, defined as everything up to, but not including, the @ sign.
+Since EmailAddressLocalPart is used in constructing MailAddress, enforcement of rules on a valid email address
+is performed by <span class="xref">System.Net.Mail.MailAddress</span> and not EmailAddressLocalPart other than as noted.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.EmailAddressLocalPartGenerator.html">EmailAddressLocalPartGenerator</a></h4>
+      <section><p>Creates new <a class="xref" href="AutoFixture.EmailAddressLocalPart.html">EmailAddressLocalPart</a> instances.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.EnumGenerator.html">EnumGenerator</a></h4>
+      <section><p>Generates enum values in a round-robin fashion.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Fixture.html">Fixture</a></h4>
+      <section><p>Provides object creation services.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.FixtureFreezer.html">FixtureFreezer</a></h4>
+      <section><p>Contains extension methods for freezing specimens in <a class="xref" href="AutoFixture.IFixture.html">IFixture</a> instances.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.FixtureRegistrar.html">FixtureRegistrar</a></h4>
+      <section><p>Contains extension methods for registering specimens in <a class="xref" href="AutoFixture.IFixture.html">IFixture</a> instances.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.FixtureRepeater.html">FixtureRepeater</a></h4>
+      <section><p>Contains extension methods for repeating a function in <a class="xref" href="AutoFixture.IFixture.html">IFixture</a> instances.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.FreezeOnMatchCustomization.html">FreezeOnMatchCustomization</a></h4>
+      <section><p>A customization that freezes specimens of a specific <span class="xref">System.Type</span>
+and uses them to satisfy requests that match a set of criteria.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.FreezeSeedExtensions.html">FreezeSeedExtensions</a></h4>
+      <section><p>Contains extension methods for freezing specimens in <a class="xref" href="AutoFixture.IFixture.html">IFixture</a> instances with a specified seed.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.FreezingCustomization.html">FreezingCustomization</a></h4>
+      <section><p>A customization that will freeze a specimen of a given <span class="xref">System.Type</span>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Generator-1.html">Generator&lt;T&gt;</a></h4>
+      <section><p>Generates a perpetual sequence of items.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.GuidGenerator.html">GuidGenerator</a></h4>
+      <section><p>Creates new <span class="xref">System.Guid</span> instances.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.IncrementingDateTimeCustomization.html">IncrementingDateTimeCustomization</a></h4>
+      <section><p>A customization that enables <span class="xref">System.DateTime</span> specimens
+to be based on an incrementing sequence of days starting from <span class="xref">System.DateTime.Now</span>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Int16SequenceGenerator.html">Int16SequenceGenerator</a></h4>
+      <section><p>Creates a sequence of consecutive numbers, starting at 1.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Int32SequenceGenerator.html">Int32SequenceGenerator</a></h4>
+      <section><p>Creates a sequence of consecutive numbers, starting at 1.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Int64SequenceGenerator.html">Int64SequenceGenerator</a></h4>
+      <section><p>Creates a sequence of consecutive numbers, starting at 1.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.InvariantCultureGenerator.html">InvariantCultureGenerator</a></h4>
+      <section><p>Handles creation requests for <span class="xref">System.Globalization.CultureInfo</span> instances,
+returning always the same <span class="xref">System.Globalization.CultureInfo.InvariantCulture</span>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.LambdaExpressionGenerator.html">LambdaExpressionGenerator</a></h4>
+      <section><p>Creates new lambda expressions represented by the <span class="xref">System.Linq.Expressions.Expression&lt;TDelegate&gt;</span> type.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.LazyRelay.html">LazyRelay</a></h4>
+      <section><p>Relays a request for an <span class="xref">System.Func&lt;TResult&gt;</span> to a request for a
+<span class="xref">System.Lazy`1</span> and returns the result.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.MailAddressGenerator.html">MailAddressGenerator</a></h4>
+      <section><p>Creates new <span class="xref">System.Net.Mail.MailAddress</span> instances.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.MapCreateManyToEnumerable.html">MapCreateManyToEnumerable</a></h4>
+      <section><p>Maps a call to
+<a class="xref" href="AutoFixture.SpecimenFactory.html#AutoFixture_SpecimenFactory_CreateMany__1_AutoFixture_Kernel_ISpecimenBuilder_">CreateMany&lt;T&gt;(ISpecimenBuilder)</a> to a
+call for <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.MultipleCustomization.html">MultipleCustomization</a></h4>
+      <section><p>A customization that enables conventions for well-known types that represents multiple
+items.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.MutableValueTypeGenerator.html">MutableValueTypeGenerator</a></h4>
+      <section><p>Creates new <span class="xref">langword_csharp_struct</span>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.NoAutoPropertiesCustomization.html">NoAutoPropertiesCustomization</a></h4>
+      <section><p>A customization that will turn off the auto population of properties on the target type.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.NullRecursionBehavior.html">NullRecursionBehavior</a></h4>
+      <section><p>Decorates a <a class="xref" href="AutoFixture.Kernel.ISpecimenBuilder.html">ISpecimenBuilder</a> with a <a class="xref" href="AutoFixture.Kernel.RecursionGuard.html">RecursionGuard</a> with <a class="xref" href="AutoFixture.Kernel.NullRecursionHandler.html">NullRecursionHandler</a>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.NumericSequenceGenerator.html">NumericSequenceGenerator</a></h4>
+      <section><p>Creates a sequence of consecutive numbers, starting at 1.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.NumericSequencePerTypeCustomization.html">NumericSequencePerTypeCustomization</a></h4>
+      <section><p>A customization that enables numeric specimens to be unique within a specific numeric <span class="xref">System.Type</span>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.ObjectCreationException.html">ObjectCreationException</a></h4>
+      <section><p>The exception that is thrown when AutoFixture is unable to create an object.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.OmitOnRecursionBehavior.html">OmitOnRecursionBehavior</a></h4>
+      <section><p>Decorates an <a class="xref" href="AutoFixture.Kernel.ISpecimenBuilder.html">ISpecimenBuilder</a> with a
+<a class="xref" href="AutoFixture.Kernel.RecursionGuard.html">RecursionGuard</a>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.RandomBooleanSequenceCustomization.html">RandomBooleanSequenceCustomization</a></h4>
+      <section><p>A customization that changes how <span class="xref">System.Boolean</span> are generated. Uses <a class="xref" href="AutoFixture.RandomBooleanSequenceGenerator.html">RandomBooleanSequenceGenerator</a>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.RandomBooleanSequenceGenerator.html">RandomBooleanSequenceGenerator</a></h4>
+      <section><p>Creates random value <span class="xref">true</span> or <span class="xref">false</span>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.RandomCharSequenceGenerator.html">RandomCharSequenceGenerator</a></h4>
+      <section><p>Creates a sequence of random printable ASCII characters (Dec 33-126).</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.RandomDateTimeSequenceGenerator.html">RandomDateTimeSequenceGenerator</a></h4>
+      <section><p>Creates random <span class="xref">System.DateTime</span> specimens.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.RandomNumericSequenceCustomization.html">RandomNumericSequenceCustomization</a></h4>
+      <section><p>A customization that enables numeric specimens to be random and unique.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.RandomNumericSequenceGenerator.html">RandomNumericSequenceGenerator</a></h4>
+      <section><p>Creates a sequence of random, unique, numbers starting at 1.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.RandomRangedNumberCustomization.html">RandomRangedNumberCustomization</a></h4>
+      <section><p>A customization that enables numeric specimens to be random and unique per equivalence set of type and range limits.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.RandomRangedNumberGenerator.html">RandomRangedNumberGenerator</a></h4>
+      <section><p>Creates a random sequence for a given type within a given range without repeating in the range until
+all values are exhausted. Once exhausted, will automatically reset the set and continue choosing randomly
+within the range.  Multiple requests (whether the same or different object) for the same
+operand type, minimum, and maximum are treated as being drawn from the same set.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.RangedNumberGenerator.html">RangedNumberGenerator</a></h4>
+      <section><p>Creates a strictly increasing sequence of ranged numbers, starting at range minimum.
+Sequence restarts at range minimum when range maximum is exceeded.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.ReadonlyCollectionPropertiesBehavior.html">ReadonlyCollectionPropertiesBehavior</a></h4>
+      <section><p>Decorates <a class="xref" href="AutoFixture.Kernel.ISpecimenBuilder.html">ISpecimenBuilder</a> with a <a class="xref" href="AutoFixture.Kernel.Postprocessor.html">Postprocessor</a> which invokes
+<a class="xref" href="AutoFixture.Kernel.ReadonlyCollectionPropertiesCommand.html">ReadonlyCollectionPropertiesCommand</a> if the specimen meets the
+<a class="xref" href="AutoFixture.Kernel.ReadonlyCollectionPropertiesSpecification.html">ReadonlyCollectionPropertiesSpecification</a>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.RegularExpressionGenerator.html">RegularExpressionGenerator</a></h4>
+      <section><p>Creates a string that is guaranteed to match a RegularExpressionRequest.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.RequestMemberTypeResolver.html">RequestMemberTypeResolver</a></h4>
+      <section><p>Resolver of the member type for the class member requests (e.g. PropertyInfo, FieldInfo).</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.ResidueCollectorNode.html">ResidueCollectorNode</a></h4>
+      <section><p>A marker class, used to explicitly identify the <em>residue
+collector</em> role in an <a class="xref" href="AutoFixture.Kernel.ISpecimenBuilderNode.html">ISpecimenBuilderNode</a> graph.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.SByteSequenceGenerator.html">SByteSequenceGenerator</a></h4>
+      <section><p>Creates a sequence of consecutive numbers, starting at 1.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.SingleSequenceGenerator.html">SingleSequenceGenerator</a></h4>
+      <section><p>Creates a sequence of consecutive numbers, starting at 1.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.SingletonSpecimenBuilderNodeStackAdapterCollection.html">SingletonSpecimenBuilderNodeStackAdapterCollection</a></h4>
+      <section><p>A collection of <a class="xref" href="AutoFixture.Kernel.ISpecimenBuilderTransformation.html">ISpecimenBuilderTransformation</a>
+instances, which can be used to produce a stack of singleton
+<a class="xref" href="AutoFixture.Kernel.ISpecimenBuilderNode.html">ISpecimenBuilderNode</a> instances at the root of any
+ISpecimenBuilderNode graph.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.SpecimenBuilderNodeAdapterCollection.html">SpecimenBuilderNodeAdapterCollection</a></h4>
+      <section><p>Presents a horizontal slice of an <a class="xref" href="AutoFixture.Kernel.ISpecimenBuilderNode.html">ISpecimenBuilderNode</a>
+graph as if it was a collection.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.SpecimenBuilderNodeEventArgs.html">SpecimenBuilderNodeEventArgs</a></h4>
+      <section><p>Event arguments concerning an <a class="xref" href="AutoFixture.Kernel.ISpecimenBuilderNode.html">ISpecimenBuilderNode</a>
+instance.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.SpecimenCommand.html">SpecimenCommand</a></h4>
+      <section><p>Provides convenience methods to perform (partially) anonymous Commands.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.SpecimenFactory.html">SpecimenFactory</a></h4>
+      <section><p>Creates anonymous variables from <a class="xref" href="AutoFixture.Kernel.ISpecimenContext.html">ISpecimenContext</a> or
+<a class="xref" href="AutoFixture.Kernel.ISpecimenBuilder.html">ISpecimenBuilder</a> instances.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.SpecimenQuery.html">SpecimenQuery</a></h4>
+      <section><p>Provides convenience methods to perform (partially) anonymous Queries.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.StableFiniteSequenceCustomization.html">StableFiniteSequenceCustomization</a></h4>
+      <section><p>A customization that makes sequences (i.e. <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> stable instead of
+dynamic.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.StrictlyMonotonicallyIncreasingDateTimeGenerator.html">StrictlyMonotonicallyIncreasingDateTimeGenerator</a></h4>
+      <section><p>Creates new <span class="xref">System.DateTime</span> specimens based on a incremental sequence of days.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.StringGenerator.html">StringGenerator</a></h4>
+      <section><p>Creates string values based on a supplied factory.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.StringSeedRelay.html">StringSeedRelay</a></h4>
+      <section><p>Unwraps a request for a string <a class="xref" href="AutoFixture.Kernel.SeededRequest.html">SeededRequest</a> to a request for a string and
+prefixes the seed to the result.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.SupportMutableValueTypesCustomization.html">SupportMutableValueTypesCustomization</a></h4>
+      <section><p>A customization that changes how custom <span class="xref">langword_csharp_struct</span> are generated. Uses <a class="xref" href="AutoFixture.MutableValueTypeGenerator.html">MutableValueTypeGenerator</a>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.TaskGenerator.html">TaskGenerator</a></h4>
+      <section><p>Creates instances of <span class="xref">System.Threading.Tasks.Task</span> and <span class="xref">System.Threading.Tasks.Task`1</span>.
+The status will be set to <span class="xref">System.Threading.Tasks.TaskStatus.RanToCompletion</span> and <span class="xref">System.Threading.Tasks.Task`1.Result</span> will be resolved by a given <a class="xref" href="AutoFixture.Kernel.ISpecimenContext.html">ISpecimenContext</a>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.ThrowingRecursionBehavior.html">ThrowingRecursionBehavior</a></h4>
+      <section><p>Decorates a <a class="xref" href="AutoFixture.Kernel.ISpecimenBuilder.html">ISpecimenBuilder</a> with a <a class="xref" href="AutoFixture.Kernel.RecursionGuard.html">RecursionGuard</a> with <a class="xref" href="AutoFixture.Kernel.ThrowingRecursionHandler.html">ThrowingRecursionHandler</a>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.TracingBehavior.html">TracingBehavior</a></h4>
+      <section><p>Decorates an <a class="xref" href="AutoFixture.Kernel.ISpecimenBuilder.html">ISpecimenBuilder</a> with a <a class="xref" href="AutoFixture.Kernel.TraceWriter.html">TraceWriter</a> to enable
+tracing for diagnosing how the decorated builder builds up specimens.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.TypeGenerator.html">TypeGenerator</a></h4>
+      <section><p>Generates Type instances.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.UInt16SequenceGenerator.html">UInt16SequenceGenerator</a></h4>
+      <section><p>Creates a sequence of consecutive numbers, starting at 1.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.UInt32SequenceGenerator.html">UInt32SequenceGenerator</a></h4>
+      <section><p>Creates a sequence of consecutive numbers, starting at 1.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.UInt64SequenceGenerator.html">UInt64SequenceGenerator</a></h4>
+      <section><p>Creates a sequence of consecutive numbers, starting at 1.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.UnwrapMemberRequest.html">UnwrapMemberRequest</a></h4>
+      <section><p>If member request (e.g. PropertyInfo, FieldInfo, ParameterInfo) is passed, extracts the member type
+and uses the inner <a class="xref" href="AutoFixture.UnwrapMemberRequest.html#AutoFixture_UnwrapMemberRequest_Builder">Builder</a> to resolve request value.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.UriGenerator.html">UriGenerator</a></h4>
+      <section><p>Creates new <span class="xref">System.Uri</span> instances.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.UriScheme.html">UriScheme</a></h4>
+      <section><p>Represents a URI scheme name. Scheme names consist of a sequence of characters beginning
+with a letter and followed by any combination of letters, digits, plus ('+'), period ('.'),
+or hyphen ('-').</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.UriSchemeGenerator.html">UriSchemeGenerator</a></h4>
+      <section><p>Creates new <a class="xref" href="AutoFixture.UriScheme.html">UriScheme</a> instances.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Utf8EncodingGenerator.html">Utf8EncodingGenerator</a></h4>
+      <section><p>Handles creation requests for <span class="xref">System.Text.Encoding</span> instances,
+returning always the same <span class="xref">System.Text.Encoding.UTF8</span>.</p>
+</section>
+    <h3 id="interfaces">Interfaces
+  </h3>
+      <h4><a class="xref" href="AutoFixture.ICustomization.html">ICustomization</a></h4>
+      <section><p>Encapsulates a customization of an <a class="xref" href="AutoFixture.IFixture.html">IFixture</a>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.IFixture.html">IFixture</a></h4>
+      <section><p>Provides object creation services.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.IParameterCustomizationSource.html">IParameterCustomizationSource</a></h4>
+      <section><p>Source of the <a class="xref" href="AutoFixture.ICustomization.html">ICustomization</a> instances specific for the particular
+<span class="xref">System.Reflection.ParameterInfo</span> parameter.
+The main clients of this interface might be glue libraries which provide support for the parameter specific
+customizations.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.IRequestMemberTypeResolver.html">IRequestMemberTypeResolver</a></h4>
+      <section><p>Resolver of the member type for the class member requests (e.g. PropertyInfo, FieldInfo).</p>
+</section>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

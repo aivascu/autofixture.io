@@ -1,0 +1,681 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IFactoryComposer&lt;T&gt;
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IFactoryComposer&lt;T&gt;
+   ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AutoFixture.Dsl.IFactoryComposer`1">
+  
+  
+  <h1 id="AutoFixture_Dsl_IFactoryComposer_1" data-uid="AutoFixture.Dsl.IFactoryComposer`1" class="text-break">Interface IFactoryComposer&lt;T&gt;
+  </h1>
+  <div class="markdown level0 summary"><p>Provides statements that can be used to control how specimens are created.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="AutoFixture.Kernel.ISpecimenBuilder.html#AutoFixture_Kernel_ISpecimenBuilder_Create_System_Object_AutoFixture_Kernel_ISpecimenContext_">ISpecimenBuilder.Create(Object, ISpecimenContext)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AutoFixture.Dsl.html">AutoFixture.Dsl</a></h6>
+  <h6><strong>Assembly</strong>: AutoFixture.dll</h6>
+  <h5 id="AutoFixture_Dsl_IFactoryComposer_1_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IFactoryComposer&lt;T&gt; : ISpecimenBuilder</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of specimen.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Dsl_IFactoryComposer_1_FromFactory_AutoFixture_Kernel_ISpecimenBuilder_.md&amp;value=---%0Auid%3A%20AutoFixture.Dsl.IFactoryComposer%601.FromFactory(AutoFixture.Kernel.ISpecimenBuilder)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/AutoFixture/Dsl/IFactoryComposer.cs/#L49">View Source</a>
+  </span>
+  <a id="AutoFixture_Dsl_IFactoryComposer_1_FromFactory_" data-uid="AutoFixture.Dsl.IFactoryComposer`1.FromFactory*"></a>
+  <h4 id="AutoFixture_Dsl_IFactoryComposer_1_FromFactory_AutoFixture_Kernel_ISpecimenBuilder_" data-uid="AutoFixture.Dsl.IFactoryComposer`1.FromFactory(AutoFixture.Kernel.ISpecimenBuilder)">FromFactory(ISpecimenBuilder)</h4>
+  <div class="markdown level1 summary"><p>Specifies an <a class="xref" href="AutoFixture.Kernel.ISpecimenBuilder.html">ISpecimenBuilder</a> that can create specimens of the
+appropriate type. Mostly for advanced scenarios.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IPostprocessComposer&lt;T&gt; FromFactory(ISpecimenBuilder factory)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AutoFixture.Kernel.ISpecimenBuilder.html">ISpecimenBuilder</a></td>
+        <td><span class="parametername">factory</span></td>
+        <td><p>An <a class="xref" href="AutoFixture.Kernel.ISpecimenBuilder.html">ISpecimenBuilder</a> that can create specimens of the appropriate type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AutoFixture.Dsl.IPostprocessComposer-1.html">IPostprocessComposer</a>&lt;T&gt;</td>
+        <td><p>An <a class="xref" href="AutoFixture.Dsl.IPostprocessComposer-1.html">IPostprocessComposer&lt;T&gt;</a> which can be used to further customize the
+post-processing of created specimens.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="AutoFixture_Dsl_IFactoryComposer_1_FromFactory_AutoFixture_Kernel_ISpecimenBuilder__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+This method is mostly intended for advanced scenarios where a more loosely coupled
+strategy is desired to create specimens, but the advantages of the strongly typed
+<a class="xref" href="AutoFixture.Dsl.IPostprocessComposer-1.html">IPostprocessComposer&lt;T&gt;</a> are still desired for post-processing.
+</p>
+<p>
+One possible scenario is for post-processing of interfaces or abstract types where
+auto-mocking is desired to create the instance. This method makes it possible to supply
+an auto-mocking <a class="xref" href="AutoFixture.Kernel.ISpecimenBuilder.html">ISpecimenBuilder</a>.
+</p>
+<p>
+<code data-dev-comment-type="paramref" class="paramref">factory</code> must be able to create specimens of the requested type, or
+exceptions may be thrown.
+</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Dsl_IFactoryComposer_1_FromFactory_System_Func__0__.md&amp;value=---%0Auid%3A%20AutoFixture.Dsl.IFactoryComposer%601.FromFactory(System.Func%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/AutoFixture/Dsl/IFactoryComposer.cs/#L62">View Source</a>
+  </span>
+  <a id="AutoFixture_Dsl_IFactoryComposer_1_FromFactory_" data-uid="AutoFixture.Dsl.IFactoryComposer`1.FromFactory*"></a>
+  <h4 id="AutoFixture_Dsl_IFactoryComposer_1_FromFactory_System_Func__0__" data-uid="AutoFixture.Dsl.IFactoryComposer`1.FromFactory(System.Func{`0})">FromFactory(Func&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Specifies that an anonymous object should be created in a particular way; often by
+using a constructor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IPostprocessComposer&lt;T&gt; FromFactory(Func&lt;T&gt; factory)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T&gt;</td>
+        <td><span class="parametername">factory</span></td>
+        <td><p>A function that will be used to create the object. This will often be a constructor.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AutoFixture.Dsl.IPostprocessComposer-1.html">IPostprocessComposer</a>&lt;T&gt;</td>
+        <td><p>An <a class="xref" href="AutoFixture.Dsl.IPostprocessComposer-1.html">IPostprocessComposer&lt;T&gt;</a> which can be used to further customize the
+post-processing of created specimens.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Dsl_IFactoryComposer_1_FromFactory__1_System_Func___0__0__.md&amp;value=---%0Auid%3A%20AutoFixture.Dsl.IFactoryComposer%601.FromFactory%60%601(System.Func%7B%60%600%2C%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/AutoFixture/Dsl/IFactoryComposer.cs/#L79">View Source</a>
+  </span>
+  <a id="AutoFixture_Dsl_IFactoryComposer_1_FromFactory_" data-uid="AutoFixture.Dsl.IFactoryComposer`1.FromFactory*"></a>
+  <h4 id="AutoFixture_Dsl_IFactoryComposer_1_FromFactory__1_System_Func___0__0__" data-uid="AutoFixture.Dsl.IFactoryComposer`1.FromFactory``1(System.Func{``0,`0})">FromFactory&lt;TInput&gt;(Func&lt;TInput, T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Specifies that a specimen should be created in a particular way, using a single input
+parameter for the factory.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IPostprocessComposer&lt;T&gt; FromFactory&lt;TInput&gt;(Func&lt;TInput, T&gt; factory)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;TInput, T&gt;</td>
+        <td><span class="parametername">factory</span></td>
+        <td><p>A function that will be used to create the object. This will often be a constructor
+that takes a single constructor argument of type <code data-dev-comment-type="typeparamref" class="typeparamref">TInput</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AutoFixture.Dsl.IPostprocessComposer-1.html">IPostprocessComposer</a>&lt;T&gt;</td>
+        <td><p>An <a class="xref" href="AutoFixture.Dsl.IPostprocessComposer-1.html">IPostprocessComposer&lt;T&gt;</a> which can be used to further customize the
+post-processing of created specimens.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TInput</span></td>
+        <td><p>The type of input parameter to use when invoking <code data-dev-comment-type="paramref" class="paramref">factory</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Dsl_IFactoryComposer_1_FromFactory__2_System_Func___0___1__0__.md&amp;value=---%0Auid%3A%20AutoFixture.Dsl.IFactoryComposer%601.FromFactory%60%602(System.Func%7B%60%600%2C%60%601%2C%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/AutoFixture/Dsl/IFactoryComposer.cs/#L100">View Source</a>
+  </span>
+  <a id="AutoFixture_Dsl_IFactoryComposer_1_FromFactory_" data-uid="AutoFixture.Dsl.IFactoryComposer`1.FromFactory*"></a>
+  <h4 id="AutoFixture_Dsl_IFactoryComposer_1_FromFactory__2_System_Func___0___1__0__" data-uid="AutoFixture.Dsl.IFactoryComposer`1.FromFactory``2(System.Func{``0,``1,`0})">FromFactory&lt;TInput1, TInput2&gt;(Func&lt;TInput1, TInput2, T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Specifies that a specimen should be created in a particular way, using two input
+parameters for the construction.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IPostprocessComposer&lt;T&gt; FromFactory&lt;TInput1, TInput2&gt;(Func&lt;TInput1, TInput2, T&gt; factory)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;TInput1, TInput2, T&gt;</td>
+        <td><span class="parametername">factory</span></td>
+        <td><p>A function that will be used to create the object. This will often be a constructor
+that takes two constructor arguments of type <code data-dev-comment-type="typeparamref" class="typeparamref">TInput1</code> and
+<code data-dev-comment-type="typeparamref" class="typeparamref">TInput2</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AutoFixture.Dsl.IPostprocessComposer-1.html">IPostprocessComposer</a>&lt;T&gt;</td>
+        <td><p>An <a class="xref" href="AutoFixture.Dsl.IPostprocessComposer-1.html">IPostprocessComposer&lt;T&gt;</a> which can be used to further customize the
+post-processing of created specimens.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TInput1</span></td>
+        <td><p>The type of the first input parameter to use when invoking <code data-dev-comment-type="paramref" class="paramref">factory</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TInput2</span></td>
+        <td><p>The type of the second input parameter to use when invoking <code data-dev-comment-type="paramref" class="paramref">factory</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Dsl_IFactoryComposer_1_FromFactory__3_System_Func___0___1___2__0__.md&amp;value=---%0Auid%3A%20AutoFixture.Dsl.IFactoryComposer%601.FromFactory%60%603(System.Func%7B%60%600%2C%60%601%2C%60%602%2C%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/AutoFixture/Dsl/IFactoryComposer.cs/#L124">View Source</a>
+  </span>
+  <a id="AutoFixture_Dsl_IFactoryComposer_1_FromFactory_" data-uid="AutoFixture.Dsl.IFactoryComposer`1.FromFactory*"></a>
+  <h4 id="AutoFixture_Dsl_IFactoryComposer_1_FromFactory__3_System_Func___0___1___2__0__" data-uid="AutoFixture.Dsl.IFactoryComposer`1.FromFactory``3(System.Func{``0,``1,``2,`0})">FromFactory&lt;TInput1, TInput2, TInput3&gt;(Func&lt;TInput1, TInput2, TInput3, T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Specifies that a specimen should be created in a particular way, using three input
+parameters for the construction.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IPostprocessComposer&lt;T&gt; FromFactory&lt;TInput1, TInput2, TInput3&gt;(Func&lt;TInput1, TInput2, TInput3, T&gt; factory)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;TInput1, TInput2, TInput3, T&gt;</td>
+        <td><span class="parametername">factory</span></td>
+        <td><p>A function that will be used to create the object. This will often be a constructor
+that takes three constructor arguments of type <code data-dev-comment-type="typeparamref" class="typeparamref">TInput1</code>,
+<code data-dev-comment-type="typeparamref" class="typeparamref">TInput2</code> and <code data-dev-comment-type="typeparamref" class="typeparamref">TInput3</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AutoFixture.Dsl.IPostprocessComposer-1.html">IPostprocessComposer</a>&lt;T&gt;</td>
+        <td><p>An <a class="xref" href="AutoFixture.Dsl.IPostprocessComposer-1.html">IPostprocessComposer&lt;T&gt;</a> which can be used to further customize the
+post-processing of created specimens.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TInput1</span></td>
+        <td><p>The type of the first input parameter to use when invoking <code data-dev-comment-type="paramref" class="paramref">factory</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TInput2</span></td>
+        <td><p>The type of the second input parameter to use when invoking <code data-dev-comment-type="paramref" class="paramref">factory</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TInput3</span></td>
+        <td><p>The type of the third input parameter to use when invoking <code data-dev-comment-type="paramref" class="paramref">factory</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Dsl_IFactoryComposer_1_FromFactory__4_System_Func___0___1___2___3__0__.md&amp;value=---%0Auid%3A%20AutoFixture.Dsl.IFactoryComposer%601.FromFactory%60%604(System.Func%7B%60%600%2C%60%601%2C%60%602%2C%60%603%2C%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/AutoFixture/Dsl/IFactoryComposer.cs/#L152">View Source</a>
+  </span>
+  <a id="AutoFixture_Dsl_IFactoryComposer_1_FromFactory_" data-uid="AutoFixture.Dsl.IFactoryComposer`1.FromFactory*"></a>
+  <h4 id="AutoFixture_Dsl_IFactoryComposer_1_FromFactory__4_System_Func___0___1___2___3__0__" data-uid="AutoFixture.Dsl.IFactoryComposer`1.FromFactory``4(System.Func{``0,``1,``2,``3,`0})">FromFactory&lt;TInput1, TInput2, TInput3, TInput4&gt;(Func&lt;TInput1, TInput2, TInput3, TInput4, T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Specifies that a specimen should be created in a particular way, using four input
+parameters for the construction.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IPostprocessComposer&lt;T&gt; FromFactory&lt;TInput1, TInput2, TInput3, TInput4&gt;(Func&lt;TInput1, TInput2, TInput3, TInput4, T&gt; factory)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;TInput1, TInput2, TInput3, TInput4, T&gt;</td>
+        <td><span class="parametername">factory</span></td>
+        <td><p>A function that will be used to create the object. This will often be a constructor
+that takes three constructor arguments of type <code data-dev-comment-type="typeparamref" class="typeparamref">TInput1</code>,
+<code data-dev-comment-type="typeparamref" class="typeparamref">TInput2</code>, <code data-dev-comment-type="typeparamref" class="typeparamref">TInput3</code> and
+<code data-dev-comment-type="typeparamref" class="typeparamref">TInput4</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AutoFixture.Dsl.IPostprocessComposer-1.html">IPostprocessComposer</a>&lt;T&gt;</td>
+        <td><p>An <a class="xref" href="AutoFixture.Dsl.IPostprocessComposer-1.html">IPostprocessComposer&lt;T&gt;</a> which can be used to further customize the
+post-processing of created specimens.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TInput1</span></td>
+        <td><p>The type of the first input parameter to use when invoking <code data-dev-comment-type="paramref" class="paramref">factory</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TInput2</span></td>
+        <td><p>The type of the second input parameter to use when invoking <code data-dev-comment-type="paramref" class="paramref">factory</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TInput3</span></td>
+        <td><p>The type of the third input parameter to use when invoking <code data-dev-comment-type="paramref" class="paramref">factory</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TInput4</span></td>
+        <td><p>The type of the fourth input parameter to use when invoking <code data-dev-comment-type="paramref" class="paramref">factory</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Dsl_IFactoryComposer_1_FromSeed_System_Func__0__0__.md&amp;value=---%0Auid%3A%20AutoFixture.Dsl.IFactoryComposer%601.FromSeed(System.Func%7B%600%2C%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/AutoFixture/Dsl/IFactoryComposer.cs/#L20">View Source</a>
+  </span>
+  <a id="AutoFixture_Dsl_IFactoryComposer_1_FromSeed_" data-uid="AutoFixture.Dsl.IFactoryComposer`1.FromSeed*"></a>
+  <h4 id="AutoFixture_Dsl_IFactoryComposer_1_FromSeed_System_Func__0__0__" data-uid="AutoFixture.Dsl.IFactoryComposer`1.FromSeed(System.Func{`0,`0})">FromSeed(Func&lt;T, T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Specifies a function that defines how to create a specimen from a seed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IPostprocessComposer&lt;T&gt; FromSeed(Func&lt;T, T&gt; factory)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T, T&gt;</td>
+        <td><span class="parametername">factory</span></td>
+        <td><p>The factory used to create specimens from seeds.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AutoFixture.Dsl.IPostprocessComposer-1.html">IPostprocessComposer</a>&lt;T&gt;</td>
+        <td><p>An <a class="xref" href="AutoFixture.Dsl.IPostprocessComposer-1.html">IPostprocessComposer&lt;T&gt;</a> which can be used to further customize the
+post-processing of created specimens.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="AutoFixture.CreateSeedExtensions.html#AutoFixture_CreateSeedExtensions_CreateMany__1_AutoFixture_Kernel_ISpecimenBuilder___0_">CreateSeedExtensions.CreateMany&lt;T&gt;(ISpecimenBuilder, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.CreateSeedExtensions.html#AutoFixture_CreateSeedExtensions_CreateMany__1_AutoFixture_Kernel_ISpecimenBuilder___0_System_Int32_">CreateSeedExtensions.CreateMany&lt;T&gt;(ISpecimenBuilder, T, Int32)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.CreateSeedExtensions.html#AutoFixture_CreateSeedExtensions_Create__1_AutoFixture_Kernel_ISpecimenBuilder___0_">CreateSeedExtensions.Create&lt;T&gt;(ISpecimenBuilder, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.CustomizationExtensions.html#AutoFixture_CustomizationExtensions_ToCustomization_AutoFixture_Kernel_ISpecimenBuilder_">CustomizationExtensions.ToCustomization(ISpecimenBuilder)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.SpecimenCommand.html#AutoFixture_SpecimenCommand_Do__1_AutoFixture_Kernel_ISpecimenBuilder_System_Action___0__">SpecimenCommand.Do&lt;T&gt;(ISpecimenBuilder, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.SpecimenCommand.html#AutoFixture_SpecimenCommand_Do__2_AutoFixture_Kernel_ISpecimenBuilder_System_Action___0___1__">SpecimenCommand.Do&lt;T1, T2&gt;(ISpecimenBuilder, Action&lt;T1, T2&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.SpecimenCommand.html#AutoFixture_SpecimenCommand_Do__3_AutoFixture_Kernel_ISpecimenBuilder_System_Action___0___1___2__">SpecimenCommand.Do&lt;T1, T2, T3&gt;(ISpecimenBuilder, Action&lt;T1, T2, T3&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.SpecimenCommand.html#AutoFixture_SpecimenCommand_Do__4_AutoFixture_Kernel_ISpecimenBuilder_System_Action___0___1___2___3__">SpecimenCommand.Do&lt;T1, T2, T3, T4&gt;(ISpecimenBuilder, Action&lt;T1, T2, T3, T4&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.SpecimenFactory.html#AutoFixture_SpecimenFactory_Create__1_AutoFixture_Kernel_ISpecimenBuilder_">SpecimenFactory.Create&lt;T&gt;(ISpecimenBuilder)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.SpecimenFactory.html#AutoFixture_SpecimenFactory_CreateMany__1_AutoFixture_Kernel_ISpecimenBuilder_">SpecimenFactory.CreateMany&lt;T&gt;(ISpecimenBuilder)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.SpecimenFactory.html#AutoFixture_SpecimenFactory_CreateMany__1_AutoFixture_Kernel_ISpecimenBuilder_System_Int32_">SpecimenFactory.CreateMany&lt;T&gt;(ISpecimenBuilder, Int32)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.SpecimenQuery.html#AutoFixture_SpecimenQuery_Get__2_AutoFixture_Kernel_ISpecimenBuilder_System_Func___0___1__">SpecimenQuery.Get&lt;T, TResult&gt;(ISpecimenBuilder, Func&lt;T, TResult&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.SpecimenQuery.html#AutoFixture_SpecimenQuery_Get__3_AutoFixture_Kernel_ISpecimenBuilder_System_Func___0___1___2__">SpecimenQuery.Get&lt;T1, T2, TResult&gt;(ISpecimenBuilder, Func&lt;T1, T2, TResult&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.SpecimenQuery.html#AutoFixture_SpecimenQuery_Get__4_AutoFixture_Kernel_ISpecimenBuilder_System_Func___0___1___2___3__">SpecimenQuery.Get&lt;T1, T2, T3, TResult&gt;(ISpecimenBuilder, Func&lt;T1, T2, T3, TResult&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.SpecimenQuery.html#AutoFixture_SpecimenQuery_Get__5_AutoFixture_Kernel_ISpecimenBuilder_System_Func___0___1___2___3___4__">SpecimenQuery.Get&lt;T1, T2, T3, T4, TResult&gt;(ISpecimenBuilder, Func&lt;T1, T2, T3, T4, TResult&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="SemanticComparison.Fluent.LikenessSourceFactory.html#SemanticComparison_Fluent_LikenessSourceFactory_AsSource__1___0_">LikenessSourceFactory.AsSource&lt;TSource&gt;(TSource)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Dsl_IFactoryComposer_1.md&amp;value=---%0Auid%3A%20AutoFixture.Dsl.IFactoryComposer%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/AutoFixture/Dsl/IFactoryComposer.cs/#L10" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,603 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Namespace AutoFixture.Kernel
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Namespace AutoFixture.Kernel
+   ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AutoFixture.Kernel">
+  
+  <h1 id="AutoFixture_Kernel" data-uid="AutoFixture.Kernel" class="text-break">Namespace AutoFixture.Kernel
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+    <h3 id="classes">Classes
+  </h3>
+      <h4><a class="xref" href="AutoFixture.Kernel.AbstractTypeSpecification.html">AbstractTypeSpecification</a></h4>
+      <section><p>A specification that evaluates whether a request is a request for an abstract type such as an abstract base class or an interface.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.ActionSpecimenCommand-1.html">ActionSpecimenCommand&lt;T&gt;</a></h4>
+      <section><p>Adapts an action delegate to <a class="xref" href="AutoFixture.Kernel.ISpecimenCommand.html">ISpecimenCommand</a>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.AndPropertyQuery.html">AndPropertyQuery</a></h4>
+      <section><p>A query which is used to compose multiple <a class="xref" href="AutoFixture.Kernel.IPropertyQuery.html">IPropertyQuery</a>s, returning only those properties
+that are returned by all queries.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.AndRequestSpecification.html">AndRequestSpecification</a></h4>
+      <section><p>A boolean 'And' Composite <a class="xref" href="AutoFixture.Kernel.IRequestSpecification.html">IRequestSpecification</a>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.AnyTypeSpecification.html">AnyTypeSpecification</a></h4>
+      <section><p>A specification that evaluates whether a request is a request for a type.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.ArrayFavoringConstructorQuery.html">ArrayFavoringConstructorQuery</a></h4>
+      <section><p>Selects public constructors ordered so that any constructor with array arguments are
+selected before any other public constructor.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.ArrayRelay.html">ArrayRelay</a></h4>
+      <section><p>Relays a request for an array to a <a class="xref" href="AutoFixture.Kernel.MultipleRequest.html">MultipleRequest</a> and converts the result
+to the desired array type.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.AutoPropertiesCommand.html">AutoPropertiesCommand</a></h4>
+      <section><p>A command that assigns anonymous values to all writable properties and fields of a type.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.AutoPropertiesCommand-1.html">AutoPropertiesCommand&lt;T&gt;</a></h4>
+      <section><p>A command that assigns anonymous values to all writable properties and fields of a type.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.BindingCommand-2.html">BindingCommand&lt;T, TProperty&gt;</a></h4>
+      <section><p>Encapsulates a command that binds a property or a field to a value.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.CollectionRelay.html">CollectionRelay</a></h4>
+      <section><p>Relays a request for an <span class="xref">System.Collections.Generic.ICollection&lt;T&gt;</span> to a request for a
+<span class="xref">System.Collections.Generic.List`1</span> and returns the result.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.CollectionSpecification.html">CollectionSpecification</a></h4>
+      <section><p>Encapsulates logic that determines whether a request is a request for a
+<span class="xref">System.Collections.ObjectModel.Collection&lt;T&gt;</span>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.CompositeMethodQuery.html">CompositeMethodQuery</a></h4>
+      <section><p>An implementation of <a class="xref" href="AutoFixture.Kernel.IMethodQuery.html">IMethodQuery</a> that composes other IMethodQuery instances.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.CompositeSpecimenBuilder.html">CompositeSpecimenBuilder</a></h4>
+      <section><p>Creates specimens by returning the first specimen created by its children.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.CompositeSpecimenCommand.html">CompositeSpecimenCommand</a></h4>
+      <section><p>Aggregates a set of <a class="xref" href="AutoFixture.Kernel.ISpecimenCommand.html">ISpecimenCommand</a>.
+Executing the aggregate will trigger the execution of the parts.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.ConstrainedStringRequest.html">ConstrainedStringRequest</a></h4>
+      <section><p>Encapsulates a maximum length for a string.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.ConstructorMethod.html">ConstructorMethod</a></h4>
+      <section><p>Encapsulates a constructor as a method.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.Criterion-1.html">Criterion&lt;T&gt;</a></h4>
+      <section><p>Serves as a criterion against which a value can be compared. When a
+given value equals the criterion, it can be said to match the
+criterion; otherwise not.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.DelegateGenerator.html">DelegateGenerator</a></h4>
+      <section><p>Creates new <span class="xref">System.Delegate</span> instances.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.DelegateSpecification.html">DelegateSpecification</a></h4>
+      <section><p>A specification that evaluates specimen request to see if it's for the delegate type.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.DictionaryRelay.html">DictionaryRelay</a></h4>
+      <section><p>Relays a request for an <span class="xref">System.Collections.Generic.IDictionary`2</span> to a request for a
+<span class="xref">System.Collections.Generic.Dictionary`2</span> and returns the result.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.DictionarySpecification.html">DictionarySpecification</a></h4>
+      <section><p>Encapsulates logic that determines whether a request is a request for a dictionary.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.DirectBaseTypeSpecification.html">DirectBaseTypeSpecification</a></h4>
+      <section><p>A specification that determines whether the request is a request
+for a <span class="xref">System.Type</span> that directly inherits from the specified <span class="xref">System.Type</span>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.DisposableTracker.html">DisposableTracker</a></h4>
+      <section><p>Tracks all disposable specimens created by a decorated <a class="xref" href="AutoFixture.Kernel.ISpecimenBuilder.html">ISpecimenBuilder</a> to
+be able to dispose them when signalled.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.DisposableTrackingBehavior.html">DisposableTrackingBehavior</a></h4>
+      <section><p>Decorates <a class="xref" href="AutoFixture.Kernel.ISpecimenBuilder.html">ISpecimenBuilder</a> instances with <a class="xref" href="AutoFixture.Kernel.DisposableTracker.html">DisposableTracker</a>
+instances.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.EnumerableFavoringConstructorQuery.html">EnumerableFavoringConstructorQuery</a></h4>
+      <section><p>Selects public constructors ordered so that any constructor with arguments matching
+<span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> are selected before any other public constructor.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.EnumerableRelay.html">EnumerableRelay</a></h4>
+      <section><p>Relays a request for <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> to a <a class="xref" href="AutoFixture.Kernel.MultipleRequest.html">MultipleRequest</a> and
+converts the result to a sequence of the requested type.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.EnumeratorRelay.html">EnumeratorRelay</a></h4>
+      <section><p>Relays a request for <span class="xref">System.Collections.Generic.IEnumerator&lt;T&gt;</span> to
+<span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> and converts the result to an enumerator
+of a sequence of the requested type.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.EqualRequestSpecification.html">EqualRequestSpecification</a></h4>
+      <section><p>Evaluates whether a request is equal to an expected target.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.ExactTypeSpecification.html">ExactTypeSpecification</a></h4>
+      <section><p>A specification that evaluates requests for types against a target type.
+Also matches generic type requests agains the specified open generic.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.FactoryMethodQuery.html">FactoryMethodQuery</a></h4>
+      <section><p>Selects public factory methods ordered by the modest first.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.FalseRequestSpecification.html">FalseRequestSpecification</a></h4>
+      <section><p>A <a class="xref" href="AutoFixture.Kernel.IRequestSpecification.html">IRequestSpecification</a> that is always <span class="xref">false</span>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.FieldRequestRelay.html">FieldRequestRelay</a></h4>
+      <section><p>Relays a request for a field to a <a class="xref" href="AutoFixture.Kernel.SeededRequest.html">SeededRequest</a> with a seed based
+on the field's name.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.FieldSpecification.html">FieldSpecification</a></h4>
+      <section><p>A specification that determines whether the request is a request
+for a <span class="xref">System.Reflection.FieldInfo</span> matching the specified name and <span class="xref">System.Type</span>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.FieldTypeAndNameCriterion.html">FieldTypeAndNameCriterion</a></h4>
+      <section><p>Represents a criterion for comparing a candidate field against a
+desired type and name.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.FilteringSpecimenBuilder.html">FilteringSpecimenBuilder</a></h4>
+      <section><p>Decorates an <a class="xref" href="AutoFixture.Kernel.ISpecimenBuilder.html">ISpecimenBuilder</a> and filters requests so that only some requests
+are passed through to the decorated builder.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.FiniteSequenceRelay.html">FiniteSequenceRelay</a></h4>
+      <section><p>Unwraps a request for many instances and returns the results as a true dynamic sequence.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.FiniteSequenceRequest.html">FiniteSequenceRequest</a></h4>
+      <section><p>Signals that many similar instances are requested.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.FixedBuilder.html">FixedBuilder</a></h4>
+      <section><p>A <a class="xref" href="AutoFixture.Kernel.ISpecimenBuilder.html">ISpecimenBuilder</a> that always returns the same specimen.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.GenericCollectionPropertyQuery.html">GenericCollectionPropertyQuery</a></h4>
+      <section><p>A query which returns generic collection properties from specified types.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.GenericMethod.html">GenericMethod</a></h4>
+      <section><p>Encapsulates a generic method, inferring the type parameters bases on invocation arguments.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.GreedyConstructorQuery.html">GreedyConstructorQuery</a></h4>
+      <section><p>Selects public constructors ordered by the most greedy constructor first.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.HashSetSpecification.html">HashSetSpecification</a></h4>
+      <section><p>Encapsulates logic that determines whether a request is a request for a
+<span class="xref">System.Collections.Generic.HashSet`1</span>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.IllegalRequestException.html">IllegalRequestException</a></h4>
+      <section><p>Indicates that an illegal request was detected.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.ImplementedInterfaceSpecification.html">ImplementedInterfaceSpecification</a></h4>
+      <section><p>A specification that determines whether the request is a request
+for a <span class="xref">System.Type</span> that implements the specified interface <span class="xref">System.Type</span>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.InstanceMethod.html">InstanceMethod</a></h4>
+      <section><p>Encapsulates an instance method. This is essentially an Adapter over
+<span class="xref">System.Reflection.MethodInfo</span>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.InstanceMethodQuery.html">InstanceMethodQuery</a></h4>
+      <section><p>Selects a method from an instance.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.IntPtrGuard.html">IntPtrGuard</a></h4>
+      <section><p>Guards against requests for <span class="xref">System.IntPtr</span> by throwing an exception.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.InverseRequestSpecification.html">InverseRequestSpecification</a></h4>
+      <section><p>Decorates an <a class="xref" href="AutoFixture.Kernel.IRequestSpecification.html">IRequestSpecification</a> and returns the opposite result.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.ListFavoringConstructorQuery.html">ListFavoringConstructorQuery</a></h4>
+      <section><p>Selects public constructors ordered so that any constructor with arguments matching
+<span class="xref">System.Collections.Generic.IList&lt;T&gt;</span> are selected before any other public constructor.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.ListRelay.html">ListRelay</a></h4>
+      <section><p>Relays a request for an <span class="xref">System.Collections.Generic.IList&lt;T&gt;</span> to a request for a
+<span class="xref">System.Collections.Generic.List`1</span> and returns the result.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.ListSpecification.html">ListSpecification</a></h4>
+      <section><p>Encapsulates logic that determines whether a request is a request for a
+<span class="xref">System.Collections.Generic.List`1</span>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.MemberInfoEqualityComparer.html">MemberInfoEqualityComparer</a></h4>
+      <section><p>Provides custom equality comparison for <span class="xref">System.Reflection.MemberInfo</span> instances.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.MethodInvoker.html">MethodInvoker</a></h4>
+      <section><p>Creates a new instance of the requested type by invoking the first method it can
+satisfy.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.MissingParametersSupplyingMethod.html">MissingParametersSupplyingMethod</a></h4>
+      <section><p>Decorates another method invoking it supplying missing parameters.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.MissingParametersSupplyingMethodFactory.html">MissingParametersSupplyingMethodFactory</a></h4>
+      <section><p>Creates a new <a class="xref" href="AutoFixture.Kernel.MissingParametersSupplyingMethod.html">MissingParametersSupplyingMethod</a> for an
+instance <span class="xref">System.Reflection.MethodInfo</span>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.MissingParametersSupplyingStaticMethodFactory.html">MissingParametersSupplyingStaticMethodFactory</a></h4>
+      <section><p>Creates a new <a class="xref" href="AutoFixture.Kernel.MissingParametersSupplyingMethod.html">MissingParametersSupplyingMethod</a> for a static
+<span class="xref">System.Reflection.MethodInfo</span>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.ModestConstructorQuery.html">ModestConstructorQuery</a></h4>
+      <section><p>Selects public constructors ordered by the most modest constructor first.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.MultidimensionalArrayRelay.html">MultidimensionalArrayRelay</a></h4>
+      <section><p>Relays a request for a multidimensional array to a jagged array and converts the result
+to the desired multidimensional array type.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.MultipleRelay.html">MultipleRelay</a></h4>
+      <section><p>Relays requests for multiple (an unspecified count) specimens to a request for a specific
+number of specimens.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.MultipleRequest.html">MultipleRequest</a></h4>
+      <section><p>Represents a request for many (an unspecified number) of specimens.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.MultipleToEnumerableRelay.html">MultipleToEnumerableRelay</a></h4>
+      <section><p>Relays a <a class="xref" href="AutoFixture.Kernel.MultipleRequest.html">MultipleRequest</a> to a request for
+<span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.MutableValueTypeWarningThrower.html">MutableValueTypeWarningThrower</a></h4>
+      <section><p>Throws an <a class="xref" href="AutoFixture.ObjectCreationException.html">ObjectCreationException</a> when one tries to create Structure without explicit parametrized constructor.
+Possibly notifying about bad design (mutable value type).</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.NoConstructorsSpecification.html">NoConstructorsSpecification</a></h4>
+      <section><p>A specification that evaluates whether a request is a request for a type without public constructors.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.NoSpecimen.html">NoSpecimen</a></h4>
+      <section><p>Signifies that it's not a specimen.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.NoSpecimenOutputGuard.html">NoSpecimenOutputGuard</a></h4>
+      <section><p>Prevents a decorated <a class="xref" href="AutoFixture.Kernel.ISpecimenBuilder.html">ISpecimenBuilder</a> from returning a
+<a class="xref" href="AutoFixture.Kernel.NoSpecimen.html">NoSpecimen</a> instance.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.NullableEnumRequestSpecification.html">NullableEnumRequestSpecification</a></h4>
+      <section><p>A specification that evaluates whether a request is a request for a nullable enum.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.NullRecursionGuard.html">NullRecursionGuard</a></h4>
+      <section><p>Recursion handler that returns null at recursion points.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.NullRecursionHandler.html">NullRecursionHandler</a></h4>
+      <section><p>Breaks a recursion by returning <span class="xref">null</span>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.ObservableCollectionSpecification.html">ObservableCollectionSpecification</a></h4>
+      <section><p>Encapsulates logic that determines whether a request is a request for a
+<span class="xref">System.Collections.ObjectModel.ObservableCollection`1</span>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.OmitArrayParameterRequestRelay.html">OmitArrayParameterRequestRelay</a></h4>
+      <section><p>Relays requests for array parameters, and returns an empty array if the
+object returned from the context is an <a class="xref" href="AutoFixture.Kernel.OmitSpecimen.html">OmitSpecimen</a>
+instance.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.OmitEnumerableParameterRequestRelay.html">OmitEnumerableParameterRequestRelay</a></h4>
+      <section><p>Relays requests for enumerable parameters, and returns an empty array
+if the object returned from the context is an <a class="xref" href="AutoFixture.Kernel.OmitSpecimen.html">OmitSpecimen</a> instance.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.OmitFixtureSpecification.html">OmitFixtureSpecification</a></h4>
+      <section><p>A specification which omits the <a class="xref" href="AutoFixture.Fixture.html">Fixture</a> and <a class="xref" href="AutoFixture.IFixture.html">IFixture</a> types.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.OmitOnRecursionGuard.html">OmitOnRecursionGuard</a></h4>
+      <section><p>Recursion handler that returns <a class="xref" href="AutoFixture.Kernel.OmitSpecimen.html">OmitSpecimen</a> at recursion
+points.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.OmitOnRecursionHandler.html">OmitOnRecursionHandler</a></h4>
+      <section><p>Breaks a recursion by instructing AutoFixture to ignore the current
+request.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.OmitSpecimen.html">OmitSpecimen</a></h4>
+      <section><p>A signal type used to indicate to the Auto-Property feature that a given request should be
+ignored, and no further processing performed.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.Omitter.html">Omitter</a></h4>
+      <section><p>Issues <a class="xref" href="AutoFixture.Kernel.OmitSpecimen.html">OmitSpecimen</a> instances if its encapsulated
+<a class="xref" href="AutoFixture.Kernel.IRequestSpecification.html">IRequestSpecification</a> is satisfied.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.OrRequestSpecification.html">OrRequestSpecification</a></h4>
+      <section><p>A boolean 'Or' Composite <a class="xref" href="AutoFixture.Kernel.IRequestSpecification.html">IRequestSpecification</a>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.ParameterRequestRelay.html">ParameterRequestRelay</a></h4>
+      <section><p>Relays a request for a parameter to a <a class="xref" href="AutoFixture.Kernel.SeededRequest.html">SeededRequest</a> with a seed based
+on the parameter's name.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.ParameterSpecification.html">ParameterSpecification</a></h4>
+      <section><p>A specification that determines whether the request is a request
+for a <span class="xref">System.Reflection.ParameterInfo</span> matching the specified name and <span class="xref">System.Type</span>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.ParameterTypeAndNameCriterion.html">ParameterTypeAndNameCriterion</a></h4>
+      <section><p>Represents a criterion for comparing a candidate parameter against a
+desired type and name.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.Postprocessor.html">Postprocessor</a></h4>
+      <section><p>Performs post-processing on a created specimen.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.Postprocessor-1.html">Postprocessor&lt;T&gt;</a></h4>
+      <section><p>Performs post-processing on a created specimen.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.PropertyRequestRelay.html">PropertyRequestRelay</a></h4>
+      <section><p>Relays a request for a property to a <a class="xref" href="AutoFixture.Kernel.SeededRequest.html">SeededRequest</a> with a seed based
+on the property's name.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.PropertySpecification.html">PropertySpecification</a></h4>
+      <section><p>A specification that determines whether the request is a request
+for a <span class="xref">System.Reflection.PropertyInfo</span> matching a particular property,
+according to the supplied comparison rules.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.PropertyTypeAndNameCriterion.html">PropertyTypeAndNameCriterion</a></h4>
+      <section><p>Represents a criterion for comparing a candidate property against a
+desired type and name.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.RangedNumberRequest.html">RangedNumberRequest</a></h4>
+      <section><p>Encapsulates a range for values of a given type.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.RangedSequenceRelay.html">RangedSequenceRelay</a></h4>
+      <section><p>Relay the <a class="xref" href="AutoFixture.Kernel.RangedSequenceRelay.html">RangedSequenceRelay</a> to the request for the sequence of the fixed length.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.RangedSequenceRequest.html">RangedSequenceRequest</a></h4>
+      <section><p>Request for the sequence of <a class="xref" href="AutoFixture.Kernel.RangedSequenceRequest.html#AutoFixture_Kernel_RangedSequenceRequest_Request">Request</a> values.
+Sequece size is constrained by the <a class="xref" href="AutoFixture.Kernel.RangedSequenceRequest.html#AutoFixture_Kernel_RangedSequenceRequest_MinLength">MinLength</a> and <a class="xref" href="AutoFixture.Kernel.RangedSequenceRequest.html#AutoFixture_Kernel_RangedSequenceRequest_MaxLength">MaxLength</a> values.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.ReadonlyCollectionPropertiesCommand.html">ReadonlyCollectionPropertiesCommand</a></h4>
+      <section><p>A command which invokes <span class="xref">System.Collections.Generic.ICollection&lt;T&gt;.Add(T)</span> to fill all readonly properties in a specimen that
+implement <span class="xref">System.Collections.Generic.ICollection&lt;T&gt;</span>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.ReadonlyCollectionPropertiesSpecification.html">ReadonlyCollectionPropertiesSpecification</a></h4>
+      <section><p>A specification that evaluates whether or not a request is for a type containing readonly properties that
+implement <span class="xref">System.Collections.Generic.ICollection&lt;T&gt;</span>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.ReadOnlyCollectionRelay.html">ReadOnlyCollectionRelay</a></h4>
+      <section><p>Relays a request for an <span class="xref">System.Collections.Generic.IReadOnlyCollection&lt;T&gt;</span> to a request for a
+<span class="xref">System.Collections.Generic.List`1</span> and retuns the result.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.ReadonlyPropertyQuery.html">ReadonlyPropertyQuery</a></h4>
+      <section><p>A query which returns readonly properties from specified types.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.RecursionGuard.html">RecursionGuard</a></h4>
+      <section><p>Base class for recursion handling. Tracks requests and reacts when a recursion point in the
+specimen creation process is detected.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.RegularExpressionRequest.html">RegularExpressionRequest</a></h4>
+      <section><p>Encapsulates a pattern for a regular expression.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.RequestTraceEventArgs.html">RequestTraceEventArgs</a></h4>
+      <section><p>Event args about a request for a specimen.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.SeededFactory-1.html">SeededFactory&lt;T&gt;</a></h4>
+      <section><p>Creates a new specimen from a <a class="xref" href="AutoFixture.Kernel.SeededRequest.html">SeededRequest</a> using a function.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.SeededRequest.html">SeededRequest</a></h4>
+      <section><p>Encapsulates a seed for a given type.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.SeedIgnoringRelay.html">SeedIgnoringRelay</a></h4>
+      <section><p>Unwraps a request for a <a class="xref" href="AutoFixture.Kernel.SeededRequest.html">SeededRequest</a> to a request for its
+<a class="xref" href="AutoFixture.Kernel.SeededRequest.html#AutoFixture_Kernel_SeededRequest_Request">Request</a> while ignoring the <a class="xref" href="AutoFixture.Kernel.SeededRequest.html#AutoFixture_Kernel_SeededRequest_Seed">Seed</a>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.SeedRequestSpecification.html">SeedRequestSpecification</a></h4>
+      <section><p>A specification that evaluates seeded requests for types against a target type.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.SortedDictionarySpecification.html">SortedDictionarySpecification</a></h4>
+      <section><p>Encapsulates logic that determines whether a request is a request for a
+<span class="xref">System.Collections.Generic.SortedDictionary`2</span>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.SortedListSpecification.html">SortedListSpecification</a></h4>
+      <section><p>Encapsulates logic that determines whether a request is a request for a
+<span class="xref">System.Collections.Generic.SortedList`2</span>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.SortedSetSpecification.html">SortedSetSpecification</a></h4>
+      <section><p>Encapsulates logic that determines whether a request is a request for a
+<span class="xref">System.Collections.Generic.SortedSet`1</span>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.SpecifiedNullCommand-2.html">SpecifiedNullCommand&lt;T, TProperty&gt;</a></h4>
+      <section><p>A no-op that identifies a certain property or field.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.SpecimenBuilderNode.html">SpecimenBuilderNode</a></h4>
+      <section><p>Contains extension methods for working with
+<a class="xref" href="AutoFixture.Kernel.ISpecimenBuilderNode.html">ISpecimenBuilderNode</a> instances.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.SpecimenBuilderNodeFactory.html">SpecimenBuilderNodeFactory</a></h4>
+      <section><p>Exposes convenience methods for producing well-known object graphs.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.SpecimenContext.html">SpecimenContext</a></h4>
+      <section><p>Default implementation of <a class="xref" href="AutoFixture.Kernel.ISpecimenContext.html">ISpecimenContext</a>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.SpecimenCreatedEventArgs.html">SpecimenCreatedEventArgs</a></h4>
+      <section><p>Event arguments about a created specimen.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.SpecimenFactory-1.html">SpecimenFactory&lt;T&gt;</a></h4>
+      <section><p>Creates a new specimen using a <span class="xref">System.Func&lt;TResult&gt;</span>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.SpecimenFactory-2.html">SpecimenFactory&lt;TInput, T&gt;</a></h4>
+      <section><p>Creates a new specimen using a <span class="xref">System.Func&lt;T, TResult&gt;</span>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.SpecimenFactory-3.html">SpecimenFactory&lt;TInput1, TInput2, T&gt;</a></h4>
+      <section><p>Creates a new specimen using a <span class="xref">System.Func&lt;T1, T2, TResult&gt;</span>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.SpecimenFactory-4.html">SpecimenFactory&lt;TInput1, TInput2, TInput3, T&gt;</a></h4>
+      <section><p>Creates a new specimen using a <span class="xref">System.Func&lt;T1, T2, T3, TResult&gt;</span>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.SpecimenFactory-5.html">SpecimenFactory&lt;TInput1, TInput2, TInput3, TInput4, T&gt;</a></h4>
+      <section><p>Creates a new specimen using a <span class="xref">System.Func&lt;T1, T2, T3, T4, TResult&gt;</span>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.StableFiniteSequenceRelay.html">StableFiniteSequenceRelay</a></h4>
+      <section><p>Unwraps a request for many instances and returns the results as a stable list.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.StaticMethod.html">StaticMethod</a></h4>
+      <section><p>Encapsulates a static method.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.TemplateMethodQuery.html">TemplateMethodQuery</a></h4>
+      <section><p>Selects public static methods that has the same parameters of another method,
+ignoring optional parameters and return type.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.TerminatingSpecimenBuilder.html">TerminatingSpecimenBuilder</a></h4>
+      <section><p>Throws an <a class="xref" href="AutoFixture.ObjectCreationException.html">ObjectCreationException</a>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.TerminatingWithPathSpecimenBuilder.html">TerminatingWithPathSpecimenBuilder</a></h4>
+      <section><p>Decorates an <a class="xref" href="AutoFixture.Kernel.ISpecimenBuilder.html">ISpecimenBuilder</a> with a node which tracks specimen requests, and
+when <a class="xref" href="AutoFixture.Kernel.NoSpecimen.html">NoSpecimen</a> is detected or creation fails with exception, throws an
+<a class="xref" href="AutoFixture.ObjectCreationException.html">ObjectCreationException</a>, which  includes a description of the request path.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.ThrowingRecursionGuard.html">ThrowingRecursionGuard</a></h4>
+      <section><p>Handles recursion in the specimen creation process by throwing an exception at recursion point.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.ThrowingRecursionHandler.html">ThrowingRecursionHandler</a></h4>
+      <section><p>Breaks a recursion by throwing a descriptive exception.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.TraceWriter.html">TraceWriter</a></h4>
+      <section><p>Trace writer that will write out a trace of object requests and created objects
+in the <a class="xref" href="AutoFixture.Kernel.ISpecimenBuilder.html">ISpecimenBuilder</a> pipeline.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.TracingBuilder.html">TracingBuilder</a></h4>
+      <section><p>Tracks any request and passes it on to the container.
+Tracks any returned object from the container and passes it on.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.TrueRequestSpecification.html">TrueRequestSpecification</a></h4>
+      <section><p>A <a class="xref" href="AutoFixture.Kernel.IRequestSpecification.html">IRequestSpecification</a> that is always <span class="xref">true</span>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.TypeArgumentsCannotBeInferredException.html">TypeArgumentsCannotBeInferredException</a></h4>
+      <section><p>The exception that is thrown when AutoFixture is unable to infer the type
+parameters of a generic method from its arguments.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.TypeRelay.html">TypeRelay</a></h4>
+      <section><p>Maps a request for one <span class="xref">System.Type</span> to a request for another Type.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.UnspecifiedSpecimenCommand-1.html">UnspecifiedSpecimenCommand&lt;T&gt;</a></h4>
+      <section><p>Encapsulates an operation without identifying any property or field.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.ValueTypeSpecification.html">ValueTypeSpecification</a></h4>
+      <section><p>A specification that evaluates whether a request is a request for a value type such as a structure.</p>
+</section>
+    <h3 id="interfaces">Interfaces
+  </h3>
+      <h4><a class="xref" href="AutoFixture.Kernel.IMethod.html">IMethod</a></h4>
+      <section><p>Represents some kind of method that can be invoked with a known set of parameters.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.IMethodFactory.html">IMethodFactory</a></h4>
+      <section><p>Creates a new Method from a <span class="xref">System.Reflection.MethodInfo</span>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.IMethodQuery.html">IMethodQuery</a></h4>
+      <section><p>Defines a strategy for selecting methods (such as constructors or factory methods) from a
+type.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.IPropertyQuery.html">IPropertyQuery</a></h4>
+      <section><p>Defines a strategy for selecting properties from a type.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.IRecursionHandler.html">IRecursionHandler</a></h4>
+      <section><p>Handles a recursive request.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.IRequestSpecification.html">IRequestSpecification</a></h4>
+      <section><p>A Specification that evaluates requests.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.ISpecifiedSpecimenCommand-1.html">ISpecifiedSpecimenCommand&lt;T&gt;</a></h4>
+      <section><p>A Command that performs an action on a specimen and knows whether that action matches a
+given request.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.ISpecimenBuilder.html">ISpecimenBuilder</a></h4>
+      <section><p>Builds, or partakes in building, anonymous variables (specimens).</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.ISpecimenBuilderNode.html">ISpecimenBuilderNode</a></h4>
+      <section><p>A node in a graph of <a class="xref" href="AutoFixture.Kernel.ISpecimenBuilder.html">ISpecimenBuilder</a> instances.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.ISpecimenBuilderTransformation.html">ISpecimenBuilderTransformation</a></h4>
+      <section><p>Transforms <a class="xref" href="AutoFixture.Kernel.ISpecimenBuilder.html">ISpecimenBuilder</a> instance into <a class="xref" href="AutoFixture.Kernel.ISpecimenBuilderNode.html">ISpecimenBuilderNode</a>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.ISpecimenCommand.html">ISpecimenCommand</a></h4>
+      <section><p>Represents a command which can be applied to a specimen.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.Kernel.ISpecimenContext.html">ISpecimenContext</a></h4>
+      <section><p>A context used to create anonymous variables (specimens).</p>
+</section>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

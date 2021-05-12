@@ -1,0 +1,854 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IIdiomaticAssertion
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IIdiomaticAssertion
+   ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AutoFixture.Idioms.IIdiomaticAssertion">
+  
+  
+  <h1 id="AutoFixture_Idioms_IIdiomaticAssertion" data-uid="AutoFixture.Idioms.IIdiomaticAssertion" class="text-break">Interface IIdiomaticAssertion
+  </h1>
+  <div class="markdown level0 summary"><p>Represents an encapsulation of an idiomatic unit test assertion based on Reflection types.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AutoFixture.Idioms.html">AutoFixture.Idioms</a></h6>
+  <h6><strong>Assembly</strong>: AutoFixture.Idioms.dll</h6>
+  <h5 id="AutoFixture_Idioms_IIdiomaticAssertion_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IIdiomaticAssertion</code></pre>
+  </div>
+  <h5 id="AutoFixture_Idioms_IIdiomaticAssertion_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>
+Some unit tests tend to be very repeatable, following common idioms. Some such idiomatic
+tests can be expressed as general methods based on their <span class="xref">System.Type</span> or other
+Reflection-based instances.
+</p>
+</div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Idioms_IIdiomaticAssertion_Verify_System_Collections_Generic_IEnumerable_System_Reflection_Assembly__.md&amp;value=---%0Auid%3A%20AutoFixture.Idioms.IIdiomaticAssertion.Verify(System.Collections.Generic.IEnumerable%7BSystem.Reflection.Assembly%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/Idioms/IIdiomaticAssertion.cs/#L29">View Source</a>
+  </span>
+  <a id="AutoFixture_Idioms_IIdiomaticAssertion_Verify_" data-uid="AutoFixture.Idioms.IIdiomaticAssertion.Verify*"></a>
+  <h4 id="AutoFixture_Idioms_IIdiomaticAssertion_Verify_System_Collections_Generic_IEnumerable_System_Reflection_Assembly__" data-uid="AutoFixture.Idioms.IIdiomaticAssertion.Verify(System.Collections.Generic.IEnumerable{System.Reflection.Assembly})">Verify(IEnumerable&lt;Assembly&gt;)</h4>
+  <div class="markdown level1 summary"><p>Verifies that the idiomatic assertion can be verified for the specified assemblies.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Verify(IEnumerable&lt;Assembly&gt; assemblies)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Reflection.Assembly</span>&gt;</td>
+        <td><span class="parametername">assemblies</span></td>
+        <td><p>The assemblies.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Idioms_IIdiomaticAssertion_Verify_System_Collections_Generic_IEnumerable_System_Reflection_ConstructorInfo__.md&amp;value=---%0Auid%3A%20AutoFixture.Idioms.IIdiomaticAssertion.Verify(System.Collections.Generic.IEnumerable%7BSystem.Reflection.ConstructorInfo%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/Idioms/IIdiomaticAssertion.cs/#L83">View Source</a>
+  </span>
+  <a id="AutoFixture_Idioms_IIdiomaticAssertion_Verify_" data-uid="AutoFixture.Idioms.IIdiomaticAssertion.Verify*"></a>
+  <h4 id="AutoFixture_Idioms_IIdiomaticAssertion_Verify_System_Collections_Generic_IEnumerable_System_Reflection_ConstructorInfo__" data-uid="AutoFixture.Idioms.IIdiomaticAssertion.Verify(System.Collections.Generic.IEnumerable{System.Reflection.ConstructorInfo})">Verify(IEnumerable&lt;ConstructorInfo&gt;)</h4>
+  <div class="markdown level1 summary"><p>Verifies that the idiomatic assertion can be verified for the specified constructors.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Verify(IEnumerable&lt;ConstructorInfo&gt; constructorInfos)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Reflection.ConstructorInfo</span>&gt;</td>
+        <td><span class="parametername">constructorInfos</span></td>
+        <td><p>The constructors.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Idioms_IIdiomaticAssertion_Verify_System_Collections_Generic_IEnumerable_System_Reflection_FieldInfo__.md&amp;value=---%0Auid%3A%20AutoFixture.Idioms.IIdiomaticAssertion.Verify(System.Collections.Generic.IEnumerable%7BSystem.Reflection.FieldInfo%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/Idioms/IIdiomaticAssertion.cs/#L143">View Source</a>
+  </span>
+  <a id="AutoFixture_Idioms_IIdiomaticAssertion_Verify_" data-uid="AutoFixture.Idioms.IIdiomaticAssertion.Verify*"></a>
+  <h4 id="AutoFixture_Idioms_IIdiomaticAssertion_Verify_System_Collections_Generic_IEnumerable_System_Reflection_FieldInfo__" data-uid="AutoFixture.Idioms.IIdiomaticAssertion.Verify(System.Collections.Generic.IEnumerable{System.Reflection.FieldInfo})">Verify(IEnumerable&lt;FieldInfo&gt;)</h4>
+  <div class="markdown level1 summary"><p>Verifies that the idiomatic assertion can be verified for the specified fields.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Verify(IEnumerable&lt;FieldInfo&gt; fieldInfos)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Reflection.FieldInfo</span>&gt;</td>
+        <td><span class="parametername">fieldInfos</span></td>
+        <td><p>The Fields.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Idioms_IIdiomaticAssertion_Verify_System_Collections_Generic_IEnumerable_System_Reflection_MemberInfo__.md&amp;value=---%0Auid%3A%20AutoFixture.Idioms.IIdiomaticAssertion.Verify(System.Collections.Generic.IEnumerable%7BSystem.Reflection.MemberInfo%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/Idioms/IIdiomaticAssertion.cs/#L65">View Source</a>
+  </span>
+  <a id="AutoFixture_Idioms_IIdiomaticAssertion_Verify_" data-uid="AutoFixture.Idioms.IIdiomaticAssertion.Verify*"></a>
+  <h4 id="AutoFixture_Idioms_IIdiomaticAssertion_Verify_System_Collections_Generic_IEnumerable_System_Reflection_MemberInfo__" data-uid="AutoFixture.Idioms.IIdiomaticAssertion.Verify(System.Collections.Generic.IEnumerable{System.Reflection.MemberInfo})">Verify(IEnumerable&lt;MemberInfo&gt;)</h4>
+  <div class="markdown level1 summary"><p>Verifies that the idiomatic assertion can be verified for the specified members.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Verify(IEnumerable&lt;MemberInfo&gt; memberInfos)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Reflection.MemberInfo</span>&gt;</td>
+        <td><span class="parametername">memberInfos</span></td>
+        <td><p>The members.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Idioms_IIdiomaticAssertion_Verify_System_Collections_Generic_IEnumerable_System_Reflection_MethodInfo__.md&amp;value=---%0Auid%3A%20AutoFixture.Idioms.IIdiomaticAssertion.Verify(System.Collections.Generic.IEnumerable%7BSystem.Reflection.MethodInfo%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/Idioms/IIdiomaticAssertion.cs/#L101">View Source</a>
+  </span>
+  <a id="AutoFixture_Idioms_IIdiomaticAssertion_Verify_" data-uid="AutoFixture.Idioms.IIdiomaticAssertion.Verify*"></a>
+  <h4 id="AutoFixture_Idioms_IIdiomaticAssertion_Verify_System_Collections_Generic_IEnumerable_System_Reflection_MethodInfo__" data-uid="AutoFixture.Idioms.IIdiomaticAssertion.Verify(System.Collections.Generic.IEnumerable{System.Reflection.MethodInfo})">Verify(IEnumerable&lt;MethodInfo&gt;)</h4>
+  <div class="markdown level1 summary"><p>Verifies that the idiomatic assertion can be verified for the specified methods.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Verify(IEnumerable&lt;MethodInfo&gt; methodInfos)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Reflection.MethodInfo</span>&gt;</td>
+        <td><span class="parametername">methodInfos</span></td>
+        <td><p>The methods.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Idioms_IIdiomaticAssertion_Verify_System_Collections_Generic_IEnumerable_System_Reflection_PropertyInfo__.md&amp;value=---%0Auid%3A%20AutoFixture.Idioms.IIdiomaticAssertion.Verify(System.Collections.Generic.IEnumerable%7BSystem.Reflection.PropertyInfo%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/Idioms/IIdiomaticAssertion.cs/#L119">View Source</a>
+  </span>
+  <a id="AutoFixture_Idioms_IIdiomaticAssertion_Verify_" data-uid="AutoFixture.Idioms.IIdiomaticAssertion.Verify*"></a>
+  <h4 id="AutoFixture_Idioms_IIdiomaticAssertion_Verify_System_Collections_Generic_IEnumerable_System_Reflection_PropertyInfo__" data-uid="AutoFixture.Idioms.IIdiomaticAssertion.Verify(System.Collections.Generic.IEnumerable{System.Reflection.PropertyInfo})">Verify(IEnumerable&lt;PropertyInfo&gt;)</h4>
+  <div class="markdown level1 summary"><p>Verifies that the idiomatic assertion can be verified for the specified properties.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Verify(IEnumerable&lt;PropertyInfo&gt; propertyInfos)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Reflection.PropertyInfo</span>&gt;</td>
+        <td><span class="parametername">propertyInfos</span></td>
+        <td><p>The properties.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Idioms_IIdiomaticAssertion_Verify_System_Collections_Generic_IEnumerable_System_Type__.md&amp;value=---%0Auid%3A%20AutoFixture.Idioms.IIdiomaticAssertion.Verify(System.Collections.Generic.IEnumerable%7BSystem.Type%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/Idioms/IIdiomaticAssertion.cs/#L47">View Source</a>
+  </span>
+  <a id="AutoFixture_Idioms_IIdiomaticAssertion_Verify_" data-uid="AutoFixture.Idioms.IIdiomaticAssertion.Verify*"></a>
+  <h4 id="AutoFixture_Idioms_IIdiomaticAssertion_Verify_System_Collections_Generic_IEnumerable_System_Type__" data-uid="AutoFixture.Idioms.IIdiomaticAssertion.Verify(System.Collections.Generic.IEnumerable{System.Type})">Verify(IEnumerable&lt;Type&gt;)</h4>
+  <div class="markdown level1 summary"><p>Verifies that the idiomatic assertion can be verified for the specified types.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Verify(IEnumerable&lt;Type&gt; types)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Type</span>&gt;</td>
+        <td><span class="parametername">types</span></td>
+        <td><p>The types.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Idioms_IIdiomaticAssertion_Verify_System_Reflection_Assembly_.md&amp;value=---%0Auid%3A%20AutoFixture.Idioms.IIdiomaticAssertion.Verify(System.Reflection.Assembly)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/Idioms/IIdiomaticAssertion.cs/#L35">View Source</a>
+  </span>
+  <a id="AutoFixture_Idioms_IIdiomaticAssertion_Verify_" data-uid="AutoFixture.Idioms.IIdiomaticAssertion.Verify*"></a>
+  <h4 id="AutoFixture_Idioms_IIdiomaticAssertion_Verify_System_Reflection_Assembly_" data-uid="AutoFixture.Idioms.IIdiomaticAssertion.Verify(System.Reflection.Assembly)">Verify(Assembly)</h4>
+  <div class="markdown level1 summary"><p>Verifies that the idiomatic assertion can be verified for an entire assembly.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Verify(Assembly assembly)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.Assembly</span></td>
+        <td><span class="parametername">assembly</span></td>
+        <td><p>The assembly.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Idioms_IIdiomaticAssertion_Verify_System_Reflection_Assembly___.md&amp;value=---%0Auid%3A%20AutoFixture.Idioms.IIdiomaticAssertion.Verify(System.Reflection.Assembly%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/Idioms/IIdiomaticAssertion.cs/#L23">View Source</a>
+  </span>
+  <a id="AutoFixture_Idioms_IIdiomaticAssertion_Verify_" data-uid="AutoFixture.Idioms.IIdiomaticAssertion.Verify*"></a>
+  <h4 id="AutoFixture_Idioms_IIdiomaticAssertion_Verify_System_Reflection_Assembly___" data-uid="AutoFixture.Idioms.IIdiomaticAssertion.Verify(System.Reflection.Assembly[])">Verify(Assembly[])</h4>
+  <div class="markdown level1 summary"><p>Verifies that the idiomatic assertion can be verified for the specified assemblies.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Verify(params Assembly[] assemblies)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.Assembly</span>[]</td>
+        <td><span class="parametername">assemblies</span></td>
+        <td><p>The assemblies.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Idioms_IIdiomaticAssertion_Verify_System_Reflection_ConstructorInfo_.md&amp;value=---%0Auid%3A%20AutoFixture.Idioms.IIdiomaticAssertion.Verify(System.Reflection.ConstructorInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/Idioms/IIdiomaticAssertion.cs/#L89">View Source</a>
+  </span>
+  <a id="AutoFixture_Idioms_IIdiomaticAssertion_Verify_" data-uid="AutoFixture.Idioms.IIdiomaticAssertion.Verify*"></a>
+  <h4 id="AutoFixture_Idioms_IIdiomaticAssertion_Verify_System_Reflection_ConstructorInfo_" data-uid="AutoFixture.Idioms.IIdiomaticAssertion.Verify(System.Reflection.ConstructorInfo)">Verify(ConstructorInfo)</h4>
+  <div class="markdown level1 summary"><p>Verifies that the idiomatic assertion can be verified for the specified constructor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Verify(ConstructorInfo constructorInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.ConstructorInfo</span></td>
+        <td><span class="parametername">constructorInfo</span></td>
+        <td><p>The constructor.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Idioms_IIdiomaticAssertion_Verify_System_Reflection_ConstructorInfo___.md&amp;value=---%0Auid%3A%20AutoFixture.Idioms.IIdiomaticAssertion.Verify(System.Reflection.ConstructorInfo%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/Idioms/IIdiomaticAssertion.cs/#L77">View Source</a>
+  </span>
+  <a id="AutoFixture_Idioms_IIdiomaticAssertion_Verify_" data-uid="AutoFixture.Idioms.IIdiomaticAssertion.Verify*"></a>
+  <h4 id="AutoFixture_Idioms_IIdiomaticAssertion_Verify_System_Reflection_ConstructorInfo___" data-uid="AutoFixture.Idioms.IIdiomaticAssertion.Verify(System.Reflection.ConstructorInfo[])">Verify(ConstructorInfo[])</h4>
+  <div class="markdown level1 summary"><p>Verifies that the idiomatic assertion can be verified for the specified constructors.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Verify(params ConstructorInfo[] constructorInfos)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.ConstructorInfo</span>[]</td>
+        <td><span class="parametername">constructorInfos</span></td>
+        <td><p>The constructors.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Idioms_IIdiomaticAssertion_Verify_System_Reflection_FieldInfo_.md&amp;value=---%0Auid%3A%20AutoFixture.Idioms.IIdiomaticAssertion.Verify(System.Reflection.FieldInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/Idioms/IIdiomaticAssertion.cs/#L131">View Source</a>
+  </span>
+  <a id="AutoFixture_Idioms_IIdiomaticAssertion_Verify_" data-uid="AutoFixture.Idioms.IIdiomaticAssertion.Verify*"></a>
+  <h4 id="AutoFixture_Idioms_IIdiomaticAssertion_Verify_System_Reflection_FieldInfo_" data-uid="AutoFixture.Idioms.IIdiomaticAssertion.Verify(System.Reflection.FieldInfo)">Verify(FieldInfo)</h4>
+  <div class="markdown level1 summary"><p>Verifies that the idiomatic assertion can be verified for the specified field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Verify(FieldInfo fieldInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.FieldInfo</span></td>
+        <td><span class="parametername">fieldInfo</span></td>
+        <td><p>The field.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Idioms_IIdiomaticAssertion_Verify_System_Reflection_FieldInfo___.md&amp;value=---%0Auid%3A%20AutoFixture.Idioms.IIdiomaticAssertion.Verify(System.Reflection.FieldInfo%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/Idioms/IIdiomaticAssertion.cs/#L137">View Source</a>
+  </span>
+  <a id="AutoFixture_Idioms_IIdiomaticAssertion_Verify_" data-uid="AutoFixture.Idioms.IIdiomaticAssertion.Verify*"></a>
+  <h4 id="AutoFixture_Idioms_IIdiomaticAssertion_Verify_System_Reflection_FieldInfo___" data-uid="AutoFixture.Idioms.IIdiomaticAssertion.Verify(System.Reflection.FieldInfo[])">Verify(FieldInfo[])</h4>
+  <div class="markdown level1 summary"><p>Verifies that the idiomatic assertion can be verified for the specified fields.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Verify(params FieldInfo[] fieldInfos)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.FieldInfo</span>[]</td>
+        <td><span class="parametername">fieldInfos</span></td>
+        <td><p>The fields.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Idioms_IIdiomaticAssertion_Verify_System_Reflection_MemberInfo_.md&amp;value=---%0Auid%3A%20AutoFixture.Idioms.IIdiomaticAssertion.Verify(System.Reflection.MemberInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/Idioms/IIdiomaticAssertion.cs/#L71">View Source</a>
+  </span>
+  <a id="AutoFixture_Idioms_IIdiomaticAssertion_Verify_" data-uid="AutoFixture.Idioms.IIdiomaticAssertion.Verify*"></a>
+  <h4 id="AutoFixture_Idioms_IIdiomaticAssertion_Verify_System_Reflection_MemberInfo_" data-uid="AutoFixture.Idioms.IIdiomaticAssertion.Verify(System.Reflection.MemberInfo)">Verify(MemberInfo)</h4>
+  <div class="markdown level1 summary"><p>Verifies that the idiomatic assertion can be verified for the specified member.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Verify(MemberInfo memberInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.MemberInfo</span></td>
+        <td><span class="parametername">memberInfo</span></td>
+        <td><p>The member.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Idioms_IIdiomaticAssertion_Verify_System_Reflection_MemberInfo___.md&amp;value=---%0Auid%3A%20AutoFixture.Idioms.IIdiomaticAssertion.Verify(System.Reflection.MemberInfo%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/Idioms/IIdiomaticAssertion.cs/#L59">View Source</a>
+  </span>
+  <a id="AutoFixture_Idioms_IIdiomaticAssertion_Verify_" data-uid="AutoFixture.Idioms.IIdiomaticAssertion.Verify*"></a>
+  <h4 id="AutoFixture_Idioms_IIdiomaticAssertion_Verify_System_Reflection_MemberInfo___" data-uid="AutoFixture.Idioms.IIdiomaticAssertion.Verify(System.Reflection.MemberInfo[])">Verify(MemberInfo[])</h4>
+  <div class="markdown level1 summary"><p>Verifies that the idiomatic assertion can be verified for the specified members.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Verify(params MemberInfo[] memberInfos)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.MemberInfo</span>[]</td>
+        <td><span class="parametername">memberInfos</span></td>
+        <td><p>The members.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Idioms_IIdiomaticAssertion_Verify_System_Reflection_MethodInfo_.md&amp;value=---%0Auid%3A%20AutoFixture.Idioms.IIdiomaticAssertion.Verify(System.Reflection.MethodInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/Idioms/IIdiomaticAssertion.cs/#L107">View Source</a>
+  </span>
+  <a id="AutoFixture_Idioms_IIdiomaticAssertion_Verify_" data-uid="AutoFixture.Idioms.IIdiomaticAssertion.Verify*"></a>
+  <h4 id="AutoFixture_Idioms_IIdiomaticAssertion_Verify_System_Reflection_MethodInfo_" data-uid="AutoFixture.Idioms.IIdiomaticAssertion.Verify(System.Reflection.MethodInfo)">Verify(MethodInfo)</h4>
+  <div class="markdown level1 summary"><p>Verifies that the idiomatic assertion can be verified for the specified method.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Verify(MethodInfo methodInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.MethodInfo</span></td>
+        <td><span class="parametername">methodInfo</span></td>
+        <td><p>The method.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Idioms_IIdiomaticAssertion_Verify_System_Reflection_MethodInfo___.md&amp;value=---%0Auid%3A%20AutoFixture.Idioms.IIdiomaticAssertion.Verify(System.Reflection.MethodInfo%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/Idioms/IIdiomaticAssertion.cs/#L95">View Source</a>
+  </span>
+  <a id="AutoFixture_Idioms_IIdiomaticAssertion_Verify_" data-uid="AutoFixture.Idioms.IIdiomaticAssertion.Verify*"></a>
+  <h4 id="AutoFixture_Idioms_IIdiomaticAssertion_Verify_System_Reflection_MethodInfo___" data-uid="AutoFixture.Idioms.IIdiomaticAssertion.Verify(System.Reflection.MethodInfo[])">Verify(MethodInfo[])</h4>
+  <div class="markdown level1 summary"><p>Verifies that the idiomatic assertion can be verified for the specified methods.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Verify(params MethodInfo[] methodInfos)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.MethodInfo</span>[]</td>
+        <td><span class="parametername">methodInfos</span></td>
+        <td><p>The methods.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Idioms_IIdiomaticAssertion_Verify_System_Reflection_PropertyInfo_.md&amp;value=---%0Auid%3A%20AutoFixture.Idioms.IIdiomaticAssertion.Verify(System.Reflection.PropertyInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/Idioms/IIdiomaticAssertion.cs/#L125">View Source</a>
+  </span>
+  <a id="AutoFixture_Idioms_IIdiomaticAssertion_Verify_" data-uid="AutoFixture.Idioms.IIdiomaticAssertion.Verify*"></a>
+  <h4 id="AutoFixture_Idioms_IIdiomaticAssertion_Verify_System_Reflection_PropertyInfo_" data-uid="AutoFixture.Idioms.IIdiomaticAssertion.Verify(System.Reflection.PropertyInfo)">Verify(PropertyInfo)</h4>
+  <div class="markdown level1 summary"><p>Verifies that the idiomatic assertion can be verified for the specified property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Verify(PropertyInfo propertyInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.PropertyInfo</span></td>
+        <td><span class="parametername">propertyInfo</span></td>
+        <td><p>The property.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Idioms_IIdiomaticAssertion_Verify_System_Reflection_PropertyInfo___.md&amp;value=---%0Auid%3A%20AutoFixture.Idioms.IIdiomaticAssertion.Verify(System.Reflection.PropertyInfo%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/Idioms/IIdiomaticAssertion.cs/#L113">View Source</a>
+  </span>
+  <a id="AutoFixture_Idioms_IIdiomaticAssertion_Verify_" data-uid="AutoFixture.Idioms.IIdiomaticAssertion.Verify*"></a>
+  <h4 id="AutoFixture_Idioms_IIdiomaticAssertion_Verify_System_Reflection_PropertyInfo___" data-uid="AutoFixture.Idioms.IIdiomaticAssertion.Verify(System.Reflection.PropertyInfo[])">Verify(PropertyInfo[])</h4>
+  <div class="markdown level1 summary"><p>Verifies that the idiomatic assertion can be verified for the specified properties.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Verify(params PropertyInfo[] propertyInfos)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.PropertyInfo</span>[]</td>
+        <td><span class="parametername">propertyInfos</span></td>
+        <td><p>The properties.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Idioms_IIdiomaticAssertion_Verify_System_Type_.md&amp;value=---%0Auid%3A%20AutoFixture.Idioms.IIdiomaticAssertion.Verify(System.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/Idioms/IIdiomaticAssertion.cs/#L53">View Source</a>
+  </span>
+  <a id="AutoFixture_Idioms_IIdiomaticAssertion_Verify_" data-uid="AutoFixture.Idioms.IIdiomaticAssertion.Verify*"></a>
+  <h4 id="AutoFixture_Idioms_IIdiomaticAssertion_Verify_System_Type_" data-uid="AutoFixture.Idioms.IIdiomaticAssertion.Verify(System.Type)">Verify(Type)</h4>
+  <div class="markdown level1 summary"><p>Verifies that the idiomatic assertion can be verified for the specified type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Verify(Type type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>The type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Idioms_IIdiomaticAssertion_Verify_System_Type___.md&amp;value=---%0Auid%3A%20AutoFixture.Idioms.IIdiomaticAssertion.Verify(System.Type%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/Idioms/IIdiomaticAssertion.cs/#L41">View Source</a>
+  </span>
+  <a id="AutoFixture_Idioms_IIdiomaticAssertion_Verify_" data-uid="AutoFixture.Idioms.IIdiomaticAssertion.Verify*"></a>
+  <h4 id="AutoFixture_Idioms_IIdiomaticAssertion_Verify_System_Type___" data-uid="AutoFixture.Idioms.IIdiomaticAssertion.Verify(System.Type[])">Verify(Type[])</h4>
+  <div class="markdown level1 summary"><p>Verifies that the idiomatic assertion can be verified for the specified types.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Verify(params Type[] types)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span>[]</td>
+        <td><span class="parametername">types</span></td>
+        <td><p>The types.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="SemanticComparison.Fluent.LikenessSourceFactory.html#SemanticComparison_Fluent_LikenessSourceFactory_AsSource__1___0_">LikenessSourceFactory.AsSource&lt;TSource&gt;(TSource)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Idioms_IIdiomaticAssertion.md&amp;value=---%0Auid%3A%20AutoFixture.Idioms.IIdiomaticAssertion%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/Idioms/IIdiomaticAssertion.cs/#L17" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

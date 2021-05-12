@@ -1,0 +1,5293 @@
+{
+  "homepages": [],
+  "source_base_path": "/github/workspace",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoFakeItEasy.AutoFakeItEasyCustomization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoFakeItEasy.AutoFakeItEasyCustomization.html",
+          "hash": "bUSuwpvdQEJ3ms0Wt7iNxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoFakeItEasy.ConfigureFakeMembersCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoFakeItEasy.ConfigureFakeMembersCommand.html",
+          "hash": "QC+xGgZ0styW8Lkzs2UN4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoFakeItEasy.ConfigureSealedMembersCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoFakeItEasy.ConfigureSealedMembersCommand.html",
+          "hash": "4gK2mH7D7GX3ZKlsf4GJ7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoFakeItEasy.FakeItEasyBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoFakeItEasy.FakeItEasyBuilder.html",
+          "hash": "EX9W1DDCUW6QlNRS6TvBGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoFakeItEasy.FakeItEasyMethodQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoFakeItEasy.FakeItEasyMethodQuery.html",
+          "hash": "qmZ9/681OLJlkOJ++kWKZQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoFakeItEasy.FakeItEasyRelay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoFakeItEasy.FakeItEasyRelay.html",
+          "hash": "p96kSruBVD89eWJnYRrwgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoFakeItEasy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoFakeItEasy.html",
+          "hash": "eYT2Oth8wHA6MVhqYbdfBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoFakeItEasy2.AutoFakeItEasyCustomization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoFakeItEasy2.AutoFakeItEasyCustomization.html",
+          "hash": "Jpy9qpjLcq95n8hxbq0N8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoFakeItEasy2.FakeItEasyBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoFakeItEasy2.FakeItEasyBuilder.html",
+          "hash": "/xxBoBJMpCU21LR1PyZiZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoFakeItEasy2.FakeItEasyMethodQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoFakeItEasy2.FakeItEasyMethodQuery.html",
+          "hash": "zE0AhGqgqpD63sI3l/2Aug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoFakeItEasy2.FakeItEasyRelay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoFakeItEasy2.FakeItEasyRelay.html",
+          "hash": "FHJoKYaQbLnJYubTmn1ciw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoFakeItEasy2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoFakeItEasy2.html",
+          "hash": "DolDhnpoBnEtJX/j8MDUZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoMoq.AutoConfiguredMoqCustomization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoMoq.AutoConfiguredMoqCustomization.html",
+          "hash": "MARta7MPNTAzxw9JSJA9zA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoMoq.AutoMockPropertiesCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoMoq.AutoMockPropertiesCommand.html",
+          "hash": "7uuSIjM+RCknW5ms+P1aag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoMoq.AutoMoqCustomization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoMoq.AutoMoqCustomization.html",
+          "hash": "qWsjWeZl5icJlwlyW106rg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoMoq.GreedyMockConstructorQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoMoq.GreedyMockConstructorQuery.html",
+          "hash": "ILJ/m/7KFAmODhtf2LlWIg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoMoq.MockConstructorQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoMoq.MockConstructorQuery.html",
+          "hash": "NLTIPNo2UkC9i4xUV3SZhg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoMoq.MockPostprocessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoMoq.MockPostprocessor.html",
+          "hash": "2qQLcbi+Kr58KJIUnvMnuA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoMoq.MockRelay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoMoq.MockRelay.html",
+          "hash": "WLl107dR+0zy1uxbXovuIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoMoq.MockSealedPropertiesCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoMoq.MockSealedPropertiesCommand.html",
+          "hash": "SH3AN66h2GWwjTOz52j3/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoMoq.MockType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoMoq.MockType.html",
+          "hash": "HysOAnY7K7zcw+IS2e2Q8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoMoq.MockVirtualMethodsCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoMoq.MockVirtualMethodsCommand.html",
+          "hash": "AoNPvm2ElG5kEQFAXrZR+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoMoq.StubPropertiesCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoMoq.StubPropertiesCommand.html",
+          "hash": "mCWZz9GBrEwksgyiFsW3hQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoMoq.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoMoq.html",
+          "hash": "8ojqQRCJQaeZc4AObajC3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoNSubstitute.AutoConfiguredNSubstituteCustomization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoNSubstitute.AutoConfiguredNSubstituteCustomization.html",
+          "hash": "DbJmTkEThmFGy6aEK7ssqw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoNSubstitute.AutoNSubstituteCustomization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoNSubstitute.AutoNSubstituteCustomization.html",
+          "hash": "z/V4FhCPuN/CxfuEied2uQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoNSubstitute.CustomCallHandler.AutoFixtureValuesHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoNSubstitute.CustomCallHandler.AutoFixtureValuesHandler.html",
+          "hash": "w8h4BXKyuKlR4iF79R4Wfw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoNSubstitute.CustomCallHandler.CallResultCache.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoNSubstitute.CustomCallHandler.CallResultCache.html",
+          "hash": "SH86irX0cCiO+3ysulqlYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoNSubstitute.CustomCallHandler.CallResultCacheFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoNSubstitute.CustomCallHandler.CallResultCacheFactory.html",
+          "hash": "ZElzk8UVGrBf/l2ZS5X2pw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoNSubstitute.CustomCallHandler.CallResultData.ArgumentValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoNSubstitute.CustomCallHandler.CallResultData.ArgumentValue.html",
+          "hash": "rTa2QBv0dP/NhxAxLKn/Dg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoNSubstitute.CustomCallHandler.CallResultData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoNSubstitute.CustomCallHandler.CallResultData.html",
+          "hash": "NvBU4a0zkQ0ci2amxG+ojA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoNSubstitute.CustomCallHandler.CallResultResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoNSubstitute.CustomCallHandler.CallResultResolver.html",
+          "hash": "tK2Bn/Lfu3f8LHXn4bcWcg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoNSubstitute.CustomCallHandler.CallResultResolverFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoNSubstitute.CustomCallHandler.CallResultResolverFactory.html",
+          "hash": "SW0NMSEfB248xDLulfnnBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoNSubstitute.CustomCallHandler.ICallResultCache.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoNSubstitute.CustomCallHandler.ICallResultCache.html",
+          "hash": "IDL1eyE9/sOJiHjzhRqnjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoNSubstitute.CustomCallHandler.ICallResultCacheFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoNSubstitute.CustomCallHandler.ICallResultCacheFactory.html",
+          "hash": "pTzZpib+tF3ijdFtL1OWRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoNSubstitute.CustomCallHandler.ICallResultResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoNSubstitute.CustomCallHandler.ICallResultResolver.html",
+          "hash": "neOpQOrOmebjvpEyTSQZRA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoNSubstitute.CustomCallHandler.ICallResultResolverFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoNSubstitute.CustomCallHandler.ICallResultResolverFactory.html",
+          "hash": "ENwmBCp8qEpcFKXjVRgajQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoNSubstitute.CustomCallHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoNSubstitute.CustomCallHandler.html",
+          "hash": "xUG/o8/KBpChvF0ndUqkuw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoNSubstitute.NSubstituteBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoNSubstitute.NSubstituteBuilder.html",
+          "hash": "tvBTB2kw1hEkl+lIJjDh5w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoNSubstitute.NSubstituteMethodQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoNSubstitute.NSubstituteMethodQuery.html",
+          "hash": "+pYDZtAmKjfirk6i3lxiZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoNSubstitute.NSubstituteRegisterCallHandlerCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoNSubstitute.NSubstituteRegisterCallHandlerCommand.html",
+          "hash": "QRaf4w71INmh8SrGj15sWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoNSubstitute.NSubstituteSealedPropertiesCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoNSubstitute.NSubstituteSealedPropertiesCommand.html",
+          "hash": "4yZp5sCPEivYCjmZ0XQA5w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoNSubstitute.NSubstituteVirtualMethodsCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoNSubstitute.NSubstituteVirtualMethodsCommand.html",
+          "hash": "CuvBRcbkU0JgEsc+p+p7lA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoNSubstitute.SubstituteAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoNSubstitute.SubstituteAttribute.html",
+          "hash": "6eour98CdM4Gfk9JmwPBag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoNSubstitute.SubstituteAttributeRelay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoNSubstitute.SubstituteAttributeRelay.html",
+          "hash": "DIauMhLNn1Kq08ksdmFNog=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoNSubstitute.SubstituteRelay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoNSubstitute.SubstituteRelay.html",
+          "hash": "QGoHGIl7b2qFS+gpWpV1qA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoNSubstitute.SubstituteRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoNSubstitute.SubstituteRequest.html",
+          "hash": "t5LgZETgZkwQKTBHLPDYFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoNSubstitute.SubstituteRequestHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoNSubstitute.SubstituteRequestHandler.html",
+          "hash": "jahWt5BVrpL/Oza8gz0JkQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoNSubstitute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoNSubstitute.html",
+          "hash": "BlhDAL8adoZKGWK4AvS9wQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoPropertiesTarget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoPropertiesTarget.html",
+          "hash": "czSJWC7CARRJZiYeNEUFjQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoRhinoMock.AutoRhinoMockCustomization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoRhinoMock.AutoRhinoMockCustomization.html",
+          "hash": "7Gat0LfthYR+MeNSqaSgHQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoRhinoMock.RhinoMockAroundAdvice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoRhinoMock.RhinoMockAroundAdvice.html",
+          "hash": "VIVmyuzfrsQyHctPMu19LQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoRhinoMock.RhinoMockConstructorMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoRhinoMock.RhinoMockConstructorMethod.html",
+          "hash": "xPlxaHeHx1deem4XMZ4xgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoRhinoMock.RhinoMockConstructorQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoRhinoMock.RhinoMockConstructorQuery.html",
+          "hash": "836aCHpWoEXTi97y1ocUGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.AutoRhinoMock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.AutoRhinoMock.html",
+          "hash": "xjrhiPncI6okYH9x3YAHOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.BehaviorRoot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.BehaviorRoot.html",
+          "hash": "aixfXBN/q01VHn6vvT9JSw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.BooleanSwitch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.BooleanSwitch.html",
+          "hash": "TZ3S0xQgw5ta7OM5Cyu8ow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.ByteSequenceGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.ByteSequenceGenerator.html",
+          "hash": "G1/e2yEiU4rtzwh4/PvcbQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.CharSequenceGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.CharSequenceGenerator.html",
+          "hash": "GExk1++L2411veFlvqZSrw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.CollectionFiller.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.CollectionFiller.html",
+          "hash": "ZUOdtTJTumJlDT4N48g7mw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.CompositeCustomization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.CompositeCustomization.html",
+          "hash": "zPC3nyy5Jmj6dXHF18MAWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.ConstrainedStringGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.ConstrainedStringGenerator.html",
+          "hash": "b05crX6YAxDZ73lY17D6Hw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.ConstructorCustomization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.ConstructorCustomization.html",
+          "hash": "pkxMWZOgx2O2VVuXRPKb8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.CreateSeedExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.CreateSeedExtensions.html",
+          "hash": "l0druc0vU2zVKdhw/e4USg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.CurrentDateTimeCustomization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.CurrentDateTimeCustomization.html",
+          "hash": "dVZXhh3wUp8hxnCsbV6d4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.CurrentDateTimeGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.CurrentDateTimeGenerator.html",
+          "hash": "j+4TgRA0jQhWTmjWpGikmg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.CustomizationExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.CustomizationExtensions.html",
+          "hash": "tiwZHDXxb8kEaKGpZobsew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.CustomizationNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.CustomizationNode.html",
+          "hash": "7lM6KawQn4JhtATbEiUPLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.DataAnnotations.DataAnnotationsSupportNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.DataAnnotations.DataAnnotationsSupportNode.html",
+          "hash": "vV+T/QzW+D7DC4O0jcaDyA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.DataAnnotations.EnumDataTypeAttributeRelay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.DataAnnotations.EnumDataTypeAttributeRelay.html",
+          "hash": "CG0uqagXPBIo2Wp4yt2Vgg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.DataAnnotations.EnumRangedRequestRelay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.DataAnnotations.EnumRangedRequestRelay.html",
+          "hash": "Z3BF0RsnIW55ua0nnsxKIQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.DataAnnotations.MinAndMaxLengthAttributeRelay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.DataAnnotations.MinAndMaxLengthAttributeRelay.html",
+          "hash": "2Up/jyNS5o5bbDJxfrTS6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.DataAnnotations.NoDataAnnotationsCustomization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.DataAnnotations.NoDataAnnotationsCustomization.html",
+          "hash": "V9dsRL3/6SglBid4EDvQ5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.DataAnnotations.NumericRangedRequestRelay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.DataAnnotations.NumericRangedRequestRelay.html",
+          "hash": "4BBj4ip07s4bt1cDm94+1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.DataAnnotations.RangeAttributeRelay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.DataAnnotations.RangeAttributeRelay.html",
+          "hash": "6lk2V9392Aa5MIW4HugTsg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.DataAnnotations.RangedRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.DataAnnotations.RangedRequest.html",
+          "hash": "TKVzRMGUlw4D4XuxuXXgdw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.DataAnnotations.RegularExpressionAttributeRelay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.DataAnnotations.RegularExpressionAttributeRelay.html",
+          "hash": "MEzxQbB2wrCHaJzi+2kf1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.DataAnnotations.StringLengthAttributeRelay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.DataAnnotations.StringLengthAttributeRelay.html",
+          "hash": "7fcsRMWqv1MY2OILI3XVMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.DataAnnotations.TimeSpanRangedRequestRelay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.DataAnnotations.TimeSpanRangedRequestRelay.html",
+          "hash": "EkanJUWxEFuJXldOd8N7dA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.DataAnnotations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.DataAnnotations.html",
+          "hash": "DJpOklZt32LkgaibM1JihQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.DecimalSequenceGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.DecimalSequenceGenerator.html",
+          "hash": "KtpTZ9dfV3gIbzA0dO2QiA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.DefaultEngineParts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.DefaultEngineParts.html",
+          "hash": "vQLXcXqsoROv0HPqLVKCIw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.DefaultPrimitiveBuilders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.DefaultPrimitiveBuilders.html",
+          "hash": "WGfQ4wL2rSkqKaedN4XFmg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.DefaultRelays.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.DefaultRelays.html",
+          "hash": "EXxgytCweIyii8AOsH07Dw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.DictionaryFiller.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.DictionaryFiller.html",
+          "hash": "etRa+k0Kwsr+skUlyUF34w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.DisposableTrackingCustomization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.DisposableTrackingCustomization.html",
+          "hash": "jBQDw36jGXUJ+lcVUgnXaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.DomainName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.DomainName.html",
+          "hash": "ocQLVX/HVj3gPO8PWowpbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.DomainNameGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.DomainNameGenerator.html",
+          "hash": "N75YW38rqobmagEe9b61jg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.DoubleSequenceGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.DoubleSequenceGenerator.html",
+          "hash": "YEKAzrFCHGEKS2vCQ/R49w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Dsl.CompositeNodeComposer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Dsl.CompositeNodeComposer-1.html",
+          "hash": "p3i8Ssv0LQ3u5J2fVIOYhA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Dsl.CompositePostprocessComposer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Dsl.CompositePostprocessComposer-1.html",
+          "hash": "XHU/jGMNdm2axlI0w03ZeQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Dsl.ICustomizationComposer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Dsl.ICustomizationComposer-1.html",
+          "hash": "ZrwWpu6FuEzmECihWAiafg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Dsl.IFactoryComposer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Dsl.IFactoryComposer-1.html",
+          "hash": "OA9lLZ7iEjOBSLOQT0aEDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Dsl.IPostprocessComposer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Dsl.IPostprocessComposer-1.html",
+          "hash": "DE8FqzgFl81tmT3nbn0OdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Dsl.NodeComposer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Dsl.NodeComposer-1.html",
+          "hash": "kHB6Wui4jAzfkeE+N4gRCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Dsl.NullComposer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Dsl.NullComposer-1.html",
+          "hash": "FPbjiCFDUwXy76eTuYKc3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Dsl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Dsl.html",
+          "hash": "ARhuB1vMYc6im99xWpuTzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.ElementsBuilder-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.ElementsBuilder-1.html",
+          "hash": "VUfv8/AShyvGBmtFIom07g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.EmailAddressLocalPart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.EmailAddressLocalPart.html",
+          "hash": "N+j+ac0WNjvdQGDkTeDgHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.EmailAddressLocalPartGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.EmailAddressLocalPartGenerator.html",
+          "hash": "8Wcafeph7eRybNKR9eL5jA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.EnumGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.EnumGenerator.html",
+          "hash": "S24yTFd9vmIFf+ky7rv8gA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Fixture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Fixture.html",
+          "hash": "8xvnBXYC639CfBr2DBxsXw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.FixtureFreezer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.FixtureFreezer.html",
+          "hash": "kZ7pXDM4TqgxzG2eCTTwtg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.FixtureRegistrar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.FixtureRegistrar.html",
+          "hash": "AWAzt4WAG7tFF14RWNK+FQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.FixtureRepeater.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.FixtureRepeater.html",
+          "hash": "9N+a/bbMKHh7+0cA9GzqkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.FreezeOnMatchCustomization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.FreezeOnMatchCustomization.html",
+          "hash": "QSrV814hGPD/eWI9ZkC5pg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.FreezeSeedExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.FreezeSeedExtensions.html",
+          "hash": "UEzMJsk/dgxGWY0F3uA93A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.FreezingCustomization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.FreezingCustomization.html",
+          "hash": "EGvLmUeqUU1Oh1KaWo6EYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Generator-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Generator-1.html",
+          "hash": "XhEnFoQ0afyKwU1YX6k5VA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.GuidGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.GuidGenerator.html",
+          "hash": "14oXx79kfqbFYJBF1nai1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.ICustomization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.ICustomization.html",
+          "hash": "DuTVxtnmWwXluq89JrIH0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.IFixture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.IFixture.html",
+          "hash": "+pDJnfz18Y8qM+LV3vDq6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.IParameterCustomizationSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.IParameterCustomizationSource.html",
+          "hash": "nUquMraSlsHljMpgO+/dMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.IRequestMemberTypeResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.IRequestMemberTypeResolver.html",
+          "hash": "mxes7hNz4oqx7tKu/6GwSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Idioms.CompositeBehaviorExpectation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Idioms.CompositeBehaviorExpectation.html",
+          "hash": "bTnAFol/Xl4nCHaXkWncQg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Idioms.CompositeIdiomaticAssertion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Idioms.CompositeIdiomaticAssertion.html",
+          "hash": "MsAi7W1Mf8AOH6xY/aLo4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Idioms.ConstructorInitializedMemberAssertion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Idioms.ConstructorInitializedMemberAssertion.html",
+          "hash": "smmj9eHRhRpRUj5ZPxlQqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Idioms.ConstructorInitializedMemberException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Idioms.ConstructorInitializedMemberException.html",
+          "hash": "kz4OcbD09cevrOA58v1kmQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Idioms.CopyAndUpdateAssertion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Idioms.CopyAndUpdateAssertion.html",
+          "hash": "0MZ0hRv6wmAV3EzvJmti9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Idioms.CopyAndUpdateException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Idioms.CopyAndUpdateException.html",
+          "hash": "v2A77rfHDppT+pzkJiQ1mA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Idioms.EmptyGuidBehaviorExpectation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Idioms.EmptyGuidBehaviorExpectation.html",
+          "hash": "DrCTyFLrI9oynl8vey3stw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Idioms.EmptyStringBehaviorExpectation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Idioms.EmptyStringBehaviorExpectation.html",
+          "hash": "B2zDn2xO9xTiE48t0t8Hew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Idioms.EqualityComparerAssertion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Idioms.EqualityComparerAssertion.html",
+          "hash": "Eo0+WEEO0MWopEj+9+jK6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Idioms.EqualityComparerEqualsAssertion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Idioms.EqualityComparerEqualsAssertion.html",
+          "hash": "4NPFlNjmi1SSD4HzUqkUVA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Idioms.EqualityComparerEqualsNullAssertion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Idioms.EqualityComparerEqualsNullAssertion.html",
+          "hash": "07zDpAtHr80ZELAFbTuQSw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Idioms.EqualityComparerEqualsNullNullAssertion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Idioms.EqualityComparerEqualsNullNullAssertion.html",
+          "hash": "a2aSxfO1LhuH5ww+SqlxXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Idioms.EqualityComparerEqualsSelfAssertion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Idioms.EqualityComparerEqualsSelfAssertion.html",
+          "hash": "uKa1wNK97kF3j36jrKvoig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Idioms.EqualityComparerEqualsSymmetricAssertion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Idioms.EqualityComparerEqualsSymmetricAssertion.html",
+          "hash": "uOWwTyiTdIGesuFmOEJBfw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Idioms.EqualityComparerEqualsTransitiveAssertion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Idioms.EqualityComparerEqualsTransitiveAssertion.html",
+          "hash": "0i54lorvPbzEQaqf8rb5TQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Idioms.EqualityComparerGetHashCodeAssertion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Idioms.EqualityComparerGetHashCodeAssertion.html",
+          "hash": "kbe1qyakkgGqhCy2sIyAYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Idioms.EqualityComparerImplementationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Idioms.EqualityComparerImplementationException.html",
+          "hash": "Xyc6CGJ2hzHG8z0po3Z70Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Idioms.EqualsNewObjectAssertion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Idioms.EqualsNewObjectAssertion.html",
+          "hash": "MU72C3/N6WoC37HtD4gnDg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Idioms.EqualsNullAssertion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Idioms.EqualsNullAssertion.html",
+          "hash": "wNu12m04bSB40kk+zWcv3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Idioms.EqualsOverrideException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Idioms.EqualsOverrideException.html",
+          "hash": "hW76sH6CQ0XDtFkxp/gNqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Idioms.EqualsSelfAssertion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Idioms.EqualsSelfAssertion.html",
+          "hash": "2x87TV8n2ir/hluZp19uBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Idioms.EqualsSuccessiveAssertion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Idioms.EqualsSuccessiveAssertion.html",
+          "hash": "r8uquh2dzBsaZtv7JkAooA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Idioms.GetHashCodeOverrideException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Idioms.GetHashCodeOverrideException.html",
+          "hash": "IC9pe+zgZKs3aN+UAlpicA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Idioms.GetHashCodeSuccessiveAssertion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Idioms.GetHashCodeSuccessiveAssertion.html",
+          "hash": "LpvV143PlyX4bpcLxUmZQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Idioms.GuardClauseAssertion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Idioms.GuardClauseAssertion.html",
+          "hash": "h7wddMUuEX6zhdh3O81hrw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Idioms.GuardClauseException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Idioms.GuardClauseException.html",
+          "hash": "Qbpw/78MSIqC3txFu+xQKA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Idioms.IBehaviorExpectation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Idioms.IBehaviorExpectation.html",
+          "hash": "FnYnwNKKc4q2nQ3UG+Y9Mw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Idioms.IExpansion-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Idioms.IExpansion-1.html",
+          "hash": "dl3JhI8H1s3OYelrjEUVFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Idioms.IGuardClauseCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Idioms.IGuardClauseCommand.html",
+          "hash": "hLaiatBhaxYnM9MBJer5uw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Idioms.IIdiomaticAssertion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Idioms.IIdiomaticAssertion.html",
+          "hash": "I6Qf8ZIIl61EkUsXAyo/oA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Idioms.IdiomaticAssertion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Idioms.IdiomaticAssertion.html",
+          "hash": "BM2WqDN2nEc4N7Ib4QILvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Idioms.IndexedReplacement-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Idioms.IndexedReplacement-1.html",
+          "hash": "CwbOnRMwdBjSAt8npyzNeQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Idioms.MethodInvokeCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Idioms.MethodInvokeCommand.html",
+          "hash": "s86VYxsw8pBS4MWJ0ZFMgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Idioms.NullReferenceBehaviorExpectation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Idioms.NullReferenceBehaviorExpectation.html",
+          "hash": "6RjPtejQu+Uc2iTsDN7J2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Idioms.PropertySetCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Idioms.PropertySetCommand.html",
+          "hash": "D+PoYvTGvVRvY8lxqtrDAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Idioms.ReflectionExceptionUnwrappingCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Idioms.ReflectionExceptionUnwrappingCommand.html",
+          "hash": "qCPJCLiJQmgNt31qTGfGwQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Idioms.WhiteSpaceStringBehaviorExpectation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Idioms.WhiteSpaceStringBehaviorExpectation.html",
+          "hash": "ejuTsyL1xxVQE4ojqaFHxQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Idioms.WritablePropertyAssertion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Idioms.WritablePropertyAssertion.html",
+          "hash": "oN6x8j00jkId4G/Nowlpuw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Idioms.WritablePropertyException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Idioms.WritablePropertyException.html",
+          "hash": "uH5CPoc244dcwmzdkfGsUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Idioms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Idioms.html",
+          "hash": "IoNmLjLruuga9sAJLiavtw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.IncrementingDateTimeCustomization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.IncrementingDateTimeCustomization.html",
+          "hash": "nr+OvDe2WlphhmYScItH5w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Int16SequenceGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Int16SequenceGenerator.html",
+          "hash": "nxPlu/DlypR8EDwMzcS1Pg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Int32SequenceGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Int32SequenceGenerator.html",
+          "hash": "/4rrGyN1g+E2buGUI7mOqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Int64SequenceGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Int64SequenceGenerator.html",
+          "hash": "oH4ZJRpuUyT/IANWUBa0sg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.InvariantCultureGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.InvariantCultureGenerator.html",
+          "hash": "YUs3saYGvlwavFuCIce9QQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.AbstractTypeSpecification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.AbstractTypeSpecification.html",
+          "hash": "QvP70VMx93jaDpCrTRINng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.ActionSpecimenCommand-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.ActionSpecimenCommand-1.html",
+          "hash": "Y/ld8TUKG5u91Nkt/dFUdw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.AndPropertyQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.AndPropertyQuery.html",
+          "hash": "/MR1k3MjwRusigydqB/y1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.AndRequestSpecification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.AndRequestSpecification.html",
+          "hash": "HduF/edcSISSE/Cok3wN+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.AnyTypeSpecification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.AnyTypeSpecification.html",
+          "hash": "WPSA5iSAkEts5wCX7S/ypA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.ArrayFavoringConstructorQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.ArrayFavoringConstructorQuery.html",
+          "hash": "KJybgzx7iaVmPKwcyYEykQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.ArrayRelay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.ArrayRelay.html",
+          "hash": "IBf3XAByHr8p8IiUYqziZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.AutoPropertiesCommand-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.AutoPropertiesCommand-1.html",
+          "hash": "sGyZNcjXyxz1MiwVIcUGSw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.AutoPropertiesCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.AutoPropertiesCommand.html",
+          "hash": "I8oJQeAUdHXPdZZ8eZPJPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.BindingCommand-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.BindingCommand-2.html",
+          "hash": "aIweBngutZRmThma/wuuBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.CollectionRelay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.CollectionRelay.html",
+          "hash": "p6T/EdBaKKKt4GqHsK6FoA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.CollectionSpecification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.CollectionSpecification.html",
+          "hash": "cqwm7AcbrqYsCp02kk94fA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.CompositeMethodQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.CompositeMethodQuery.html",
+          "hash": "k1Fpp+p6rqmbScntHVE0Xg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.CompositeSpecimenBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.CompositeSpecimenBuilder.html",
+          "hash": "rTUtFTzsPtKvTFbo4BuGCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.CompositeSpecimenCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.CompositeSpecimenCommand.html",
+          "hash": "4RX/mcKNU0QC//zPMBfJiw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.ConstrainedStringRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.ConstrainedStringRequest.html",
+          "hash": "vIxTTEvN1P5zFIqU7SivOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.ConstructorMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.ConstructorMethod.html",
+          "hash": "WI9DKsN/pkJTxuQz5Lniww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.Criterion-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.Criterion-1.html",
+          "hash": "smGtormFY8HXNu1LTMMzOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.DelegateGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.DelegateGenerator.html",
+          "hash": "lOB3y8EY58egSvu7ImCQxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.DelegateSpecification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.DelegateSpecification.html",
+          "hash": "9dfU2ItS+iAYIqy4QYXh1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.DictionaryRelay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.DictionaryRelay.html",
+          "hash": "wGuySNhP3uy/n5BwuN2BlQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.DictionarySpecification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.DictionarySpecification.html",
+          "hash": "9rELaYaMM9b4w8NixroxoQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.DirectBaseTypeSpecification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.DirectBaseTypeSpecification.html",
+          "hash": "4ltOeAgnM3k6PSLolgUXUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.DisposableTracker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.DisposableTracker.html",
+          "hash": "DlZoNaXZCWpJJ96sq/rXWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.DisposableTrackingBehavior.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.DisposableTrackingBehavior.html",
+          "hash": "LIanPK8/UZjt037EdvWBpw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.EnumerableFavoringConstructorQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.EnumerableFavoringConstructorQuery.html",
+          "hash": "5Jk2XXLbH9P2Q1/TJ0Kapg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.EnumerableRelay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.EnumerableRelay.html",
+          "hash": "BsAAM/31ZU0al5vlKWTM3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.EnumeratorRelay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.EnumeratorRelay.html",
+          "hash": "Et3dXOmMhZABjnj5O18Rfw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.EqualRequestSpecification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.EqualRequestSpecification.html",
+          "hash": "Up3IsAYQWgTGUjvLzJJ2HA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.ExactTypeSpecification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.ExactTypeSpecification.html",
+          "hash": "qtdChNUCZpgjgiHeXH/fKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.FactoryMethodQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.FactoryMethodQuery.html",
+          "hash": "7iFyBOpCowECTWP2IjtDWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.FalseRequestSpecification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.FalseRequestSpecification.html",
+          "hash": "ygBvitizgkDecyZJUQbPmQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.FieldRequestRelay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.FieldRequestRelay.html",
+          "hash": "Z+Cu8rh9z7d0mZDUVXaIXg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.FieldSpecification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.FieldSpecification.html",
+          "hash": "Np2zqjCIpW2OcsFUiZPZ0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.FieldTypeAndNameCriterion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.FieldTypeAndNameCriterion.html",
+          "hash": "ngsRe/0bMTZN1qGB4+Bo9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.FilteringSpecimenBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.FilteringSpecimenBuilder.html",
+          "hash": "Yb+AjTZramh1BpIiRPRjZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.FiniteSequenceRelay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.FiniteSequenceRelay.html",
+          "hash": "Ukh0a/dgt7C+0PesJMRhtA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.FiniteSequenceRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.FiniteSequenceRequest.html",
+          "hash": "fdBTW+5evJV/OcevGyw6Nw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.FixedBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.FixedBuilder.html",
+          "hash": "7wZGHvJDA6OCuHd93RAqUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.GenericCollectionPropertyQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.GenericCollectionPropertyQuery.html",
+          "hash": "15w11u8DOnBs/X1efFUnzQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.GenericMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.GenericMethod.html",
+          "hash": "kdWX4rtRUuNaGCYLei8XqQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.GreedyConstructorQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.GreedyConstructorQuery.html",
+          "hash": "Zg+6J833bXIhMouVMjeKPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.HashSetSpecification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.HashSetSpecification.html",
+          "hash": "zff1rNtb9kfx/EQIl6oMrg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.IMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.IMethod.html",
+          "hash": "Xk+r8gEUOOtDmawS9MN0mw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.IMethodFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.IMethodFactory.html",
+          "hash": "K1ZfZLehs82ovS8Wyeb1Hg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.IMethodQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.IMethodQuery.html",
+          "hash": "3psJ9AJxEeNc+9e6KEzphQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.IPropertyQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.IPropertyQuery.html",
+          "hash": "bZqnmdiZihCMWzqIA6EdZQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.IRecursionHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.IRecursionHandler.html",
+          "hash": "9lDErKX9/TsI1k1c8brvBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.IRequestSpecification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.IRequestSpecification.html",
+          "hash": "ixFDhMZWtNgKDu3XsFP8Bw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.ISpecifiedSpecimenCommand-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.ISpecifiedSpecimenCommand-1.html",
+          "hash": "EyWOJqi06Zs0V8uKIjRzDw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.ISpecimenBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.ISpecimenBuilder.html",
+          "hash": "vb35zjzm0p6e/0bm7bUDPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.ISpecimenBuilderNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.ISpecimenBuilderNode.html",
+          "hash": "B4qd7CgJjBlyuhBF1sMKkw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.ISpecimenBuilderTransformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.ISpecimenBuilderTransformation.html",
+          "hash": "WI+MpR8EzJpI8pe8mhbGdw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.ISpecimenCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.ISpecimenCommand.html",
+          "hash": "YYJScM3Y+BhLltT4GcirYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.ISpecimenContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.ISpecimenContext.html",
+          "hash": "C3GtUOdXuG5G0GZ7sKHgWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.IllegalRequestException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.IllegalRequestException.html",
+          "hash": "2IMeo6FPyDgJGYY1mEXUXw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.ImplementedInterfaceSpecification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.ImplementedInterfaceSpecification.html",
+          "hash": "jImRcglG4Ym4zoYDY0833w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.InstanceMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.InstanceMethod.html",
+          "hash": "/FIkcC/Hj5Dz0omk86AZzw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.InstanceMethodQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.InstanceMethodQuery.html",
+          "hash": "tGpoCFhc4KbVlBsy27GweA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.IntPtrGuard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.IntPtrGuard.html",
+          "hash": "M7RwY/WtarFbtEonvo0zdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.InverseRequestSpecification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.InverseRequestSpecification.html",
+          "hash": "iiDlARN8O2hPXJJOSamjOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.ListFavoringConstructorQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.ListFavoringConstructorQuery.html",
+          "hash": "EpfGZl8FuHFsYXZyNR1j/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.ListRelay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.ListRelay.html",
+          "hash": "FSQm9bNfCoDB9a9olWS/yw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.ListSpecification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.ListSpecification.html",
+          "hash": "ZNAHoAVib5qbYquiBPEiig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.MemberInfoEqualityComparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.MemberInfoEqualityComparer.html",
+          "hash": "hd5QS2vdp+f7KxPdr2A+4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.MethodInvoker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.MethodInvoker.html",
+          "hash": "+Xl9I5UOr7JTUyLpMVpMOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.MissingParametersSupplyingMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.MissingParametersSupplyingMethod.html",
+          "hash": "iLI0Ydg2unhIw38f7wnmpw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.MissingParametersSupplyingMethodFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.MissingParametersSupplyingMethodFactory.html",
+          "hash": "BSiXgxKlUqjSsL0rRbLaaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.MissingParametersSupplyingStaticMethodFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.MissingParametersSupplyingStaticMethodFactory.html",
+          "hash": "I1w8uaO1+t0Vz3zl/jbFEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.ModestConstructorQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.ModestConstructorQuery.html",
+          "hash": "GG2dMkBawWBf4zXDn/Dz3Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.MultidimensionalArrayRelay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.MultidimensionalArrayRelay.html",
+          "hash": "vLxsQqCcO+A68moWIx8WLQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.MultipleRelay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.MultipleRelay.html",
+          "hash": "n/nYKaxQYGX8jQG5zoRDew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.MultipleRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.MultipleRequest.html",
+          "hash": "RSFJGVVqTqFHEiQPlkj7kw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.MultipleToEnumerableRelay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.MultipleToEnumerableRelay.html",
+          "hash": "do7pwD9z5GsChS/p0VjcvQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.MutableValueTypeWarningThrower.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.MutableValueTypeWarningThrower.html",
+          "hash": "31lTmF91tcL0DKok91YCTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.NoConstructorsSpecification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.NoConstructorsSpecification.html",
+          "hash": "Afe3MHMaS5laJGTmSf7uYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.NoSpecimen.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.NoSpecimen.html",
+          "hash": "Pt5beYX+dJ3VUUEPdVJkoQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.NoSpecimenOutputGuard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.NoSpecimenOutputGuard.html",
+          "hash": "ZvZYtFk5Kyu0czDrGmPG1Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.NullRecursionGuard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.NullRecursionGuard.html",
+          "hash": "b5+V9MtlDNHtGutHffnnQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.NullRecursionHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.NullRecursionHandler.html",
+          "hash": "J9rycR8cgg/B+Xg50hCwgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.NullableEnumRequestSpecification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.NullableEnumRequestSpecification.html",
+          "hash": "iDfSzs1dL8luAUf+AcKdzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.ObservableCollectionSpecification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.ObservableCollectionSpecification.html",
+          "hash": "pNye2cqOw9Ljrix22n/b9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.OmitArrayParameterRequestRelay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.OmitArrayParameterRequestRelay.html",
+          "hash": "HUGs78nBfLoUnXAwAhIBew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.OmitEnumerableParameterRequestRelay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.OmitEnumerableParameterRequestRelay.html",
+          "hash": "hI8f1K9MyeBbhKgXl6Ga8w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.OmitFixtureSpecification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.OmitFixtureSpecification.html",
+          "hash": "jh+/bdd9qu35XLVrQ28XHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.OmitOnRecursionGuard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.OmitOnRecursionGuard.html",
+          "hash": "U14pLZRh0DrTFNPevnfhYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.OmitOnRecursionHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.OmitOnRecursionHandler.html",
+          "hash": "jFZNlXTNYUb12/L38JSDpg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.OmitSpecimen.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.OmitSpecimen.html",
+          "hash": "2cO8JTXLlq+KWpct2GygEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.Omitter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.Omitter.html",
+          "hash": "rUED+pk+RlvKLa+0idPYsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.OrRequestSpecification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.OrRequestSpecification.html",
+          "hash": "ad5em0JZJZcyeVu9/az5/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.ParameterRequestRelay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.ParameterRequestRelay.html",
+          "hash": "y/Vse5Db8cI9X3QIXH+JDg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.ParameterSpecification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.ParameterSpecification.html",
+          "hash": "1XKoRSr/vumutonnQ5353Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.ParameterTypeAndNameCriterion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.ParameterTypeAndNameCriterion.html",
+          "hash": "O15u8k2lHm9JzT9z8Oy9pA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.Postprocessor-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.Postprocessor-1.html",
+          "hash": "EdnevbSrNLhwbh0WuUBB6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.Postprocessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.Postprocessor.html",
+          "hash": "3PlRvVl4q3MxpOQIdVZ4yA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.PropertyRequestRelay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.PropertyRequestRelay.html",
+          "hash": "K+44/SiLxawbmABoMJ7jaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.PropertySpecification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.PropertySpecification.html",
+          "hash": "DJMNpe5x1ZB8TRxHjlmX9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.PropertyTypeAndNameCriterion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.PropertyTypeAndNameCriterion.html",
+          "hash": "fFUpMw8yOH+cmO1M8N8QnQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.RangedNumberRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.RangedNumberRequest.html",
+          "hash": "P99Dh++lFtS0edcOKilbHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.RangedSequenceRelay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.RangedSequenceRelay.html",
+          "hash": "JP7iGmTCl8jMRv5J8VVstg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.RangedSequenceRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.RangedSequenceRequest.html",
+          "hash": "I6TvaYEqa4Asb5dKBU89lw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.ReadOnlyCollectionRelay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.ReadOnlyCollectionRelay.html",
+          "hash": "WdvRisVKJZofHoi2BfX61w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.ReadonlyCollectionPropertiesCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.ReadonlyCollectionPropertiesCommand.html",
+          "hash": "/CsInqDuBd18llPDdDlgKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.ReadonlyCollectionPropertiesSpecification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.ReadonlyCollectionPropertiesSpecification.html",
+          "hash": "NHjwJsRoqGvyfKmAr4igrw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.ReadonlyPropertyQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.ReadonlyPropertyQuery.html",
+          "hash": "BsxpeZ3Fr+VaOtQhAIleZw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.RecursionGuard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.RecursionGuard.html",
+          "hash": "KHkQYIGAm5/sHGDq2OZrkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.RegularExpressionRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.RegularExpressionRequest.html",
+          "hash": "m5JplfX+fXrG3FYxUE6hJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.RequestTraceEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.RequestTraceEventArgs.html",
+          "hash": "Eg2fBZRPSZTEEBMiDrveyw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.SeedIgnoringRelay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.SeedIgnoringRelay.html",
+          "hash": "ZjoFWgYx93XDrqImScRLSg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.SeedRequestSpecification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.SeedRequestSpecification.html",
+          "hash": "4wVVFXVr2IwVp8mLdx+q+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.SeededFactory-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.SeededFactory-1.html",
+          "hash": "0arwajSm/UAZx/UAhrXnJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.SeededRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.SeededRequest.html",
+          "hash": "+SexT+zVgRhreOylfb/6MA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.SortedDictionarySpecification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.SortedDictionarySpecification.html",
+          "hash": "Fss36tI9rHTar2UFcUNVog=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.SortedListSpecification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.SortedListSpecification.html",
+          "hash": "eAxSeIpm88bFwQ2hqTkpTQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.SortedSetSpecification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.SortedSetSpecification.html",
+          "hash": "DjGDx0HFA8FItZkRg0yOtQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.SpecifiedNullCommand-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.SpecifiedNullCommand-2.html",
+          "hash": "gt4nPkoAAmSkkc/VieeYUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.SpecimenBuilderNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.SpecimenBuilderNode.html",
+          "hash": "1RTaYmHojV7nS2PobZriJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.SpecimenBuilderNodeFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.SpecimenBuilderNodeFactory.html",
+          "hash": "TR33KhdhZWq1bVx8cHw0pg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.SpecimenContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.SpecimenContext.html",
+          "hash": "YY8mW5QDORvTKYqX9bumog=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.SpecimenCreatedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.SpecimenCreatedEventArgs.html",
+          "hash": "HJUKohN7fVGGIc36/08j5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.SpecimenFactory-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.SpecimenFactory-1.html",
+          "hash": "BqBlsZtF6s1fve1waHBlpQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.SpecimenFactory-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.SpecimenFactory-2.html",
+          "hash": "XcaaHkXbT2lFmfQmE6vohQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.SpecimenFactory-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.SpecimenFactory-3.html",
+          "hash": "VzxHB0WYSvru3n7w37Q+Fg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.SpecimenFactory-4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.SpecimenFactory-4.html",
+          "hash": "WrFzIOWvOCeuaA6hfS8Tkw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.SpecimenFactory-5.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.SpecimenFactory-5.html",
+          "hash": "Em3Ob7Q8Lx1s7wYn13wQyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.StableFiniteSequenceRelay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.StableFiniteSequenceRelay.html",
+          "hash": "lBU3h3fF0Jhprix80wTt0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.StaticMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.StaticMethod.html",
+          "hash": "0spvYvvqa/zqrcwfkjZSXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.TemplateMethodQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.TemplateMethodQuery.html",
+          "hash": "C39aVtr3ufdJoPutyTQ38Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.TerminatingSpecimenBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.TerminatingSpecimenBuilder.html",
+          "hash": "JLHRofzZYWs8Y5wuC90MKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.TerminatingWithPathSpecimenBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.TerminatingWithPathSpecimenBuilder.html",
+          "hash": "FZ4XGcIJUFOawfrOHzX0uw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.ThrowingRecursionGuard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.ThrowingRecursionGuard.html",
+          "hash": "wil2Ymo7oMroV3B87ZqB0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.ThrowingRecursionHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.ThrowingRecursionHandler.html",
+          "hash": "/WUYmjUICkTN36K8l08Tig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.TraceWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.TraceWriter.html",
+          "hash": "QXO2dUPGYQ0wCnfUpwZPKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.TracingBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.TracingBuilder.html",
+          "hash": "Qh6lpufJnmHkPNJMqRcSsA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.TrueRequestSpecification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.TrueRequestSpecification.html",
+          "hash": "vhojd/TB8QS7+zlmCiUsrQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.TypeArgumentsCannotBeInferredException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.TypeArgumentsCannotBeInferredException.html",
+          "hash": "tM2abxjQZ/PDlsa0wxEKNA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.TypeRelay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.TypeRelay.html",
+          "hash": "lbVyfoYiySm6MXwhx5aZ9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.UnspecifiedSpecimenCommand-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.UnspecifiedSpecimenCommand-1.html",
+          "hash": "WND1LxqueEg1d+oQ9T/iGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.ValueTypeSpecification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.ValueTypeSpecification.html",
+          "hash": "6bKZIdf8vLMKY6+lhQw81A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Kernel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Kernel.html",
+          "hash": "76wnLCh8R2Faen6264/7CA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.LambdaExpressionGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.LambdaExpressionGenerator.html",
+          "hash": "X4c2qgjwQslsBvgU+fMYFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.LazyRelay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.LazyRelay.html",
+          "hash": "outj4wfARWEnC4Q42DlXCA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.MailAddressGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.MailAddressGenerator.html",
+          "hash": "O1z5sROiQE+9hiBTbloYtw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.MapCreateManyToEnumerable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.MapCreateManyToEnumerable.html",
+          "hash": "sQWSDonJNwDGAPWdG8u7xw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.MultipleCustomization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.MultipleCustomization.html",
+          "hash": "OaXjo9PQwf9Uulaw3FHxWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.MutableValueTypeGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.MutableValueTypeGenerator.html",
+          "hash": "AmJ81JPsvMNQXLjWUWtCGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.NUnit2.Addins.Addin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.NUnit2.Addins.Addin.html",
+          "hash": "8GZFhmbkQ1kJhjm5umwRrQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.NUnit2.Addins.Builders.AutoDataProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.NUnit2.Addins.Builders.AutoDataProvider.html",
+          "hash": "wgnkiH5T6XujEAPs2e+76A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.NUnit2.Addins.Builders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.NUnit2.Addins.Builders.html",
+          "hash": "Od8y2T7oFgXM1nG9ir54fQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.NUnit2.Addins.Constants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.NUnit2.Addins.Constants.html",
+          "hash": "ktJQh3JURbSbCgeONLRGOw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.NUnit2.Addins.DataAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.NUnit2.Addins.DataAttribute.html",
+          "hash": "cH5WxbBK29+3TFlIu1huIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.NUnit2.Addins.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.NUnit2.Addins.html",
+          "hash": "kzg6BXtKbx8TXkTZGN2Guw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.NUnit2.AutoDataAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.NUnit2.AutoDataAttribute.html",
+          "hash": "sCo98wcE4yAq44krFJ+zbQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.NUnit2.CompositeDataAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.NUnit2.CompositeDataAttribute.html",
+          "hash": "2GY2CWenR36zaqkkyevQdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.NUnit2.CustomizeAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.NUnit2.CustomizeAttribute.html",
+          "hash": "6cWp6OKG0P7T6vAnCntUjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.NUnit2.FavorArraysAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.NUnit2.FavorArraysAttribute.html",
+          "hash": "JkM6oL+OV7zt24h4co7KTQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.NUnit2.FavorEnumerablesAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.NUnit2.FavorEnumerablesAttribute.html",
+          "hash": "AckfC83WE5MA+zsFMk091g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.NUnit2.FavorListsAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.NUnit2.FavorListsAttribute.html",
+          "hash": "nfVasNdewT+d70OWaoW7sw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.NUnit2.FrozenAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.NUnit2.FrozenAttribute.html",
+          "hash": "YuvWwfW+zf2m3WMQq+SUmg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.NUnit2.GreedyAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.NUnit2.GreedyAttribute.html",
+          "hash": "Q/ymoKBJScUpfDSgGZTmHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.NUnit2.Matching.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.NUnit2.Matching.html",
+          "hash": "fdqIhxhbBYHFaIO+TbuYkQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.NUnit2.ModestAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.NUnit2.ModestAttribute.html",
+          "hash": "le1XBExtQp6JVkarVbwArA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.NUnit2.NoAutoPropertiesAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.NUnit2.NoAutoPropertiesAttribute.html",
+          "hash": "ceNFCkkWqwGvvIiGCvyFcA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.NUnit2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.NUnit2.html",
+          "hash": "Yw8qaXBiRU0v3eiJ9tEZxQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.NUnit3.AutoDataAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.NUnit3.AutoDataAttribute.html",
+          "hash": "KiOh6/k2XK50vOklie/WYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.NUnit3.CustomizeAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.NUnit3.CustomizeAttribute.html",
+          "hash": "uQDlrIBFRAPbmwyG2GbSjQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.NUnit3.FavorArraysAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.NUnit3.FavorArraysAttribute.html",
+          "hash": "AqPuGhaAsRP5DOov0m7grA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.NUnit3.FavorEnumerablesAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.NUnit3.FavorEnumerablesAttribute.html",
+          "hash": "xglKxGl9ljP271r0CylnDw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.NUnit3.FavorListsAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.NUnit3.FavorListsAttribute.html",
+          "hash": "y1y0ULcheWVXshzN3rLP7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.NUnit3.FixedNameTestMethodBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.NUnit3.FixedNameTestMethodBuilder.html",
+          "hash": "Qnhwror4rOrFfULE3PpeWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.NUnit3.FrozenAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.NUnit3.FrozenAttribute.html",
+          "hash": "uGPvZTQFzmWEgBA6n+ivaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.NUnit3.GreedyAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.NUnit3.GreedyAttribute.html",
+          "hash": "N3SfliXjDzDXfLsYRU618g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.NUnit3.ITestMethodBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.NUnit3.ITestMethodBuilder.html",
+          "hash": "NvLcOGV4SRlz/xfb32Jnzw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.NUnit3.InlineAutoDataAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.NUnit3.InlineAutoDataAttribute.html",
+          "hash": "0vTVWdd/D7y4EA0arU8IFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.NUnit3.Matching.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.NUnit3.Matching.html",
+          "hash": "A1x4ZTign98f83HNvVg/TQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.NUnit3.ModestAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.NUnit3.ModestAttribute.html",
+          "hash": "H/o7aKJGMLpZNHiwmljgZw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.NUnit3.NoAutoPropertiesAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.NUnit3.NoAutoPropertiesAttribute.html",
+          "hash": "4yBDoBKfvHWdbhM/YATjfA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.NUnit3.VolatileNameTestMethodBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.NUnit3.VolatileNameTestMethodBuilder.html",
+          "hash": "7mHZbvCiCD/oCZfB49Nj7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.NUnit3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.NUnit3.html",
+          "hash": "ZfRHgYEFlGRDfne2J29YSA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.NoAutoPropertiesCustomization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.NoAutoPropertiesCustomization.html",
+          "hash": "t+k7SvjZD0Tm5LT/5mrcpA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.NullRecursionBehavior.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.NullRecursionBehavior.html",
+          "hash": "tfPkBeeU1qhF/rWEJo+d8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.NumericSequenceGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.NumericSequenceGenerator.html",
+          "hash": "56iuiXkqWp1LLC9M26nlaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.NumericSequencePerTypeCustomization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.NumericSequencePerTypeCustomization.html",
+          "hash": "hoPF+foHlrpl5ex9wEeLgg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.ObjectCreationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.ObjectCreationException.html",
+          "hash": "iYHmiIKpHx1nIGF/SxdA2A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.OmitOnRecursionBehavior.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.OmitOnRecursionBehavior.html",
+          "hash": "pW5JZH7Xjd23Ra+DS9jsTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.RandomBooleanSequenceCustomization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.RandomBooleanSequenceCustomization.html",
+          "hash": "4MCU/VdZyygWaBPz8yPNdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.RandomBooleanSequenceGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.RandomBooleanSequenceGenerator.html",
+          "hash": "FWVuohQk35ZruEjHAKQsKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.RandomCharSequenceGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.RandomCharSequenceGenerator.html",
+          "hash": "iHqT9SBEiifFCF+CpIijww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.RandomDateTimeSequenceGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.RandomDateTimeSequenceGenerator.html",
+          "hash": "9VIs7o3kdxxkJ7abMLKh+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.RandomNumericSequenceCustomization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.RandomNumericSequenceCustomization.html",
+          "hash": "o7jT0InBl+lA49RdvdCzLg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.RandomNumericSequenceGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.RandomNumericSequenceGenerator.html",
+          "hash": "4PsDL2kmqFumLv4S486hGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.RandomRangedNumberCustomization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.RandomRangedNumberCustomization.html",
+          "hash": "XJmCMhOm4JZpvu2hCJElvQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.RandomRangedNumberGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.RandomRangedNumberGenerator.html",
+          "hash": "mp2C7YgJirqzwMJi0ZqpoQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.RangedNumberGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.RangedNumberGenerator.html",
+          "hash": "RF7mNPToq0qlEvsDXb2D7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.ReadonlyCollectionPropertiesBehavior.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.ReadonlyCollectionPropertiesBehavior.html",
+          "hash": "x8mdSSGq0Uu8rpVscE4snw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.RegularExpressionGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.RegularExpressionGenerator.html",
+          "hash": "A1Tjz+qch6k5+CGNRvosXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.RequestMemberTypeResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.RequestMemberTypeResolver.html",
+          "hash": "AQmfbU7MWJGFR//wQ8edYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.ResidueCollectorNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.ResidueCollectorNode.html",
+          "hash": "9imDOpTyYRZnLZclVtKrkw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.SByteSequenceGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.SByteSequenceGenerator.html",
+          "hash": "/eS2GdKKu/N2khKhaMV2GQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.SingleSequenceGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.SingleSequenceGenerator.html",
+          "hash": "+Capem8KF4sTEu5UDONR1Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.SingletonSpecimenBuilderNodeStackAdapterCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.SingletonSpecimenBuilderNodeStackAdapterCollection.html",
+          "hash": "HM2HkaLzEfcR/hkGoNejkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.SpecimenBuilderNodeAdapterCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.SpecimenBuilderNodeAdapterCollection.html",
+          "hash": "fs7byQHJoqjJ+AYpCyWUhA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.SpecimenBuilderNodeEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.SpecimenBuilderNodeEventArgs.html",
+          "hash": "9qSTZmaGs+JODxlAVUsqYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.SpecimenCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.SpecimenCommand.html",
+          "hash": "cX6o+R0hw1OsxdLMMT8HPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.SpecimenFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.SpecimenFactory.html",
+          "hash": "7ZWtMczzhQmvUb+n1OoKlw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.SpecimenQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.SpecimenQuery.html",
+          "hash": "+LDHV3wdxEUMbAyS4K+Z7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.StableFiniteSequenceCustomization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.StableFiniteSequenceCustomization.html",
+          "hash": "6ZXfGVsvf9by2OMecT06DQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.StrictlyMonotonicallyIncreasingDateTimeGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.StrictlyMonotonicallyIncreasingDateTimeGenerator.html",
+          "hash": "DKZ5/3qlyFn89JpEYScQWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.StringGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.StringGenerator.html",
+          "hash": "IWfEPZVdJ/5Pb1nCx1XSGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.StringSeedRelay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.StringSeedRelay.html",
+          "hash": "bEzp24eZ3v81M2RdPysFzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.SupportMutableValueTypesCustomization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.SupportMutableValueTypesCustomization.html",
+          "hash": "SrksxhTiN+IDvUGg4SW9mA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.TaskGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.TaskGenerator.html",
+          "hash": "jOCJrlLPqUHmNyQPEEjeVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.ThrowingRecursionBehavior.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.ThrowingRecursionBehavior.html",
+          "hash": "ypNXuZ4dF6vW1W0+K1MPbQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.TracingBehavior.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.TracingBehavior.html",
+          "hash": "JHDcnwSkOItrNC1YMeCgig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.TypeGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.TypeGenerator.html",
+          "hash": "vOFQZTD/QsvuBggTajWs2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.UInt16SequenceGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.UInt16SequenceGenerator.html",
+          "hash": "t57NOSIPmHF/iYgsZh6YVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.UInt32SequenceGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.UInt32SequenceGenerator.html",
+          "hash": "I/0NO8lJz5GYvQ+IdRBmlA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.UInt64SequenceGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.UInt64SequenceGenerator.html",
+          "hash": "DnCqoNkcUU7MikOyVBxSYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.UnwrapMemberRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.UnwrapMemberRequest.html",
+          "hash": "FMAbWKirnBGoBIbS+U6qOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.UriGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.UriGenerator.html",
+          "hash": "LVQLUViFvSVDB8Zsr2nRBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.UriScheme.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.UriScheme.html",
+          "hash": "ma8duKDITdhAS+EVE+Kqww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.UriSchemeGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.UriSchemeGenerator.html",
+          "hash": "WsTzj+p8Dm/z2Ti8a5nClg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Utf8EncodingGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Utf8EncodingGenerator.html",
+          "hash": "eu+2MhJkM/bbPV2w72xZQw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Xunit.AutoDataAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Xunit.AutoDataAttribute.html",
+          "hash": "lTf6kVnQb6jKlj2QmevkWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Xunit.CompositeDataAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Xunit.CompositeDataAttribute.html",
+          "hash": "RqpAOVJ4ih5+OZYLWODVeQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Xunit.CustomizeAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Xunit.CustomizeAttribute.html",
+          "hash": "ItgGiSlN9b2qnfeFQnC49g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Xunit.FavorArraysAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Xunit.FavorArraysAttribute.html",
+          "hash": "uuSjtO4RSEJDT3wbkaBsvw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Xunit.FavorEnumerablesAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Xunit.FavorEnumerablesAttribute.html",
+          "hash": "PHaJn+EVmslg/R//Jq76Ng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Xunit.FavorListsAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Xunit.FavorListsAttribute.html",
+          "hash": "kMekMSdM2qnn3LJnT1AbPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Xunit.FrozenAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Xunit.FrozenAttribute.html",
+          "hash": "kjC1pQebzwduC9oIWjP9Vg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Xunit.GreedyAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Xunit.GreedyAttribute.html",
+          "hash": "T76JNKJUb4xOZG8RwdnwxQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Xunit.InlineAutoDataAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Xunit.InlineAutoDataAttribute.html",
+          "hash": "BTd4+qYDnuNafhfWGKzJWA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Xunit.Matching.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Xunit.Matching.html",
+          "hash": "A/xcGCfjaXwpyc/Bv0ZrwQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Xunit.ModestAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Xunit.ModestAttribute.html",
+          "hash": "6oC+rPoLdd9rJ8PKd6FLjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Xunit.NoAutoPropertiesAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Xunit.NoAutoPropertiesAttribute.html",
+          "hash": "in2/N5dLARKVVfs1gaiScw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Xunit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Xunit.html",
+          "hash": "qotsmRBqETnlh+GVA4FhJg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Xunit2.AutoDataAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Xunit2.AutoDataAttribute.html",
+          "hash": "0E6lrOt79Lfx7WbDtvO54w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Xunit2.CompositeDataAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Xunit2.CompositeDataAttribute.html",
+          "hash": "cEI42YJXQFpi1Cd2AqzTAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Xunit2.CustomizeAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Xunit2.CustomizeAttribute.html",
+          "hash": "1hGwJIlmSaVXCfJ3oUDH/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Xunit2.FavorArraysAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Xunit2.FavorArraysAttribute.html",
+          "hash": "vu+Yxue8Vq1fchYYPMPwjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Xunit2.FavorEnumerablesAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Xunit2.FavorEnumerablesAttribute.html",
+          "hash": "0y54jod1QYT1k/dYYEuzBg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Xunit2.FavorListsAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Xunit2.FavorListsAttribute.html",
+          "hash": "KSprjZPDEHCWJ3OdYgGYSg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Xunit2.FrozenAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Xunit2.FrozenAttribute.html",
+          "hash": "lgM6C8Al2XTNvrF6zalynQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Xunit2.GreedyAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Xunit2.GreedyAttribute.html",
+          "hash": "dycdqPmMNtut3zSmHKXRxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Xunit2.InlineAutoDataAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Xunit2.InlineAutoDataAttribute.html",
+          "hash": "a6cj74LZVkQppgKOlFc2sQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Xunit2.Matching.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Xunit2.Matching.html",
+          "hash": "ehn8t01vT5I6GRBQrmTL/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Xunit2.MemberAutoDataAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Xunit2.MemberAutoDataAttribute.html",
+          "hash": "lztG3Mm8EGMQZmdWxZqFzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Xunit2.ModestAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Xunit2.ModestAttribute.html",
+          "hash": "QXdynkPuq7iGG6dhLvdXYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Xunit2.NoAutoPropertiesAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Xunit2.NoAutoPropertiesAttribute.html",
+          "hash": "Z/K7ZN7Qu7Fl7B+R9dA0+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Xunit2.NoPreDiscoveryDataDiscoverer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Xunit2.NoPreDiscoveryDataDiscoverer.html",
+          "hash": "62cptCgVS3/a3ftufXK46A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.Xunit2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.Xunit2.html",
+          "hash": "ZPDa8FnS7uBk6l4rt34OLw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AutoFixture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AutoFixture.html",
+          "hash": "D6zsD0lCPcPCeT1hz+9Pdg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SemanticComparison.FalseSpecification-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SemanticComparison.FalseSpecification-1.html",
+          "hash": "cbagJBdDWnwtzz5qVQXlqw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SemanticComparison.Fluent.LikenessSource-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SemanticComparison.Fluent.LikenessSource-1.html",
+          "hash": "sdd94D8QW+jGWiaO/79rpQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SemanticComparison.Fluent.LikenessSourceFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SemanticComparison.Fluent.LikenessSourceFactory.html",
+          "hash": "iif6gRg6WJCpEdB+tGk2Ag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SemanticComparison.Fluent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SemanticComparison.Fluent.html",
+          "hash": "51GceKjUCDqTSetK5D1S3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SemanticComparison.IMemberComparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SemanticComparison.IMemberComparer.html",
+          "hash": "zV44tGxhXkZvSKFFge6bww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SemanticComparison.ISpecification-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SemanticComparison.ISpecification-1.html",
+          "hash": "ZpjPFKGaQuZEZbLDINhGqw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SemanticComparison.Likeness-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SemanticComparison.Likeness-1.html",
+          "hash": "Yfw1xaDyKy/ZwhTz2qG9xw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SemanticComparison.Likeness-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SemanticComparison.Likeness-2.html",
+          "hash": "6btDhlIwYNJOIEwNkUmsZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SemanticComparison.LikenessException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SemanticComparison.LikenessException.html",
+          "hash": "LRPZ/hdBLGb1dfDA4URwSw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SemanticComparison.LikenessMember-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SemanticComparison.LikenessMember-2.html",
+          "hash": "62HtIDRyiiTRItsVIUCpDw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SemanticComparison.MemberComparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SemanticComparison.MemberComparer.html",
+          "hash": "uxlWMEE9qnZvuDhU6OlH5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SemanticComparison.MemberInfoNameComparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SemanticComparison.MemberInfoNameComparer.html",
+          "hash": "zt5f9vc2W/pyc/nQ/NWKSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SemanticComparison.ProxyCreationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SemanticComparison.ProxyCreationException.html",
+          "hash": "mWqww4BtOAQsT1ArmsZrwQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SemanticComparison.SemanticComparer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SemanticComparison.SemanticComparer-1.html",
+          "hash": "0WCcoNPN21itTN4CAuZjnw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SemanticComparison.SemanticComparer-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SemanticComparison.SemanticComparer-2.html",
+          "hash": "PGk8TfCmjV5Ym+PbB6NrZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SemanticComparison.TrueSpecification-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SemanticComparison.TrueSpecification-1.html",
+          "hash": "U8nZvo5JHQKqfn/ZJehuCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SemanticComparison.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SemanticComparison.html",
+          "hash": "ak/iRSgXKBI2zoBUwuHYAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "F2b5G4xhW1v4rSh0GFK3Kg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "i3biYPXREBGbnMOyW1oOXg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "IEAy70uDidxuC+9g7uLmug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "gB8AESyvNru97tzIZofEEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "favicon.ico"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "cvKP7osUPYM3yKySE1hPVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "y2gsNRVRM/rjPaHLD0gLHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 428,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

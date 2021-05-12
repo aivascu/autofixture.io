@@ -1,0 +1,753 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Likeness&lt;TSource, TDestination&gt;
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Likeness&lt;TSource, TDestination&gt;
+   ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SemanticComparison.Likeness`2">
+  
+  
+  <h1 id="SemanticComparison_Likeness_2" data-uid="SemanticComparison.Likeness`2" class="text-break">Class Likeness&lt;TSource, TDestination&gt;
+  </h1>
+  <div class="markdown level0 summary"><p>Provides convention-based object equality comparison for use when comparing two
+semantically equivalent, but different, objects.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Likeness&lt;TSource, TDestination&gt;</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.IEquatable</span>&lt;TDestination&gt;</div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SemanticComparison.html">SemanticComparison</a></h6>
+  <h6><strong>Assembly</strong>: SemanticComparison.dll</h6>
+  <h5 id="SemanticComparison_Likeness_2_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Likeness&lt;TSource, TDestination&gt; : IEquatable&lt;TDestination&gt;</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TSource</span></td>
+        <td><p>The type of the source value (against which the destination value will be compared for
+equality).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TDestination</span></td>
+        <td><p>The type of the destination value which will be compared for equality against the source
+value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/SemanticComparison/new/57453c74d79b7119b44991e19a8713dd410347aa/apiSpec/new?filename=SemanticComparison_Likeness_2__ctor__0_.md&amp;value=---%0Auid%3A%20SemanticComparison.Likeness%602.%23ctor(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/SemanticComparison/blob/57453c74d79b7119b44991e19a8713dd410347aa/Src/SemanticComparison/Likeness.cs/#L33">View Source</a>
+  </span>
+  <a id="SemanticComparison_Likeness_2__ctor_" data-uid="SemanticComparison.Likeness`2.#ctor*"></a>
+  <h4 id="SemanticComparison_Likeness_2__ctor__0_" data-uid="SemanticComparison.Likeness`2.#ctor(`0)">Likeness(TSource)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="SemanticComparison.Likeness-2.html">Likeness&lt;TSource, TDestination&gt;</a> class
+with the supplied source value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Likeness(TSource value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TSource</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The source value against which destination values will be compared when
+<a class="xref" href="SemanticComparison.Likeness-2.html#SemanticComparison_Likeness_2_Equals__1_">Equals(TDestination)</a> is invoked.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/SemanticComparison/new/57453c74d79b7119b44991e19a8713dd410347aa/apiSpec/new?filename=SemanticComparison_Likeness_2_Value.md&amp;value=---%0Auid%3A%20SemanticComparison.Likeness%602.Value%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/SemanticComparison/blob/57453c74d79b7119b44991e19a8713dd410347aa/Src/SemanticComparison/Likeness.cs/#L48">View Source</a>
+  </span>
+  <a id="SemanticComparison_Likeness_2_Value_" data-uid="SemanticComparison.Likeness`2.Value*"></a>
+  <h4 id="SemanticComparison_Likeness_2_Value" data-uid="SemanticComparison.Likeness`2.Value">Value</h4>
+  <div class="markdown level1 summary"><p>Gets the source value against which destination values will be compared when
+<a class="xref" href="SemanticComparison.Likeness-2.html#SemanticComparison_Likeness_2_Equals__1_">Equals(TDestination)</a> is invoked.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TSource Value { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TSource</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/SemanticComparison/new/57453c74d79b7119b44991e19a8713dd410347aa/apiSpec/new?filename=SemanticComparison_Likeness_2_CreateProxy.md&amp;value=---%0Auid%3A%20SemanticComparison.Likeness%602.CreateProxy%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/SemanticComparison/blob/57453c74d79b7119b44991e19a8713dd410347aa/Src/SemanticComparison/Likeness.cs/#L55">View Source</a>
+  </span>
+  <a id="SemanticComparison_Likeness_2_CreateProxy_" data-uid="SemanticComparison.Likeness`2.CreateProxy*"></a>
+  <h4 id="SemanticComparison_Likeness_2_CreateProxy" data-uid="SemanticComparison.Likeness`2.CreateProxy">CreateProxy()</h4>
+  <div class="markdown level1 summary"><p>Creates a dynamic proxy that overrides Equals using Likeness.
+This method uses the same semantic heuristics, as the default semantic comparison, to map
+values from the source constructor parameters to the destination constructor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TDestination CreateProxy()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TDestination</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/SemanticComparison/new/57453c74d79b7119b44991e19a8713dd410347aa/apiSpec/new?filename=SemanticComparison_Likeness_2_Equals__1_.md&amp;value=---%0Auid%3A%20SemanticComparison.Likeness%602.Equals(%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/SemanticComparison/blob/57453c74d79b7119b44991e19a8713dd410347aa/Src/SemanticComparison/Likeness.cs/#L242">View Source</a>
+  </span>
+  <a id="SemanticComparison_Likeness_2_Equals_" data-uid="SemanticComparison.Likeness`2.Equals*"></a>
+  <h4 id="SemanticComparison_Likeness_2_Equals__1_" data-uid="SemanticComparison.Likeness`2.Equals(`1)">Equals(TDestination)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the specified object is semantically equal to the current
+<a class="xref" href="SemanticComparison.Likeness-2.html#SemanticComparison_Likeness_2_Value">Value</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(TDestination other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TDestination</span></td>
+        <td><span class="parametername">other</span></td>
+        <td><p>The object to compare against <a class="xref" href="SemanticComparison.Likeness-2.html#SemanticComparison_Likeness_2_Value">Value</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if <code data-dev-comment-type="paramref" class="paramref">other</code> is semantically equal to
+<a class="xref" href="SemanticComparison.Likeness-2.html#SemanticComparison_Likeness_2_Value">Value</a>; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/SemanticComparison/new/57453c74d79b7119b44991e19a8713dd410347aa/apiSpec/new?filename=SemanticComparison_Likeness_2_Equals_System_Object_.md&amp;value=---%0Auid%3A%20SemanticComparison.Likeness%602.Equals(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/SemanticComparison/blob/57453c74d79b7119b44991e19a8713dd410347aa/Src/SemanticComparison/Likeness.cs/#L91">View Source</a>
+  </span>
+  <a id="SemanticComparison_Likeness_2_Equals_" data-uid="SemanticComparison.Likeness`2.Equals*"></a>
+  <h4 id="SemanticComparison_Likeness_2_Equals_System_Object_" data-uid="SemanticComparison.Likeness`2.Equals(System.Object)">Equals(Object)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the specified <span class="xref">System.Object</span> is semantically equal to the
+current <a class="xref" href="SemanticComparison.Likeness-2.html#SemanticComparison_Likeness_2_Value">Value</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td><p>The object to compare against <a class="xref" href="SemanticComparison.Likeness-2.html#SemanticComparison_Likeness_2_Value">Value</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if <code data-dev-comment-type="paramref" class="paramref">obj</code> is semantically equal to
+<a class="xref" href="SemanticComparison.Likeness-2.html#SemanticComparison_Likeness_2_Value">Value</a>; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Object.Equals(System.Object)</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/SemanticComparison/new/57453c74d79b7119b44991e19a8713dd410347aa/apiSpec/new?filename=SemanticComparison_Likeness_2_GetHashCode.md&amp;value=---%0Auid%3A%20SemanticComparison.Likeness%602.GetHashCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/SemanticComparison/blob/57453c74d79b7119b44991e19a8713dd410347aa/Src/SemanticComparison/Likeness.cs/#L111">View Source</a>
+  </span>
+  <a id="SemanticComparison_Likeness_2_GetHashCode_" data-uid="SemanticComparison.Likeness`2.GetHashCode*"></a>
+  <h4 id="SemanticComparison_Likeness_2_GetHashCode" data-uid="SemanticComparison.Likeness`2.GetHashCode">GetHashCode()</h4>
+  <div class="markdown level1 summary"><p>Serves as a hash function for <a class="xref" href="SemanticComparison.Likeness-2.html">Likeness&lt;TSource, TDestination&gt;</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The hash code for <a class="xref" href="SemanticComparison.Likeness-2.html#SemanticComparison_Likeness_2_Value">Value</a>, or 0 if the value is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Object.GetHashCode()</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/SemanticComparison/new/57453c74d79b7119b44991e19a8713dd410347aa/apiSpec/new?filename=SemanticComparison_Likeness_2_OmitAutoComparison.md&amp;value=---%0Auid%3A%20SemanticComparison.Likeness%602.OmitAutoComparison%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/SemanticComparison/blob/57453c74d79b7119b44991e19a8713dd410347aa/Src/SemanticComparison/Likeness.cs/#L123">View Source</a>
+  </span>
+  <a id="SemanticComparison_Likeness_2_OmitAutoComparison_" data-uid="SemanticComparison.Likeness`2.OmitAutoComparison*"></a>
+  <h4 id="SemanticComparison_Likeness_2_OmitAutoComparison" data-uid="SemanticComparison.Likeness`2.OmitAutoComparison">OmitAutoComparison()</h4>
+  <div class="markdown level1 summary"><p>Turns off implicit default comparison of properties and fields.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Likeness&lt;TSource, TDestination&gt; OmitAutoComparison()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SemanticComparison.Likeness-2.html">Likeness</a>&lt;TSource, TDestination&gt;</td>
+        <td><p>A new <a class="xref" href="SemanticComparison.Likeness-2.html">Likeness&lt;TSource, TDestination&gt;</a> that uses only explicitly defined
+comparisons of properties and fields.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/SemanticComparison/new/57453c74d79b7119b44991e19a8713dd410347aa/apiSpec/new?filename=SemanticComparison_Likeness_2_ShouldEqual__1_.md&amp;value=---%0Auid%3A%20SemanticComparison.Likeness%602.ShouldEqual(%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/SemanticComparison/blob/57453c74d79b7119b44991e19a8713dd410347aa/Src/SemanticComparison/Likeness.cs/#L136">View Source</a>
+  </span>
+  <a id="SemanticComparison_Likeness_2_ShouldEqual_" data-uid="SemanticComparison.Likeness`2.ShouldEqual*"></a>
+  <h4 id="SemanticComparison_Likeness_2_ShouldEqual__1_" data-uid="SemanticComparison.Likeness`2.ShouldEqual(`1)">ShouldEqual(TDestination)</h4>
+  <div class="markdown level1 summary"><p>Verifies that a value matches the encapsulated value, or throws a descriptive exception
+if this is not the case.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ShouldEqual(TDestination other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TDestination</span></td>
+        <td><span class="parametername">other</span></td>
+        <td><p>The value to compare against <a class="xref" href="SemanticComparison.Likeness-2.html#SemanticComparison_Likeness_2_Value">Value</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SemanticComparison.LikenessException.html">LikenessException</a></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">other</code> does not match <a class="xref" href="SemanticComparison.Likeness-2.html#SemanticComparison_Likeness_2_Value">Value</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/SemanticComparison/new/57453c74d79b7119b44991e19a8713dd410347aa/apiSpec/new?filename=SemanticComparison_Likeness_2_ToString.md&amp;value=---%0Auid%3A%20SemanticComparison.Likeness%602.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/SemanticComparison/blob/57453c74d79b7119b44991e19a8713dd410347aa/Src/SemanticComparison/Likeness.cs/#L161">View Source</a>
+  </span>
+  <a id="SemanticComparison_Likeness_2_ToString_" data-uid="SemanticComparison.Likeness`2.ToString*"></a>
+  <h4 id="SemanticComparison_Likeness_2_ToString" data-uid="SemanticComparison.Likeness`2.ToString">ToString()</h4>
+  <div class="markdown level1 summary"><p>Returns a <span class="xref">System.String</span> that represents the contained object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A <span class="xref">System.String</span> representation of the contained object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Object.ToString()</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/SemanticComparison/new/57453c74d79b7119b44991e19a8713dd410347aa/apiSpec/new?filename=SemanticComparison_Likeness_2_With__1_System_Linq_Expressions_Expression_System_Func__1___0___.md&amp;value=---%0Auid%3A%20SemanticComparison.Likeness%602.With%60%601(System.Linq.Expressions.Expression%7BSystem.Func%7B%601%2C%60%600%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/SemanticComparison/blob/57453c74d79b7119b44991e19a8713dd410347aa/Src/SemanticComparison/Likeness.cs/#L179">View Source</a>
+  </span>
+  <a id="SemanticComparison_Likeness_2_With_" data-uid="SemanticComparison.Likeness`2.With*"></a>
+  <h4 id="SemanticComparison_Likeness_2_With__1_System_Linq_Expressions_Expression_System_Func__1___0___" data-uid="SemanticComparison.Likeness`2.With``1(System.Linq.Expressions.Expression{System.Func{`1,``0}})">With&lt;TProperty&gt;(Expression&lt;Func&lt;TDestination, TProperty&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns a <a class="xref" href="SemanticComparison.LikenessMember-2.html">LikenessMember&lt;TSource, TDestination&gt;</a> that can be used to
+define custom comparison behavior for a particular property or field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LikenessMember&lt;TSource, TDestination&gt; With&lt;TProperty&gt;(Expression&lt;Func&lt;TDestination, TProperty&gt;&gt; propertyPicker)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TDestination, TProperty&gt;&gt;</td>
+        <td><span class="parametername">propertyPicker</span></td>
+        <td><p>An expression that identifies the property or field.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SemanticComparison.LikenessMember-2.html">LikenessMember</a>&lt;TSource, TDestination&gt;</td>
+        <td><p>A new instance of <a class="xref" href="SemanticComparison.LikenessMember-2.html">LikenessMember&lt;TSource, TDestination&gt;</a> that represents
+the property or field identified by <code data-dev-comment-type="paramref" class="paramref">propertyPicker</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TProperty</span></td>
+        <td><p>The type of the property or field.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/SemanticComparison/new/57453c74d79b7119b44991e19a8713dd410347aa/apiSpec/new?filename=SemanticComparison_Likeness_2_WithDefaultEquality__1_System_Linq_Expressions_Expression_System_Func__1___0___.md&amp;value=---%0Auid%3A%20SemanticComparison.Likeness%602.WithDefaultEquality%60%601(System.Linq.Expressions.Expression%7BSystem.Func%7B%601%2C%60%600%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/SemanticComparison/blob/57453c74d79b7119b44991e19a8713dd410347aa/Src/SemanticComparison/Likeness.cs/#L204">View Source</a>
+  </span>
+  <a id="SemanticComparison_Likeness_2_WithDefaultEquality_" data-uid="SemanticComparison.Likeness`2.WithDefaultEquality*"></a>
+  <h4 id="SemanticComparison_Likeness_2_WithDefaultEquality__1_System_Linq_Expressions_Expression_System_Func__1___0___" data-uid="SemanticComparison.Likeness`2.WithDefaultEquality``1(System.Linq.Expressions.Expression{System.Func{`1,``0}})">WithDefaultEquality&lt;TProperty&gt;(Expression&lt;Func&lt;TDestination, TProperty&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Opt-in of default equality comparison for a specific property or field. Only relevant
+if <a class="xref" href="SemanticComparison.Likeness-2.html#SemanticComparison_Likeness_2_OmitAutoComparison">OmitAutoComparison()</a> was previously called.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Likeness&lt;TSource, TDestination&gt; WithDefaultEquality&lt;TProperty&gt;(Expression&lt;Func&lt;TDestination, TProperty&gt;&gt; propertyPicker)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TDestination, TProperty&gt;&gt;</td>
+        <td><span class="parametername">propertyPicker</span></td>
+        <td><p>An expression that identifies the property or field.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SemanticComparison.Likeness-2.html">Likeness</a>&lt;TSource, TDestination&gt;</td>
+        <td><p>A new instance of <a class="xref" href="SemanticComparison.Likeness-2.html">Likeness&lt;TSource, TDestination&gt;</a> that explicitly
+includes the member identified by <code data-dev-comment-type="paramref" class="paramref">propertyPicker</code> and uses the
+default comparison.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TProperty</span></td>
+        <td><p>The type of the property or field.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/SemanticComparison/new/57453c74d79b7119b44991e19a8713dd410347aa/apiSpec/new?filename=SemanticComparison_Likeness_2_Without__1_System_Linq_Expressions_Expression_System_Func__1___0___.md&amp;value=---%0Auid%3A%20SemanticComparison.Likeness%602.Without%60%601(System.Linq.Expressions.Expression%7BSystem.Func%7B%601%2C%60%600%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/SemanticComparison/blob/57453c74d79b7119b44991e19a8713dd410347aa/Src/SemanticComparison/Likeness.cs/#L228">View Source</a>
+  </span>
+  <a id="SemanticComparison_Likeness_2_Without_" data-uid="SemanticComparison.Likeness`2.Without*"></a>
+  <h4 id="SemanticComparison_Likeness_2_Without__1_System_Linq_Expressions_Expression_System_Func__1___0___" data-uid="SemanticComparison.Likeness`2.Without``1(System.Linq.Expressions.Expression{System.Func{`1,``0}})">Without&lt;TProperty&gt;(Expression&lt;Func&lt;TDestination, TProperty&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns a new <a class="xref" href="SemanticComparison.Likeness-2.html">Likeness&lt;TSource, TDestination&gt;</a> that ignores a particular
+property when comparing values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Likeness&lt;TSource, TDestination&gt; Without&lt;TProperty&gt;(Expression&lt;Func&lt;TDestination, TProperty&gt;&gt; propertyPicker)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TDestination, TProperty&gt;&gt;</td>
+        <td><span class="parametername">propertyPicker</span></td>
+        <td><p>An expression that identifies the property or field to be ignored.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SemanticComparison.Likeness-2.html">Likeness</a>&lt;TSource, TDestination&gt;</td>
+        <td><p>A new <a class="xref" href="SemanticComparison.Likeness-2.html">Likeness&lt;TSource, TDestination&gt;</a> that ignores the property
+identified by <code data-dev-comment-type="paramref" class="paramref">propertyPicker</code> when determining equality.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TProperty</span></td>
+        <td><p>The type of the property or field to ignore.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.IEquatable&lt;T&gt;</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="SemanticComparison.Fluent.LikenessSourceFactory.html#SemanticComparison_Fluent_LikenessSourceFactory_AsSource__1___0_">LikenessSourceFactory.AsSource&lt;TSource&gt;(TSource)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/AutoFixture/SemanticComparison/new/57453c74d79b7119b44991e19a8713dd410347aa/apiSpec/new?filename=SemanticComparison_Likeness_2.md&amp;value=---%0Auid%3A%20SemanticComparison.Likeness%602%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/AutoFixture/SemanticComparison/blob/57453c74d79b7119b44991e19a8713dd410347aa/Src/SemanticComparison/Likeness.cs/#L22" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

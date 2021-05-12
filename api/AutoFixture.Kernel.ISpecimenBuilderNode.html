@@ -1,0 +1,283 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface ISpecimenBuilderNode
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface ISpecimenBuilderNode
+   ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AutoFixture.Kernel.ISpecimenBuilderNode">
+  
+  
+  <h1 id="AutoFixture_Kernel_ISpecimenBuilderNode" data-uid="AutoFixture.Kernel.ISpecimenBuilderNode" class="text-break">Interface ISpecimenBuilderNode
+  </h1>
+  <div class="markdown level0 summary"><p>A node in a graph of <a class="xref" href="AutoFixture.Kernel.ISpecimenBuilder.html">ISpecimenBuilder</a> instances.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="AutoFixture.Kernel.ISpecimenBuilder.html#AutoFixture_Kernel_ISpecimenBuilder_Create_System_Object_AutoFixture_Kernel_ISpecimenContext_">ISpecimenBuilder.Create(Object, ISpecimenContext)</a>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.IEnumerable&lt;AutoFixture.Kernel.ISpecimenBuilder&gt;.GetEnumerator()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AutoFixture.Kernel.html">AutoFixture.Kernel</a></h6>
+  <h6><strong>Assembly</strong>: AutoFixture.dll</h6>
+  <h5 id="AutoFixture_Kernel_ISpecimenBuilderNode_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface ISpecimenBuilderNode : ISpecimenBuilder, IEnumerable&lt;ISpecimenBuilder&gt;, IEnumerable</code></pre>
+  </div>
+  <h5 id="AutoFixture_Kernel_ISpecimenBuilderNode_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>
+AutoFixture&apos;s kernel basically works as a &apos;Graph of Responsibility&apos;.
+Each <a class="xref" href="AutoFixture.Kernel.ISpecimenBuilder.html">ISpecimenBuilder</a> gets a chance to handle a request,
+and if it can&apos;t do that, the next ISpecimenBuilder is asked to handle
+the request. When an ISpecimenBuilder instance returns a useful
+specimen, that instance is returned and the results (if any) from
+lower-priority ISpecimenBuilder instances are ignored.
+</p>
+<p>
+In theory, one could order all ISpecimenBuilder instances in a flat
+Chain of Responsibility, but instead, the ISpecimenBuilderNode
+interface defines the responsibilities of a &apos;parent&apos; node in a deeper
+graph. Each ISpecimenBuilder node constitute an intermediate node in a
+graph, while itself being a parent to other nodes. In the degenerate
+case when an ISpecimenBuilderNode has no child nodes, it effectively
+becomes a leaf node. Otherwise, leaf nodes are typically
+ISpecimenBuilder instances.
+</p>
+</div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Kernel_ISpecimenBuilderNode_Compose_System_Collections_Generic_IEnumerable_AutoFixture_Kernel_ISpecimenBuilder__.md&amp;value=---%0Auid%3A%20AutoFixture.Kernel.ISpecimenBuilderNode.Compose(System.Collections.Generic.IEnumerable%7BAutoFixture.Kernel.ISpecimenBuilder%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/AutoFixture/Kernel/ISpecimenBuilderNode.cs/#L56">View Source</a>
+  </span>
+  <a id="AutoFixture_Kernel_ISpecimenBuilderNode_Compose_" data-uid="AutoFixture.Kernel.ISpecimenBuilderNode.Compose*"></a>
+  <h4 id="AutoFixture_Kernel_ISpecimenBuilderNode_Compose_System_Collections_Generic_IEnumerable_AutoFixture_Kernel_ISpecimenBuilder__" data-uid="AutoFixture.Kernel.ISpecimenBuilderNode.Compose(System.Collections.Generic.IEnumerable{AutoFixture.Kernel.ISpecimenBuilder})">Compose(IEnumerable&lt;ISpecimenBuilder&gt;)</h4>
+  <div class="markdown level1 summary"><p>Composes the supplied builders.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ISpecimenBuilderNode Compose(IEnumerable&lt;ISpecimenBuilder&gt; builders)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="AutoFixture.Kernel.ISpecimenBuilder.html">ISpecimenBuilder</a>&gt;</td>
+        <td><span class="parametername">builders</span></td>
+        <td><p>The builders to compose.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AutoFixture.Kernel.ISpecimenBuilderNode.html">ISpecimenBuilderNode</a></td>
+        <td><p>A <a class="xref" href="AutoFixture.Kernel.ISpecimenBuilderNode.html">ISpecimenBuilderNode</a> instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="AutoFixture_Kernel_ISpecimenBuilderNode_Compose_System_Collections_Generic_IEnumerable_AutoFixture_Kernel_ISpecimenBuilder___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+Note to implementers:
+</p>
+<p>
+The intent of this method is to compose the supplied
+<code data-dev-comment-type="paramref" class="paramref">builders</code> into a new instance of the type
+implementing <a class="xref" href="AutoFixture.Kernel.ISpecimenBuilderNode.html">ISpecimenBuilderNode</a>. Thus, the
+concrete return type is expected to the same type as the type
+implementing the method. However, it is not considered a failure to
+deviate from this idiom - it would just not be a mainstream
+implementation.
+</p>
+<p>
+The returned instance is normally expected to contain the builders
+supplied as an argument, but again this is not strictly required.
+The implementation may decide to filter the sequence or add to it
+during composition.
+</p>
+</div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="AutoFixture.CreateSeedExtensions.html#AutoFixture_CreateSeedExtensions_CreateMany__1_AutoFixture_Kernel_ISpecimenBuilder___0_">CreateSeedExtensions.CreateMany&lt;T&gt;(ISpecimenBuilder, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.CreateSeedExtensions.html#AutoFixture_CreateSeedExtensions_CreateMany__1_AutoFixture_Kernel_ISpecimenBuilder___0_System_Int32_">CreateSeedExtensions.CreateMany&lt;T&gt;(ISpecimenBuilder, T, Int32)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.CreateSeedExtensions.html#AutoFixture_CreateSeedExtensions_Create__1_AutoFixture_Kernel_ISpecimenBuilder___0_">CreateSeedExtensions.Create&lt;T&gt;(ISpecimenBuilder, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.CustomizationExtensions.html#AutoFixture_CustomizationExtensions_ToCustomization_AutoFixture_Kernel_ISpecimenBuilder_">CustomizationExtensions.ToCustomization(ISpecimenBuilder)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.SpecimenCommand.html#AutoFixture_SpecimenCommand_Do__1_AutoFixture_Kernel_ISpecimenBuilder_System_Action___0__">SpecimenCommand.Do&lt;T&gt;(ISpecimenBuilder, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.SpecimenCommand.html#AutoFixture_SpecimenCommand_Do__2_AutoFixture_Kernel_ISpecimenBuilder_System_Action___0___1__">SpecimenCommand.Do&lt;T1, T2&gt;(ISpecimenBuilder, Action&lt;T1, T2&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.SpecimenCommand.html#AutoFixture_SpecimenCommand_Do__3_AutoFixture_Kernel_ISpecimenBuilder_System_Action___0___1___2__">SpecimenCommand.Do&lt;T1, T2, T3&gt;(ISpecimenBuilder, Action&lt;T1, T2, T3&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.SpecimenCommand.html#AutoFixture_SpecimenCommand_Do__4_AutoFixture_Kernel_ISpecimenBuilder_System_Action___0___1___2___3__">SpecimenCommand.Do&lt;T1, T2, T3, T4&gt;(ISpecimenBuilder, Action&lt;T1, T2, T3, T4&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.SpecimenFactory.html#AutoFixture_SpecimenFactory_Create__1_AutoFixture_Kernel_ISpecimenBuilder_">SpecimenFactory.Create&lt;T&gt;(ISpecimenBuilder)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.SpecimenFactory.html#AutoFixture_SpecimenFactory_CreateMany__1_AutoFixture_Kernel_ISpecimenBuilder_">SpecimenFactory.CreateMany&lt;T&gt;(ISpecimenBuilder)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.SpecimenFactory.html#AutoFixture_SpecimenFactory_CreateMany__1_AutoFixture_Kernel_ISpecimenBuilder_System_Int32_">SpecimenFactory.CreateMany&lt;T&gt;(ISpecimenBuilder, Int32)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.SpecimenQuery.html#AutoFixture_SpecimenQuery_Get__2_AutoFixture_Kernel_ISpecimenBuilder_System_Func___0___1__">SpecimenQuery.Get&lt;T, TResult&gt;(ISpecimenBuilder, Func&lt;T, TResult&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.SpecimenQuery.html#AutoFixture_SpecimenQuery_Get__3_AutoFixture_Kernel_ISpecimenBuilder_System_Func___0___1___2__">SpecimenQuery.Get&lt;T1, T2, TResult&gt;(ISpecimenBuilder, Func&lt;T1, T2, TResult&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.SpecimenQuery.html#AutoFixture_SpecimenQuery_Get__4_AutoFixture_Kernel_ISpecimenBuilder_System_Func___0___1___2___3__">SpecimenQuery.Get&lt;T1, T2, T3, TResult&gt;(ISpecimenBuilder, Func&lt;T1, T2, T3, TResult&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.SpecimenQuery.html#AutoFixture_SpecimenQuery_Get__5_AutoFixture_Kernel_ISpecimenBuilder_System_Func___0___1___2___3___4__">SpecimenQuery.Get&lt;T1, T2, T3, T4, TResult&gt;(ISpecimenBuilder, Func&lt;T1, T2, T3, T4, TResult&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.Kernel.SpecimenBuilderNode.html#AutoFixture_Kernel_SpecimenBuilderNode_GraphEquals_AutoFixture_Kernel_ISpecimenBuilderNode_AutoFixture_Kernel_ISpecimenBuilderNode_">SpecimenBuilderNode.GraphEquals(ISpecimenBuilderNode, ISpecimenBuilderNode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AutoFixture.Kernel.SpecimenBuilderNode.html#AutoFixture_Kernel_SpecimenBuilderNode_GraphEquals_AutoFixture_Kernel_ISpecimenBuilderNode_AutoFixture_Kernel_ISpecimenBuilderNode_System_Collections_Generic_IEqualityComparer_AutoFixture_Kernel_ISpecimenBuilder__">SpecimenBuilderNode.GraphEquals(ISpecimenBuilderNode, ISpecimenBuilderNode, IEqualityComparer&lt;ISpecimenBuilder&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="SemanticComparison.Fluent.LikenessSourceFactory.html#SemanticComparison_Fluent_LikenessSourceFactory_AsSource__1___0_">LikenessSourceFactory.AsSource&lt;TSource&gt;(TSource)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Kernel_ISpecimenBuilderNode.md&amp;value=---%0Auid%3A%20AutoFixture.Kernel.ISpecimenBuilderNode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/AutoFixture/Kernel/ISpecimenBuilderNode.cs/#L28" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

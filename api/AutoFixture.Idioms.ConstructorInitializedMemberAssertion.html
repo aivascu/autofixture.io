@@ -1,0 +1,597 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ConstructorInitializedMemberAssertion
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ConstructorInitializedMemberAssertion
+   ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AutoFixture.Idioms.ConstructorInitializedMemberAssertion">
+  
+  
+  <h1 id="AutoFixture_Idioms_ConstructorInitializedMemberAssertion" data-uid="AutoFixture.Idioms.ConstructorInitializedMemberAssertion" class="text-break">Class ConstructorInitializedMemberAssertion
+  </h1>
+  <div class="markdown level0 summary"><p>Encapsulates a unit test that verifies that a member (property or field) is correctly initialized
+by the constructor.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="AutoFixture.Idioms.IdiomaticAssertion.html">IdiomaticAssertion</a></div>
+    <div class="level2"><span class="xref">ConstructorInitializedMemberAssertion</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="AutoFixture.Idioms.IIdiomaticAssertion.html">IIdiomaticAssertion</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="AutoFixture.Idioms.IdiomaticAssertion.html#AutoFixture_Idioms_IdiomaticAssertion_Verify_System_Reflection_Assembly___">IdiomaticAssertion.Verify(Assembly[])</a>
+    </div>
+    <div>
+      <a class="xref" href="AutoFixture.Idioms.IdiomaticAssertion.html#AutoFixture_Idioms_IdiomaticAssertion_Verify_System_Collections_Generic_IEnumerable_System_Reflection_Assembly__">IdiomaticAssertion.Verify(IEnumerable&lt;Assembly&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="AutoFixture.Idioms.IdiomaticAssertion.html#AutoFixture_Idioms_IdiomaticAssertion_Verify_System_Reflection_Assembly_">IdiomaticAssertion.Verify(Assembly)</a>
+    </div>
+    <div>
+      <a class="xref" href="AutoFixture.Idioms.IdiomaticAssertion.html#AutoFixture_Idioms_IdiomaticAssertion_Verify_System_Type___">IdiomaticAssertion.Verify(Type[])</a>
+    </div>
+    <div>
+      <a class="xref" href="AutoFixture.Idioms.IdiomaticAssertion.html#AutoFixture_Idioms_IdiomaticAssertion_Verify_System_Collections_Generic_IEnumerable_System_Type__">IdiomaticAssertion.Verify(IEnumerable&lt;Type&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="AutoFixture.Idioms.IdiomaticAssertion.html#AutoFixture_Idioms_IdiomaticAssertion_Verify_System_Type_">IdiomaticAssertion.Verify(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="AutoFixture.Idioms.IdiomaticAssertion.html#AutoFixture_Idioms_IdiomaticAssertion_Verify_System_Reflection_MemberInfo___">IdiomaticAssertion.Verify(MemberInfo[])</a>
+    </div>
+    <div>
+      <a class="xref" href="AutoFixture.Idioms.IdiomaticAssertion.html#AutoFixture_Idioms_IdiomaticAssertion_Verify_System_Collections_Generic_IEnumerable_System_Reflection_MemberInfo__">IdiomaticAssertion.Verify(IEnumerable&lt;MemberInfo&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="AutoFixture.Idioms.IdiomaticAssertion.html#AutoFixture_Idioms_IdiomaticAssertion_Verify_System_Reflection_MemberInfo_">IdiomaticAssertion.Verify(MemberInfo)</a>
+    </div>
+    <div>
+      <a class="xref" href="AutoFixture.Idioms.IdiomaticAssertion.html#AutoFixture_Idioms_IdiomaticAssertion_Verify_System_Reflection_ConstructorInfo___">IdiomaticAssertion.Verify(ConstructorInfo[])</a>
+    </div>
+    <div>
+      <a class="xref" href="AutoFixture.Idioms.IdiomaticAssertion.html#AutoFixture_Idioms_IdiomaticAssertion_Verify_System_Collections_Generic_IEnumerable_System_Reflection_ConstructorInfo__">IdiomaticAssertion.Verify(IEnumerable&lt;ConstructorInfo&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="AutoFixture.Idioms.IdiomaticAssertion.html#AutoFixture_Idioms_IdiomaticAssertion_Verify_System_Reflection_FieldInfo___">IdiomaticAssertion.Verify(FieldInfo[])</a>
+    </div>
+    <div>
+      <a class="xref" href="AutoFixture.Idioms.IdiomaticAssertion.html#AutoFixture_Idioms_IdiomaticAssertion_Verify_System_Collections_Generic_IEnumerable_System_Reflection_FieldInfo__">IdiomaticAssertion.Verify(IEnumerable&lt;FieldInfo&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="AutoFixture.Idioms.IdiomaticAssertion.html#AutoFixture_Idioms_IdiomaticAssertion_Verify_System_Reflection_MethodInfo___">IdiomaticAssertion.Verify(MethodInfo[])</a>
+    </div>
+    <div>
+      <a class="xref" href="AutoFixture.Idioms.IdiomaticAssertion.html#AutoFixture_Idioms_IdiomaticAssertion_Verify_System_Collections_Generic_IEnumerable_System_Reflection_MethodInfo__">IdiomaticAssertion.Verify(IEnumerable&lt;MethodInfo&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="AutoFixture.Idioms.IdiomaticAssertion.html#AutoFixture_Idioms_IdiomaticAssertion_Verify_System_Reflection_MethodInfo_">IdiomaticAssertion.Verify(MethodInfo)</a>
+    </div>
+    <div>
+      <a class="xref" href="AutoFixture.Idioms.IdiomaticAssertion.html#AutoFixture_Idioms_IdiomaticAssertion_Verify_System_Reflection_PropertyInfo___">IdiomaticAssertion.Verify(PropertyInfo[])</a>
+    </div>
+    <div>
+      <a class="xref" href="AutoFixture.Idioms.IdiomaticAssertion.html#AutoFixture_Idioms_IdiomaticAssertion_Verify_System_Collections_Generic_IEnumerable_System_Reflection_PropertyInfo__">IdiomaticAssertion.Verify(IEnumerable&lt;PropertyInfo&gt;)</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AutoFixture.Idioms.html">AutoFixture.Idioms</a></h6>
+  <h6><strong>Assembly</strong>: AutoFixture.Idioms.dll</h6>
+  <h5 id="AutoFixture_Idioms_ConstructorInitializedMemberAssertion_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ConstructorInitializedMemberAssertion : IdiomaticAssertion, IIdiomaticAssertion</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Idioms_ConstructorInitializedMemberAssertion__ctor_AutoFixture_Kernel_ISpecimenBuilder_.md&amp;value=---%0Auid%3A%20AutoFixture.Idioms.ConstructorInitializedMemberAssertion.%23ctor(AutoFixture.Kernel.ISpecimenBuilder)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/Idioms/ConstructorInitializedMemberAssertion.cs/#L65">View Source</a>
+  </span>
+  <a id="AutoFixture_Idioms_ConstructorInitializedMemberAssertion__ctor_" data-uid="AutoFixture.Idioms.ConstructorInitializedMemberAssertion.#ctor*"></a>
+  <h4 id="AutoFixture_Idioms_ConstructorInitializedMemberAssertion__ctor_AutoFixture_Kernel_ISpecimenBuilder_" data-uid="AutoFixture.Idioms.ConstructorInitializedMemberAssertion.#ctor(AutoFixture.Kernel.ISpecimenBuilder)">ConstructorInitializedMemberAssertion(ISpecimenBuilder)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="AutoFixture.Idioms.ConstructorInitializedMemberAssertion.html">ConstructorInitializedMemberAssertion</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConstructorInitializedMemberAssertion(ISpecimenBuilder builder)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AutoFixture.Kernel.ISpecimenBuilder.html">ISpecimenBuilder</a></td>
+        <td><span class="parametername">builder</span></td>
+        <td><p>A composer which can create instances required to implement the idiomatic unit test,
+such as the owner of the property, as well as the value to be assigned and read from
+the member.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="AutoFixture_Idioms_ConstructorInitializedMemberAssertion__ctor_AutoFixture_Kernel_ISpecimenBuilder__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+<code data-dev-comment-type="paramref" class="paramref">builder</code> will typically be a <a class="xref" href="AutoFixture.Fixture.html">Fixture</a> instance.
+</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Idioms_ConstructorInitializedMemberAssertion__ctor_AutoFixture_Kernel_ISpecimenBuilder_System_Collections_IEqualityComparer_System_Collections_Generic_IEqualityComparer_IReflectionElement__.md&amp;value=---%0Auid%3A%20AutoFixture.Idioms.ConstructorInitializedMemberAssertion.%23ctor(AutoFixture.Kernel.ISpecimenBuilder%2CSystem.Collections.IEqualityComparer%2CSystem.Collections.Generic.IEqualityComparer%7BIReflectionElement%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/Idioms/ConstructorInitializedMemberAssertion.cs/#L41">View Source</a>
+  </span>
+  <a id="AutoFixture_Idioms_ConstructorInitializedMemberAssertion__ctor_" data-uid="AutoFixture.Idioms.ConstructorInitializedMemberAssertion.#ctor*"></a>
+  <h4 id="AutoFixture_Idioms_ConstructorInitializedMemberAssertion__ctor_AutoFixture_Kernel_ISpecimenBuilder_System_Collections_IEqualityComparer_System_Collections_Generic_IEqualityComparer_IReflectionElement__" data-uid="AutoFixture.Idioms.ConstructorInitializedMemberAssertion.#ctor(AutoFixture.Kernel.ISpecimenBuilder,System.Collections.IEqualityComparer,System.Collections.Generic.IEqualityComparer{IReflectionElement})">ConstructorInitializedMemberAssertion(ISpecimenBuilder, IEqualityComparer, IEqualityComparer&lt;IReflectionElement&gt;)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="AutoFixture.Idioms.ConstructorInitializedMemberAssertion.html">ConstructorInitializedMemberAssertion</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConstructorInitializedMemberAssertion(ISpecimenBuilder builder, IEqualityComparer comparer, IEqualityComparer&lt;IReflectionElement&gt; parameterMemberMatcher)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AutoFixture.Kernel.ISpecimenBuilder.html">ISpecimenBuilder</a></td>
+        <td><span class="parametername">builder</span></td>
+        <td><p>A composer which can create instances required to implement the idiomatic unit test,
+such as the owner of the property, as well as the value to be assigned and read from
+the member.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.IEqualityComparer</span></td>
+        <td><span class="parametername">comparer</span></td>
+        <td><p>An <span class="xref">System.Collections.IEqualityComparer</span> instance, which is used
+to determine if each member has the same value which was passed to the matching
+constructor parameter.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEqualityComparer</span>&lt;<span class="xref">IReflectionElement</span>&gt;</td>
+        <td><span class="parametername">parameterMemberMatcher</span></td>
+        <td><p>Provides a way to customize the way parameters
+are matched to members. The boolean value returned from
+<span class="xref">System.Collections.Generic.IEqualityComparer&lt;T&gt;.Equals(T, T)</span> indicates if the parameter and member
+are matched.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="AutoFixture_Idioms_ConstructorInitializedMemberAssertion__ctor_AutoFixture_Kernel_ISpecimenBuilder_System_Collections_IEqualityComparer_System_Collections_Generic_IEqualityComparer_IReflectionElement___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+<code data-dev-comment-type="paramref" class="paramref">builder</code> will typically be a <a class="xref" href="AutoFixture.Fixture.html">Fixture</a> instance.
+</p>
+</div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Idioms_ConstructorInitializedMemberAssertion_Builder.md&amp;value=---%0Auid%3A%20AutoFixture.Idioms.ConstructorInitializedMemberAssertion.Builder%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/Idioms/ConstructorInitializedMemberAssertion.cs/#L76">View Source</a>
+  </span>
+  <a id="AutoFixture_Idioms_ConstructorInitializedMemberAssertion_Builder_" data-uid="AutoFixture.Idioms.ConstructorInitializedMemberAssertion.Builder*"></a>
+  <h4 id="AutoFixture_Idioms_ConstructorInitializedMemberAssertion_Builder" data-uid="AutoFixture.Idioms.ConstructorInitializedMemberAssertion.Builder">Builder</h4>
+  <div class="markdown level1 summary"><p>Gets the builder supplied by the constructor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ISpecimenBuilder Builder { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AutoFixture.Kernel.ISpecimenBuilder.html">ISpecimenBuilder</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Idioms_ConstructorInitializedMemberAssertion_Comparer.md&amp;value=---%0Auid%3A%20AutoFixture.Idioms.ConstructorInitializedMemberAssertion.Comparer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/Idioms/ConstructorInitializedMemberAssertion.cs/#L85">View Source</a>
+  </span>
+  <a id="AutoFixture_Idioms_ConstructorInitializedMemberAssertion_Comparer_" data-uid="AutoFixture.Idioms.ConstructorInitializedMemberAssertion.Comparer*"></a>
+  <h4 id="AutoFixture_Idioms_ConstructorInitializedMemberAssertion_Comparer" data-uid="AutoFixture.Idioms.ConstructorInitializedMemberAssertion.Comparer">Comparer</h4>
+  <div class="markdown level1 summary"><p>Gets the comparer supplied to the constructor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEqualityComparer Comparer { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.IEqualityComparer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="AutoFixture_Idioms_ConstructorInitializedMemberAssertion_Comparer_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This comparer instance is used to determine if all of the value retrieved from
+the members are equal to their corresponding 'matched' constructor parameter.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Idioms_ConstructorInitializedMemberAssertion_ParameterMemberMatcher.md&amp;value=---%0Auid%3A%20AutoFixture.Idioms.ConstructorInitializedMemberAssertion.ParameterMemberMatcher%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/Idioms/ConstructorInitializedMemberAssertion.cs/#L96">View Source</a>
+  </span>
+  <a id="AutoFixture_Idioms_ConstructorInitializedMemberAssertion_ParameterMemberMatcher_" data-uid="AutoFixture.Idioms.ConstructorInitializedMemberAssertion.ParameterMemberMatcher*"></a>
+  <h4 id="AutoFixture_Idioms_ConstructorInitializedMemberAssertion_ParameterMemberMatcher" data-uid="AutoFixture.Idioms.ConstructorInitializedMemberAssertion.ParameterMemberMatcher">ParameterMemberMatcher</h4>
+  <div class="markdown level1 summary"><p>Gets the <span class="xref">System.Collections.Generic.IEqualityComparer&lt;T&gt;</span> instance which is
+used to determine if a constructor parameter matches a given member (property
+or field).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEqualityComparer&lt;IReflectionElement&gt; ParameterMemberMatcher { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEqualityComparer</span>&lt;<span class="xref">IReflectionElement</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="AutoFixture_Idioms_ConstructorInitializedMemberAssertion_ParameterMemberMatcher_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>If the parameter and member are matched, the member is expected to be initialized
+from the value passed into the matching constructor parameter.</p>
+</div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Idioms_ConstructorInitializedMemberAssertion_Verify_System_Reflection_ConstructorInfo_.md&amp;value=---%0Auid%3A%20AutoFixture.Idioms.ConstructorInitializedMemberAssertion.Verify(System.Reflection.ConstructorInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/Idioms/ConstructorInitializedMemberAssertion.cs/#L103">View Source</a>
+  </span>
+  <a id="AutoFixture_Idioms_ConstructorInitializedMemberAssertion_Verify_" data-uid="AutoFixture.Idioms.ConstructorInitializedMemberAssertion.Verify*"></a>
+  <h4 id="AutoFixture_Idioms_ConstructorInitializedMemberAssertion_Verify_System_Reflection_ConstructorInfo_" data-uid="AutoFixture.Idioms.ConstructorInitializedMemberAssertion.Verify(System.Reflection.ConstructorInfo)">Verify(ConstructorInfo)</h4>
+  <div class="markdown level1 summary"><p>Verifies that all constructor arguments are properly exposed as either fields
+or properties.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Verify(ConstructorInfo constructorInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.ConstructorInfo</span></td>
+        <td><span class="parametername">constructorInfo</span></td>
+        <td><p>The constructor.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AutoFixture.Idioms.IdiomaticAssertion.html#AutoFixture_Idioms_IdiomaticAssertion_Verify_System_Reflection_ConstructorInfo_">IdiomaticAssertion.Verify(ConstructorInfo)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Idioms_ConstructorInitializedMemberAssertion_Verify_System_Reflection_FieldInfo_.md&amp;value=---%0Auid%3A%20AutoFixture.Idioms.ConstructorInitializedMemberAssertion.Verify(System.Reflection.FieldInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/Idioms/ConstructorInitializedMemberAssertion.cs/#L202">View Source</a>
+  </span>
+  <a id="AutoFixture_Idioms_ConstructorInitializedMemberAssertion_Verify_" data-uid="AutoFixture.Idioms.ConstructorInitializedMemberAssertion.Verify*"></a>
+  <h4 id="AutoFixture_Idioms_ConstructorInitializedMemberAssertion_Verify_System_Reflection_FieldInfo_" data-uid="AutoFixture.Idioms.ConstructorInitializedMemberAssertion.Verify(System.Reflection.FieldInfo)">Verify(FieldInfo)</h4>
+  <div class="markdown level1 summary"><p>Verifies that a field is correctly initialized by the constructor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Verify(FieldInfo fieldInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.FieldInfo</span></td>
+        <td><span class="parametername">fieldInfo</span></td>
+        <td><p>The field.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AutoFixture.Idioms.IdiomaticAssertion.html#AutoFixture_Idioms_IdiomaticAssertion_Verify_System_Reflection_FieldInfo_">IdiomaticAssertion.Verify(FieldInfo)</a></div>
+  <h5 id="AutoFixture_Idioms_ConstructorInitializedMemberAssertion_Verify_System_Reflection_FieldInfo__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+This method verifies that <code data-dev-comment-type="paramref" class="paramref">fieldInfo</code> is correctly initialized with the
+value given to the same-named constructor parameter. It uses the <a class="xref" href="AutoFixture.Idioms.ConstructorInitializedMemberAssertion.html#AutoFixture_Idioms_ConstructorInitializedMemberAssertion_Builder">Builder</a> to
+supply values to the constructor(s) of the Type on which the field is implemented, and then
+reads from the field. The assertion passes if the value read from the field is the same as
+the value passed to the constructor. If more than one constructor has an argument with the
+same name and type, all constructors are checked. If any constructor does not initialise
+the field with the correct value, a <a class="xref" href="AutoFixture.Idioms.ConstructorInitializedMemberException.html">ConstructorInitializedMemberException</a>
+is thrown.
+</p>
+</div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AutoFixture.Idioms.ConstructorInitializedMemberException.html">ConstructorInitializedMemberException</a></td>
+        <td><p>The verification fails.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Idioms_ConstructorInitializedMemberAssertion_Verify_System_Reflection_PropertyInfo_.md&amp;value=---%0Auid%3A%20AutoFixture.Idioms.ConstructorInitializedMemberAssertion.Verify(System.Reflection.PropertyInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/Idioms/ConstructorInitializedMemberAssertion.cs/#L149">View Source</a>
+  </span>
+  <a id="AutoFixture_Idioms_ConstructorInitializedMemberAssertion_Verify_" data-uid="AutoFixture.Idioms.ConstructorInitializedMemberAssertion.Verify*"></a>
+  <h4 id="AutoFixture_Idioms_ConstructorInitializedMemberAssertion_Verify_System_Reflection_PropertyInfo_" data-uid="AutoFixture.Idioms.ConstructorInitializedMemberAssertion.Verify(System.Reflection.PropertyInfo)">Verify(PropertyInfo)</h4>
+  <div class="markdown level1 summary"><p>Verifies that a property is correctly initialized by the constructor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Verify(PropertyInfo propertyInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.PropertyInfo</span></td>
+        <td><span class="parametername">propertyInfo</span></td>
+        <td><p>The property.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AutoFixture.Idioms.IdiomaticAssertion.html#AutoFixture_Idioms_IdiomaticAssertion_Verify_System_Reflection_PropertyInfo_">IdiomaticAssertion.Verify(PropertyInfo)</a></div>
+  <h5 id="AutoFixture_Idioms_ConstructorInitializedMemberAssertion_Verify_System_Reflection_PropertyInfo__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+This method verifies that the <code data-dev-comment-type="paramref" class="paramref">propertyInfo</code> is correctly initialized with
+the value given to the same-named constructor parameter. It uses the <a class="xref" href="AutoFixture.Idioms.ConstructorInitializedMemberAssertion.html#AutoFixture_Idioms_ConstructorInitializedMemberAssertion_Builder">Builder</a> to
+supply values to the constructor(s) of the Type on which the field is implemented, and then
+reads from the field. The assertion passes if the value read from the property is the same as
+the value passed to the constructor. If more than one constructor has an argument with the
+same name and type, all constructors are checked. If any constructor (with a matching argument)
+does not initialise the property with the correct value, a
+<a class="xref" href="AutoFixture.Idioms.ConstructorInitializedMemberException.html">ConstructorInitializedMemberException</a> is thrown.
+</p>
+</div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AutoFixture.Idioms.WritablePropertyException.html">WritablePropertyException</a></td>
+        <td><p>The verification fails.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="AutoFixture.Idioms.IIdiomaticAssertion.html">IIdiomaticAssertion</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="SemanticComparison.Fluent.LikenessSourceFactory.html#SemanticComparison_Fluent_LikenessSourceFactory_AsSource__1___0_">LikenessSourceFactory.AsSource&lt;TSource&gt;(TSource)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_Idioms_ConstructorInitializedMemberAssertion.md&amp;value=---%0Auid%3A%20AutoFixture.Idioms.ConstructorInitializedMemberAssertion%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/Idioms/ConstructorInitializedMemberAssertion.cs/#L17" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

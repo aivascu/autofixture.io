@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Namespace AutoFixture.AutoMoq
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Namespace AutoFixture.AutoMoq
+   ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AutoFixture.AutoMoq">
+  
+  <h1 id="AutoFixture_AutoMoq" data-uid="AutoFixture.AutoMoq" class="text-break">Namespace AutoFixture.AutoMoq
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+    <h3 id="classes">Classes
+  </h3>
+      <h4><a class="xref" href="AutoFixture.AutoMoq.AutoConfiguredMoqCustomization.html">AutoConfiguredMoqCustomization</a></h4>
+      <section><p>Enables auto-mocking and auto-setup with Moq.
+Members of a mock will be automatically setup to retrieve the return values from a fixture.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.AutoMoq.AutoMockPropertiesCommand.html">AutoMockPropertiesCommand</a></h4>
+      <section><p>A command that populates all public writable properties/fields of a mock object with anonymous values.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.AutoMoq.AutoMoqCustomization.html">AutoMoqCustomization</a></h4>
+      <section><p>Enables auto-mocking with Moq.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.AutoMoq.GreedyMockConstructorQuery.html">GreedyMockConstructorQuery</a></h4>
+      <section><p>Selects appropriate constructors to create <see cref="!:Moq.Mock&lt;T>"></see> instances.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.AutoMoq.MockConstructorQuery.html">MockConstructorQuery</a></h4>
+      <section><p>Selects appropriate constructors to create <see cref="!:Moq.Mock&lt;T>"></see> instances.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.AutoMoq.MockPostprocessor.html">MockPostprocessor</a></h4>
+      <section><p>Post-processes a <see cref="!:Mock&lt;T>"></see> instance by setting appropriate default behavioral
+values.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.AutoMoq.MockRelay.html">MockRelay</a></h4>
+      <section><p>Relays a request for an interface or an abstract class to a request for a
+<see cref="!:Mock&lt;T>"></see> of that class.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.AutoMoq.MockSealedPropertiesCommand.html">MockSealedPropertiesCommand</a></h4>
+      <section><p>If the type of the object being mocked contains any fields and/or non-virtual/sealed settable properties,
+this initializer will resolve them from a given context.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.AutoMoq.MockType.html">MockType</a></h4>
+      <section><p>Contains extension methods to manipulate/setup instances of <see cref="!:Mock&lt;T>"></see>.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.AutoMoq.MockVirtualMethodsCommand.html">MockVirtualMethodsCommand</a></h4>
+      <section><p>Sets up a mocked object's methods so that the return values will be retrieved from a fixture,
+instead of being created directly by Moq.</p>
+<p>This will setup any virtual methods that are either non-void or have &quot;out&quot; parameters.</p>
+</section>
+      <h4><a class="xref" href="AutoFixture.AutoMoq.StubPropertiesCommand.html">StubPropertiesCommand</a></h4>
+      <section><p>Stubs a mocked object's properties, giving them &quot;property behavior&quot;.
+Setting a property's value will cause it to be saved and later returned when the property is accessed.</p>
+</section>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

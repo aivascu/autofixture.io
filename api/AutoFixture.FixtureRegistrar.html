@@ -1,0 +1,612 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class FixtureRegistrar
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class FixtureRegistrar
+   ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AutoFixture.FixtureRegistrar">
+  
+  
+  <h1 id="AutoFixture_FixtureRegistrar" data-uid="AutoFixture.FixtureRegistrar" class="text-break">Class FixtureRegistrar
+  </h1>
+  <div class="markdown level0 summary"><p>Contains extension methods for registering specimens in <a class="xref" href="AutoFixture.IFixture.html">IFixture</a> instances.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">FixtureRegistrar</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AutoFixture.html">AutoFixture</a></h6>
+  <h6><strong>Assembly</strong>: AutoFixture.dll</h6>
+  <h5 id="AutoFixture_FixtureRegistrar_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class FixtureRegistrar</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_FixtureRegistrar_Inject__1_AutoFixture_IFixture___0_.md&amp;value=---%0Auid%3A%20AutoFixture.FixtureRegistrar.Inject%60%601(AutoFixture.IFixture%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/AutoFixture/FixtureRegistrar.cs/#L76">View Source</a>
+  </span>
+  <a id="AutoFixture_FixtureRegistrar_Inject_" data-uid="AutoFixture.FixtureRegistrar.Inject*"></a>
+  <h4 id="AutoFixture_FixtureRegistrar_Inject__1_AutoFixture_IFixture___0_" data-uid="AutoFixture.FixtureRegistrar.Inject``1(AutoFixture.IFixture,``0)">Inject&lt;T&gt;(IFixture, T)</h4>
+  <div class="markdown level1 summary"><p>Injects a specific instance for a specific type, in order to make
+that instance a shared instance, no matter how many times the
+Fixture is asked to create an instance of that type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Inject&lt;T&gt;(this IFixture fixture, T item)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AutoFixture.IFixture.html">IFixture</a></td>
+        <td><span class="parametername">fixture</span></td>
+        <td><p>The fixture.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">item</span></td>
+        <td><p>The item to inject.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type for which <code data-dev-comment-type="paramref" class="paramref">item</code> should be injected.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="AutoFixture_FixtureRegistrar_Inject__1_AutoFixture_IFixture___0__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+Injecting an instance of a specific type into a
+<a class="xref" href="AutoFixture.Fixture.html">Fixture</a> effectively &apos;locks&apos; the type to that
+specific instance. The injected <code data-dev-comment-type="paramref" class="paramref">item</code> becomes a
+shared instance. No matter how many times the Fixture instance is
+asked to create an instance of <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>, the
+shared item is returned.
+</p>
+<p>
+It&apos;s possible to inject a sub-type of T into the Fixture. As long
+as the item can be converted to T (i.e. as long at the code
+compiles), you can inject a sub-type of T into the Fixture. This
+can for example be used to lock an interface to a specific instance
+of a concrete type.
+</p>
+<p>
+If you are familiar with DI Container lifetime management, the
+following parallel may be helpful. If not, skip the next paragraph.
+</p>
+<p>
+Most DI Containers come with several built-in lifetime styles. The
+two most common lifetime styles are Transient (a new instance is
+created for every request) and Singleton (the same instance is used
+for all requests) (don&apos;t confuse the Singleton lifetime style with
+the Singleton design pattern; they are related, but different). By
+default, Fixture uses the Transient lifetime style: it creates a
+new instance for every request. However, using the Inject method,
+effectively changes the lifetime style for that particular type to
+Singleton.
+</p>
+</div>
+  <h5 id="AutoFixture_FixtureRegistrar_Inject__1_AutoFixture_IFixture___0__examples">Examples</h5>
+  <p>This example demonstrates that when injecting an instance of the
+custom class MyClass into a Fixture instance, that Fixture instance
+will return the originally injected MyClass instance every time
+it's asked to create an instance of MyClass.</p>
+<pre><code>var fixture = new Fixture();
+var original = new MyClass();
+fixture.Inject(original);
+
+var actual1 = fixture.Create&lt;MyClass>();
+var actual2 = fixture.Create&lt;MyClass>();
+
+// actual1 and actual2 are equal, and equal to original
+Assert.Same(actual1, actual2);
+Assert.Same(original, actual1);
+Assert.Same(original, actual2);</code></pre>
+
+  <h5 id="AutoFixture_FixtureRegistrar_Inject__1_AutoFixture_IFixture___0__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="AutoFixture.FixtureRegistrar.html#AutoFixture_FixtureRegistrar_Register__1_AutoFixture_IFixture_System_Func___0__">Register&lt;T&gt;(IFixture, Func&lt;T&gt;)</a></div>
+      <div><a class="xref" href="AutoFixture.FixtureRegistrar.html#AutoFixture_FixtureRegistrar_Register__2_AutoFixture_IFixture_System_Func___0___1__">Register&lt;TInput, T&gt;(IFixture, Func&lt;TInput, T&gt;)</a></div>
+      <div><a class="xref" href="AutoFixture.FixtureRegistrar.html#AutoFixture_FixtureRegistrar_Register__3_AutoFixture_IFixture_System_Func___0___1___2__">Register&lt;TInput1, TInput2, T&gt;(IFixture, Func&lt;TInput1, TInput2, T&gt;)</a></div>
+      <div><a class="xref" href="AutoFixture.FixtureRegistrar.html#AutoFixture_FixtureRegistrar_Register__4_AutoFixture_IFixture_System_Func___0___1___2___3__">Register&lt;TInput1, TInput2, TInput3, T&gt;(IFixture, Func&lt;TInput1, TInput2, TInput3, T&gt;)</a></div>
+      <div><a class="xref" href="AutoFixture.FixtureRegistrar.html#AutoFixture_FixtureRegistrar_Register__5_AutoFixture_IFixture_System_Func___0___1___2___3___4__">Register&lt;TInput1, TInput2, TInput3, TInput4, T&gt;(IFixture, Func&lt;TInput1, TInput2, TInput3, TInput4, T&gt;)</a></div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_FixtureRegistrar_Register__1_AutoFixture_IFixture_System_Func___0__.md&amp;value=---%0Auid%3A%20AutoFixture.FixtureRegistrar.Register%60%601(AutoFixture.IFixture%2CSystem.Func%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/AutoFixture/FixtureRegistrar.cs/#L94">View Source</a>
+  </span>
+  <a id="AutoFixture_FixtureRegistrar_Register_" data-uid="AutoFixture.FixtureRegistrar.Register*"></a>
+  <h4 id="AutoFixture_FixtureRegistrar_Register__1_AutoFixture_IFixture_System_Func___0__" data-uid="AutoFixture.FixtureRegistrar.Register``1(AutoFixture.IFixture,System.Func{``0})">Register&lt;T&gt;(IFixture, Func&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Registers a creation function for a specific type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Register&lt;T&gt;(this IFixture fixture, Func&lt;T&gt; creator)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AutoFixture.IFixture.html">IFixture</a></td>
+        <td><span class="parametername">fixture</span></td>
+        <td><p>The fixture.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T&gt;</td>
+        <td><span class="parametername">creator</span></td>
+        <td><p>A function that will be used to create objects of type <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> every
+time the <a class="xref" href="AutoFixture.Fixture.html">Fixture</a> is asked to create an object of that type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type for which <code data-dev-comment-type="paramref" class="paramref">creator</code> should be registered.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_FixtureRegistrar_Register__2_AutoFixture_IFixture_System_Func___0___1__.md&amp;value=---%0Auid%3A%20AutoFixture.FixtureRegistrar.Register%60%602(AutoFixture.IFixture%2CSystem.Func%7B%60%600%2C%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/AutoFixture/FixtureRegistrar.cs/#L116">View Source</a>
+  </span>
+  <a id="AutoFixture_FixtureRegistrar_Register_" data-uid="AutoFixture.FixtureRegistrar.Register*"></a>
+  <h4 id="AutoFixture_FixtureRegistrar_Register__2_AutoFixture_IFixture_System_Func___0___1__" data-uid="AutoFixture.FixtureRegistrar.Register``2(AutoFixture.IFixture,System.Func{``0,``1})">Register&lt;TInput, T&gt;(IFixture, Func&lt;TInput, T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Registers a creation function for a specific type, when that creation function requires
+a single input parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Register&lt;TInput, T&gt;(this IFixture fixture, Func&lt;TInput, T&gt; creator)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AutoFixture.IFixture.html">IFixture</a></td>
+        <td><span class="parametername">fixture</span></td>
+        <td><p>The fixture.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;TInput, T&gt;</td>
+        <td><span class="parametername">creator</span></td>
+        <td><p>A function that will be used to create objects of type <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> every
+time the <a class="xref" href="AutoFixture.Fixture.html">Fixture</a> is asked to create an object of that type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TInput</span></td>
+        <td><p>The type of the input parameter used by <code data-dev-comment-type="paramref" class="paramref">creator</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type for which <code data-dev-comment-type="paramref" class="paramref">creator</code> should be registered.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_FixtureRegistrar_Register__3_AutoFixture_IFixture_System_Func___0___1___2__.md&amp;value=---%0Auid%3A%20AutoFixture.FixtureRegistrar.Register%60%603(AutoFixture.IFixture%2CSystem.Func%7B%60%600%2C%60%601%2C%60%602%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/AutoFixture/FixtureRegistrar.cs/#L141">View Source</a>
+  </span>
+  <a id="AutoFixture_FixtureRegistrar_Register_" data-uid="AutoFixture.FixtureRegistrar.Register*"></a>
+  <h4 id="AutoFixture_FixtureRegistrar_Register__3_AutoFixture_IFixture_System_Func___0___1___2__" data-uid="AutoFixture.FixtureRegistrar.Register``3(AutoFixture.IFixture,System.Func{``0,``1,``2})">Register&lt;TInput1, TInput2, T&gt;(IFixture, Func&lt;TInput1, TInput2, T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Registers a creation function for a specific type, when that creation function requires
+two input parameters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Register&lt;TInput1, TInput2, T&gt;(this IFixture fixture, Func&lt;TInput1, TInput2, T&gt; creator)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AutoFixture.IFixture.html">IFixture</a></td>
+        <td><span class="parametername">fixture</span></td>
+        <td><p>The fixture.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;TInput1, TInput2, T&gt;</td>
+        <td><span class="parametername">creator</span></td>
+        <td><p>A function that will be used to create objects of type <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> every
+time the <a class="xref" href="AutoFixture.Fixture.html">Fixture</a> is asked to create an object of that type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TInput1</span></td>
+        <td><p>The type of the first input parameter used by <code data-dev-comment-type="paramref" class="paramref">creator</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TInput2</span></td>
+        <td><p>The type of the second input parameter used by <code data-dev-comment-type="paramref" class="paramref">creator</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type for which <code data-dev-comment-type="paramref" class="paramref">creator</code> should be registered.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_FixtureRegistrar_Register__4_AutoFixture_IFixture_System_Func___0___1___2___3__.md&amp;value=---%0Auid%3A%20AutoFixture.FixtureRegistrar.Register%60%604(AutoFixture.IFixture%2CSystem.Func%7B%60%600%2C%60%601%2C%60%602%2C%60%603%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/AutoFixture/FixtureRegistrar.cs/#L169">View Source</a>
+  </span>
+  <a id="AutoFixture_FixtureRegistrar_Register_" data-uid="AutoFixture.FixtureRegistrar.Register*"></a>
+  <h4 id="AutoFixture_FixtureRegistrar_Register__4_AutoFixture_IFixture_System_Func___0___1___2___3__" data-uid="AutoFixture.FixtureRegistrar.Register``4(AutoFixture.IFixture,System.Func{``0,``1,``2,``3})">Register&lt;TInput1, TInput2, TInput3, T&gt;(IFixture, Func&lt;TInput1, TInput2, TInput3, T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Registers a creation function for a specific type, when that creation function requires
+three input parameters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Register&lt;TInput1, TInput2, TInput3, T&gt;(this IFixture fixture, Func&lt;TInput1, TInput2, TInput3, T&gt; creator)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AutoFixture.IFixture.html">IFixture</a></td>
+        <td><span class="parametername">fixture</span></td>
+        <td><p>The fixture.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;TInput1, TInput2, TInput3, T&gt;</td>
+        <td><span class="parametername">creator</span></td>
+        <td><p>A function that will be used to create objects of type <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> every
+time the <a class="xref" href="AutoFixture.Fixture.html">Fixture</a> is asked to create an object of that type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TInput1</span></td>
+        <td><p>The type of the first input parameter used by <code data-dev-comment-type="paramref" class="paramref">creator</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TInput2</span></td>
+        <td><p>The type of the second input parameter used by <code data-dev-comment-type="paramref" class="paramref">creator</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TInput3</span></td>
+        <td><p>The type of the third input parameter used by <code data-dev-comment-type="paramref" class="paramref">creator</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type for which <code data-dev-comment-type="paramref" class="paramref">creator</code> should be registered.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_FixtureRegistrar_Register__5_AutoFixture_IFixture_System_Func___0___1___2___3___4__.md&amp;value=---%0Auid%3A%20AutoFixture.FixtureRegistrar.Register%60%605(AutoFixture.IFixture%2CSystem.Func%7B%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/AutoFixture/FixtureRegistrar.cs/#L200">View Source</a>
+  </span>
+  <a id="AutoFixture_FixtureRegistrar_Register_" data-uid="AutoFixture.FixtureRegistrar.Register*"></a>
+  <h4 id="AutoFixture_FixtureRegistrar_Register__5_AutoFixture_IFixture_System_Func___0___1___2___3___4__" data-uid="AutoFixture.FixtureRegistrar.Register``5(AutoFixture.IFixture,System.Func{``0,``1,``2,``3,``4})">Register&lt;TInput1, TInput2, TInput3, TInput4, T&gt;(IFixture, Func&lt;TInput1, TInput2, TInput3, TInput4, T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Registers a creation function for a specific type, when that creation function requires
+four input parameters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Register&lt;TInput1, TInput2, TInput3, TInput4, T&gt;(this IFixture fixture, Func&lt;TInput1, TInput2, TInput3, TInput4, T&gt; creator)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AutoFixture.IFixture.html">IFixture</a></td>
+        <td><span class="parametername">fixture</span></td>
+        <td><p>The fixture.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;TInput1, TInput2, TInput3, TInput4, T&gt;</td>
+        <td><span class="parametername">creator</span></td>
+        <td><p>A function that will be used to create objects of type <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> every
+time the <a class="xref" href="AutoFixture.Fixture.html">Fixture</a> is asked to create an object of that type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TInput1</span></td>
+        <td><p>The type of the first input parameter used by <code data-dev-comment-type="paramref" class="paramref">creator</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TInput2</span></td>
+        <td><p>The type of the second input parameter used by <code data-dev-comment-type="paramref" class="paramref">creator</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TInput3</span></td>
+        <td><p>The type of the third input parameter used by <code data-dev-comment-type="paramref" class="paramref">creator</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TInput4</span></td>
+        <td><p>The type of the fourth input parameter used by <code data-dev-comment-type="paramref" class="paramref">creator</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type for which <code data-dev-comment-type="paramref" class="paramref">creator</code> should be registered.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/AutoFixture/AutoFixture/new/730b47884975d0c1256209073a719a9fe510d8a9/apiSpec/new?filename=AutoFixture_FixtureRegistrar.md&amp;value=---%0Auid%3A%20AutoFixture.FixtureRegistrar%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/AutoFixture/AutoFixture/blob/730b47884975d0c1256209073a719a9fe510d8a9/Src/AutoFixture/FixtureRegistrar.cs/#L8" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
