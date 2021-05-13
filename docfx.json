@@ -46,7 +46,7 @@
     "overwrite": [
       {
         "files": [
-          "apidoc/**.md"
+          "apiSpec/**.md"
         ],
         "exclude": [
           "obj/**",
@@ -56,8 +56,13 @@
     ],
     "dest": "_site",
     "globalMetadata": {
+      "_appTitle": "AutoFixture",
       "_appFaviconPath": "favicon.ico",
-      "_appLogoPath": "images/logo.svg"
+      "_appLogoPath": "images/logo.svg",
+      "_gitUrlPattern": "github",
+      "_gitContribute": {
+        "repo": "https://aivascu.github.com/autofixture.io",
+      }
     },
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
