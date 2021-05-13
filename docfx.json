@@ -61,7 +61,8 @@
       "_appLogoPath": "images/logo.svg",
       "_gitUrlPattern": "github",
       "_gitContribute": {
-        "repo": "https://aivascu.github.com/autofixture.io",
+        "repo": "https://github.com/aivascu/autofixture.io",
+        "branch": "master"
       }
     },
     "globalMetadataFiles": [],
