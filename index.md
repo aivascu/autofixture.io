@@ -2,7 +2,7 @@
 
 AutoFixture is a tool designed to make Test-Driven Development more productive and unit tests more refactoring-safe. It does so by removing the need for hand-coding anonymous variables as part of a test's Arrange phase:
 
-```c#
+```cs
 [Fact]
 public void IntroductoryTest()
 {
@@ -22,7 +22,7 @@ This example illustrates the basic principle of AutoFixture: it can create value
 
 AutoFixture offers integration with **xUnit** and **NUnit** making your unit tests even more concise:
 
-```c#
+```cs
 [Theory, AutoData]
 public void IntroductoryTest(int expectedNumber, MyClass sut)
 {
@@ -33,7 +33,7 @@ public void IntroductoryTest(int expectedNumber, MyClass sut)
 
 AutoFixture also provides integration with popular mocking libraries (**NSubstitute**, **Moq**, **FakeItEasy**). See AutoFixture + xUnit + NSubstitute in action:
 
-```c#
+```cs
 [Theory, AutoNSubstituteData] // Notice, AutoNSubstituteData __is not__ provided out of the box.
 public void IntroductoryTest(int expectedNumber, INumberSource numberSource, MyClass sut)
 {
@@ -45,9 +45,8 @@ public void IntroductoryTest(int expectedNumber, INumberSource numberSource, MyC
 }
 ```
 
-
 ## Integration Libraries
 
-Additionally we provides a wide selection of integration libraries, that will help you take the most of AutoFixture, by integrating it with your unit-testing and mocking frameworks.
+Additionally AutoFixture provides a wide selection of integration libraries, that integrate the library with unit-testing frameworks, mocking tools and more.
 
-Currently we support most popular unit-testing and mocking frameworks in the .NET ecosystem (e.g. **xUnit**, **NUnit**, **Moq**, **NSubstitute** and more).
+Currently AutoFixture supports the most popular unit-testing tools in the .NET ecosystem (e.g. **xUnit**, **NUnit**, **Moq**, **NSubstitute** and more).

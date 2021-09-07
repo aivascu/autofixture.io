@@ -1,2 +1,9 @@
 - name: Introduction
   href: intro.md
+  items:
+  - name: Anonymous variables
+    href: anonymous-variables.md
+  - name: Fixture customization
+    href: fixture-customization.md
+  - name: Registering values
+    href: value-registration.md

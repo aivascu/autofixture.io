@@ -1,4 +1,4 @@
-# Introduction
+# Quick start
 
 ## Installing AutoFixture
 
@@ -26,13 +26,14 @@ PM> Install-Package AutoFixture -Version 4.17.0
   <PackageReference Include="AutoFixture" Version="4.17.0" />
 </ItemGroup>
 ```
+
 ## Using AutoFixture
 
 Now that the package is installed in your project, let's see how AutoFixture can help you write easier to understand and maintain unit-tests.
 
 We will start from a *typical example* of a unit-test and refactor it to showcase most of the AutoFixture features.
 
-```csharp
+```cs
 [Fact]
 public void IntroductoryTest()
 {
@@ -69,13 +70,13 @@ Right from the start we can notice that there is a lot going on in the `// Arran
 
 First, we will introduce the `Fixture` class, that represents the entry point into AutoFixture, at the `// Arrange` phase:
 
-```csharp
+```cs
 var fixture = new Fixture();
 ```
 
 Next, we will use the fixture instance, to create our test data. To do this, we will replace the instantiation of the `ClientDto` class, with the following statement:
 
-```csharp
+```cs
 var someDto = fixture.Create<ClientDto>();
 ```
 
@@ -87,7 +88,7 @@ So far we have saved a few lines of code by generating our test data. Let's opti
 
 To do this we will have to customize our fixture instance. Since we use `Moq` as our mocking framework we will use the `AutoFixture.AutoMoq` package to provide us with the necessary customization.
 
-```csharp
+```cs
 var fixture = new Fixture().Customize(new AutoMoqCustomization());
 ```
 
@@ -95,7 +96,7 @@ Now AutoFixture will be able to create mocks as well as instances of Abstract ty
 
 Since our mocks will now be auto-generated we can go straight on and generate our SUT instance.
 
-```csharp
+```cs
 var sut = fixture.Create<MyService>();
 ```
 
@@ -105,13 +106,13 @@ The `sut` instance generates fine, but there is an issue now. We still have to p
 
 Luckily we can tell our fixture to "freeze" a particular type. This means that every time we request an instance of a frozen type, we will get the same instance. You can think of it as registering a singleton instance in an IoC container.
 
-```csharp
+```cs
 var mailComposerMock = fixture.Freeze<Mock<MailComposer>>();
 ```
 
 So far our code looks like this:
 
-```csharp
+```cs
 [Fact]
 public void IntroductoryTest()
 {
@@ -144,7 +145,7 @@ To do this, we'll have to first update our test, from a `[Fact]` to a `[Theory]`
 
 Next we'll make use of AutoFixture's `[AutoData]` attribute and extend it contain our customizations.
 
-```csharp
+```cs
 public class AutoDomainDataAttribute : AutoDataAttribute
 {
   public AutoDomainDataAttribute()
@@ -156,7 +157,7 @@ public class AutoDomainDataAttribute : AutoDataAttribute
 
 Now we're ready to use the attribute in order to inject the test data into our test.
 
-```csharp
+```cs
 [Theory]
 [AutoDomainData]
 public void IntroductoryTest(
